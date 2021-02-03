@@ -9,6 +9,21 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  color: #F05829;
+}
+
+.naranja {
+  color:  #F05829;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #f2f2f2;
 }
 
 * {
