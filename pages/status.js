@@ -93,10 +93,53 @@ function Status() {
                   <Form.Label><span class="lnr lnr-arrow-right"></span> Cuál es el <b>primer objetivo hacia el que trabajará el equipo</b>?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
+              </Form>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                <hr/>
+                <h3>3. Definir/Delimitar los detalles</h3>
+                <hr/>
+                <p>Definir los detalles del proyecto. El equipo debe comprender qué se debe hacer y entregar exactamente para que este proyecto sea un éxito.</p>
+              </Col>
+              <Col>
+              <hr/>
+                <h3><span class="lnr lnr-chevron-down"></span> Ideal Data</h3>
+              <hr/>
+              <Form>
+                <Form.Group>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Qué está dentro y fuera del alcance?</Form.Label>
+                  <Form.Control type="text" />
+                </Form.Group>
+                <Form.Group>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Hay algunos requisitos iniciales del proyecto que ya están definidos?</Form.Label>
+                  <Form.Control type="text" />
+                </Form.Group>
+                <Form.Group>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cuáles son los límites del proyecto que el equipo no debe cruzar?</Form.Label>
+                  <Form.Control type="text" />
+                </Form.Group>
                 <Button variant="secondary" type="submit" className="float-right">
                   ENVIAR DATOS
                 </Button>
               </Form>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                <hr/>
+                <h3>4. Definir la estructura de desglose del proyecto y el plan de recursos</h3>
+                <hr/>
+                <p>Para asegurarse de que el equipo tenga claro cómo se crean los entregables, es esencial dividir el trabajo en partes más pequeñas y crear un desglose del proyecto que incluya las asignaciones. Muestra cómo se unen los entregables y quién trabajará en qué con quién.</p>
+              </Col>
+              <Col>
+                <hr/>
+                  <h3><span class="lnr lnr-chevron-down"></span> Ideal Data</h3>
+                <hr/>
+                <img src="images/desglose.jpg" alt="" title="" className="img-fluid" />
               </Col>
             </Row>
             
