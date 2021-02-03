@@ -56,7 +56,7 @@ export default function Proyectos() {
                 <Card.Body>
                   <Card.Title>{proyecto.nombre}</Card.Title>
                   <Card.Text>
-                    Desarrollo de producto
+                    Desarrollo de propuesta digital INNOCEAN MÉXICO.
                   </Card.Text>
                   <Link href={proyecto.link}>
                     <Button variant="primary" className="btn btn-secondary">DESARROLLO</Button>
