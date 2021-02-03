@@ -12,10 +12,17 @@ a {
   color: #F05829;
 }
 
+p {
+  text-align: justify;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
 .btn.btn-default {
   background: #F05829;
   color: #fff;
-  border-radius: 0 !important;
   font-weight: 100;
   margin: 15px;
 }
@@ -32,6 +39,7 @@ a {
   text-align: center;
   padding: 10px;
   border-top: 1px solid #f2f2f2;
+  background: rgba(255,255,255,0.8);
 }
 
 a.menutop {
@@ -58,6 +66,10 @@ a.menutop:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.proyectos {
+  margin-bottom: 80px;
 }
 
 * {

@@ -14,9 +14,9 @@ function NavbarPrincipal() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link href="/"><a className="menutop">PROYECTOS</a></Link>
+            <Link href="/proyectos"><a className="menutop">PROYECTOS</a></Link>
             <Link href="/"><a className="menutop">CONTROL</a></Link>
-            <Link href="/"><a className="menutop">DESARROLLO</a></Link>
+            <Link href="/desarrollo"><a className="menutop">DESARROLLO</a></Link>
             <Link href="/"><a className="menutop">HERRAMIENTAS</a></Link>
             <Link href="/"><a className="menutop">DATA</a></Link>
           </Nav>

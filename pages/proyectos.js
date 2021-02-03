@@ -14,7 +14,17 @@ const proyectos = [
   },
   {
     'nombre': 'HYUNDAI',
-    'logo': 'images/logo-kia.jpg',
+    'logo': 'images/logo-hyundai.jpg',
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+  },
+  {
+    'nombre': 'CINSA',
+    'logo': 'images/logo-cinsa.jpg',
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+  },
+  {
+    'nombre': 'SANTA ANITA',
+    'logo': 'images/logo-santaanita_negro.png',
     'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
   }
 ]
@@ -36,15 +46,14 @@ export default function Proyectos() {
             {proyectos.map(proyecto => (
               <Card style={{ width: '100%', margin: '5px 15px' }}>
                 <div className="laimagen">
-                  <Card.Img variant="top" src={proyecto.logo} />
+                  <Card.Img variant="top" src={proyecto.logo} style={{ width: '100px'}} />
                 </div>
                 <Card.Body>
                   <Card.Title>{proyecto.nombre}</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Desarrollo de producto
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary" className="btn btn-secondary">DESARROLLO</Button>
                 </Card.Body>
               </Card>
             ))}
