@@ -49,6 +49,17 @@ a.menutop:hover {
   text-decoration: none;
 }
 
+.card {
+  flex-direction: row;
+}
+
+.card .laimagen {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 * {
   box-sizing: border-box;
 }

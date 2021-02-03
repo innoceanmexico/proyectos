@@ -1,35 +1,53 @@
-import Link from 'next/link'
 import Layout from '../components/layout'
+import NavbarPrincipal from '../components/navbarPrincipal'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+const proyectos = [
+  {
+    'nombre': 'Kia Motors México',
+    'logo': 'images/logo-kia.jpg',
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+  },
+  {
+    'nombre': 'HYUNDAI',
+    'logo': 'images/logo-kia.jpg',
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+  }
+]
 
 export default function Proyectos() {
   return (
     <Layout>
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand>
-          <Link href="/">
-            <img src="images/logo.png" alt="innocean méxico" />
-          </Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Link href="/"><a className="menutop">PROYECTOS</a></Link>
-            <Link href="/"><a className="menutop">DESARROLLO</a></Link>
-            <Link href="/"><a className="menutop">HERRAMIENTAS</a></Link>
-            <Link href="/"><a className="menutop">DATA</a></Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <NavbarPrincipal />
       <div className="proyectos">
         <Container>
           <Row>
-            <Col>1 of 1</Col>
+            <Col>
+              <hr/>
+                <h2><span class="lnr lnr-chevron-right"></span> PROYECTOS </h2>
+              <hr/>
+            </Col>
+          </Row>
+          <Row>
+            {proyectos.map(proyecto => (
+              <Card style={{ width: '100%', margin: '5px 15px' }}>
+                <div className="laimagen">
+                  <Card.Img variant="top" src={proyecto.logo} />
+                </div>
+                <Card.Body>
+                  <Card.Title>{proyecto.nombre}</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            ))}
           </Row>
         </Container>
       </div>

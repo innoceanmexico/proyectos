@@ -6,6 +6,7 @@ function Layout({children}) {
       <Head>
         <title>INNOCEAN MÉXICO PROYECTOS</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"></link>
       </Head>
 
       {children}
