@@ -20,7 +20,7 @@ function Status() {
             </h2>
             <hr />
             <p>El objetivo no es solo gestionar un proyecto hasta su finalización, sino también garantizar que el equipo esté alineado con lo que se debe hacer, quién lo debe hacer y cuándo.</p>
-            <p>El por qué es igualmente importante, por lo que el equipo tiene una idea de la misión y acepta los criterios generales de éxito. El contexto es el rey y debe establecerse desde el principio. En última instancia, como DPM, usted es el entrenador que reúne a un equipo de expertos y es extremadamente importante proporcionar los detalles necesarios para preparar al equipo para el éxito.</p>
+            <p>El por qué es muy importante, por lo que el equipo tiene una idea de la misión y acepta los criterios generales de éxito. El contexto es el rey y debe establecerse desde el principio. En última instancia, como DPM, usted es el entrenador que reúne a un equipo de expertos y es extremadamente importante proporcionar los detalles necesarios para preparar al equipo para el éxito.</p>
             <Row>
               <Col>
                 <hr/>
@@ -34,36 +34,29 @@ function Status() {
               <hr/>
               <Form>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> Why is the client pursuing this project?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Por qué el cliente persigue este proyecto?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> What’s the problem to be solved?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cuál es el problema a resolver?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> What’s the project about?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> De qué trata el proyecto?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> Are there purely technical drivers or is it rooted in the overall organizational strategy?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Hay impulsores puramente técnicos o está arraigado en la estrategia organizacional general?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> What are the business goals?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cuáles son los objetivos comerciales?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> How is success defined?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Hay métricas definidas que medirán el éxito al final?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
-                <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> Are there metrics defined that will measure success in the end?</Form.Label>
-                  <Form.Control type="text" />
-                </Form.Group>
-                <Button variant="secondary" type="submit" className="float-right">
-                  ENVIAR DATOS
-                </Button>
               </Form>
               </Col>
             </Row>
@@ -71,9 +64,9 @@ function Status() {
             <Row>
               <Col>
                 <hr/>
-                <h3>2. Project Parameters</h3>
+                <h3>2. Parámetros del proyecto</h3>
                 <hr/>
-                <p>The goal is to enable all the people involved to work together to deliver your project, so outlining the plan in your project initiation document to the team is just as important as outlining the scope.</p>
+                <p>El objetivo es permitir que todas las personas involucradas trabajen juntas para entregar su proyecto, por lo que describir el plan en el documento de inicio del proyecto para el equipo es tan importante como delinear el alcance.</p>
               </Col>
               <Col>
               <hr/>
@@ -81,31 +74,23 @@ function Status() {
               <hr/>
               <Form>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> Why is the client pursuing this project?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cuál es el <b>presupuesto de este proyecto</b>?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> What’s the problem to be solved?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cómo se <b>desglosa el presupuesto</b>?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> What’s the project about?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cómo se ve la <b>línea de tiempo</b>?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> Are there purely technical drivers or is it rooted in the overall organizational strategy?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cómo imagina la <b>colaboración con el cliente</b>?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> What are the business goals?</Form.Label>
-                  <Form.Control type="text" />
-                </Form.Group>
-                <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> How is success defined?</Form.Label>
-                  <Form.Control type="text" />
-                </Form.Group>
-                <Form.Group>
-                  <Form.Label><span class="lnr lnr-arrow-right"></span> Are there metrics defined that will measure success in the end?</Form.Label>
+                  <Form.Label><span class="lnr lnr-arrow-right"></span> Cuál es el <b>primer objetivo hacia el que trabajará el equipo</b>?</Form.Label>
                   <Form.Control type="text" />
                 </Form.Group>
                 <Button variant="secondary" type="submit" className="float-right">
