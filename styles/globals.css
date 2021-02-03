@@ -12,6 +12,14 @@ a {
   color: #F05829;
 }
 
+.btn.btn-default {
+  background: #F05829;
+  color: #fff;
+  border-radius: 0 !important;
+  font-weight: 100;
+  margin: 15px;
+}
+
 .naranja {
   color:  #F05829;
 }
@@ -24,6 +32,21 @@ a {
   text-align: center;
   padding: 10px;
   border-top: 1px solid #f2f2f2;
+}
+
+a.menutop {
+  color: #333333;
+  margin: 0 5px;
+  border-right: 1px solid #dedede;
+  padding: 10px;
+  border-left: 1px solid #dedede;
+  transition: all 1s;
+}
+
+a.menutop:hover {
+  background: #F05829;
+  color: #fff;
+  text-decoration: none;
 }
 
 * {
