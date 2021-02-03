@@ -92,7 +92,24 @@ function Santaanita() {
             <img src="images/santaanita/footer-n.jpg" className="img-fluid" />
             <hr/>
             <h4><span class="lnr lnr-chevron-right"></span> JUSTIFICACIÓN</h4>
-            <p>Distribuir de una manera mas ordenada los elementos.</p>
+            <p>Distribuir de una manera mas ordenada los elementos categorizando las diferentes secciones.</p>
+            <hr/>
+            <h5 className="tagger"><span class="lnr lnr-arrow-right"></span> SECCIÓN PRODUCTO</h5>
+            <hr/>
+            <Row>
+              <Col>
+              <p><span class="lnr lnr-arrow-right-circle"></span> ANTERIOR</p>
+              <img src="images/santaanita/producto-v.jpg" className="img-fluid" />
+              </Col>
+              <Col>
+              <p><span class="lnr lnr-arrow-right-circle"></span> PROPUESTA</p>
+              <img src="images/santaanita/producto-n.jpg" className="img-fluid" />
+              </Col>
+            </Row>
+            <hr/>
+            <h4><span class="lnr lnr-chevron-right"></span> JUSTIFICACIÓN</h4>
+            <p>Distribuir y acentuar elementos con los que el usuario puede interactuar.</p>
+            <hr/>
           </Col>
         </Row>
       </Container>
