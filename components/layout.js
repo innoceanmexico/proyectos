@@ -12,7 +12,7 @@ function Layout({children}) {
       {children}
 
       <footer className="footer">
-          <img src="images/logo.png" alt="innocean méxico" />
+          <img src="images/logo-blanco.png" alt="innocean méxico" />
       </footer>
     </>
   )

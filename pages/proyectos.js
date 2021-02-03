@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import Link from 'next/link'
 import NavbarPrincipal from '../components/navbarPrincipal'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -10,22 +11,26 @@ const proyectos = [
   {
     'nombre': 'Kia Motors México',
     'logo': 'images/logo-kia.jpg',
-    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
+    'link': 'kia'
   },
   {
     'nombre': 'HYUNDAI',
     'logo': 'images/logo-hyundai.jpg',
-    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
+    'link': 'hyundai'
   },
   {
     'nombre': 'CINSA',
     'logo': 'images/logo-cinsa.jpg',
-    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
+    'link': 'cinsa'
   },
   {
     'nombre': 'SANTA ANITA',
     'logo': 'images/logo-santaanita_negro.png',
-    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx']
+    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
+    'link': 'santaanita'
   }
 ]
 
@@ -53,7 +58,9 @@ export default function Proyectos() {
                   <Card.Text>
                     Desarrollo de producto
                   </Card.Text>
-                  <Button variant="primary" className="btn btn-secondary">DESARROLLO</Button>
+                  <Link href={proyecto.link}>
+                    <Button variant="primary" className="btn btn-secondary">DESARROLLO</Button>
+                  </Link>
                 </Card.Body>
               </Card>
             ))}
