@@ -42,6 +42,12 @@ p {
   background:#F05829;
 }
 
+h5.tagger {
+  background: #111111;
+  color: #fff;
+  padding: 10px;
+}
+
 a.menutop {
   color: #333333;
   margin: 0 5px;
