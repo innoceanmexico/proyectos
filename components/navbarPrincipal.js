@@ -17,6 +17,7 @@ function NavbarPrincipal() {
             <Link href="/proyectos"><a className="menutop">PROYECTOS</a></Link>
             <Link href="/status"><a className="menutop">STATUS CONTROL</a></Link>
             <Link href="/desarrollo"><a className="menutop">DESARROLLO</a></Link>
+            <Link href="/practicas"><a className="menutop">MEJORES PRÁCTICAS</a></Link>
             <Link href="/tools"><a className="menutop">HERRAMIENTAS</a></Link>
             <Link href="/data"><a className="menutop">DATA</a></Link>
           </Nav>
