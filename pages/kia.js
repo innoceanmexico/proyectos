@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/layout'
 import NavbarPrincipal from '../components/navbarPrincipal'
 import Container from 'react-bootstrap/Container'
@@ -24,6 +25,23 @@ function Kia() {
             <div align="center">
               <img src="images/logo-kia.jpg" alt="" alt="" />
             </div>
+            <hr/>
+            <ul className="menuLateral">
+              <li>
+                <Link href="/cotizacion/livechat">
+                  <a>
+                  <span class="lnr lnr-arrow-right"></span> LIVE CHAT
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/cotizacion/livechat">
+                  <a>
+                  <span class="lnr lnr-arrow-right"></span> KIA.COM
+                  </a>
+                </Link>
+              </li>
+            </ul>
           </Col>
           <Col xs={9}>
             <h5><span class="lnr lnr-arrow-right"></span> INTRODUCCIÓN</h5>

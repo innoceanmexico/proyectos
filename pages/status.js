@@ -134,12 +134,35 @@ function Status() {
                 <h3>4. Definir la estructura de desglose del proyecto y el plan de recursos</h3>
                 <hr/>
                 <p>Para asegurarse de que el equipo tenga claro cómo se crean los entregables, es esencial dividir el trabajo en partes más pequeñas y crear un desglose del proyecto que incluya las asignaciones. Muestra cómo se unen los entregables y quién trabajará en qué con quién.</p>
+                <p>Es de gran valor dirigir al equipo a través de la planificación general aproximada y la estructura de desglose de recursos del proyecto, para que los miembros del equipo puedan intervenir y ayudarlo a optimizar. Al ejecutar al equipo a través de la planificación real, las dependencias se aclararán y el equipo será parte del plan. También ayuda a la comprensión y la responsabilidad generales del proyecto. Estos desgloses pueden variar en detalle y pueden trazar las diversas actividades en cada fase. También pueden conectarse a fechas específicas y vincularse a la planificación de recursos.</p>
               </Col>
               <Col>
                 <hr/>
                   <h3><span class="lnr lnr-chevron-down"></span> Ideal Data</h3>
                 <hr/>
                 <img src="images/desglose.jpg" alt="" title="" className="img-fluid" />
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                <hr/>
+                <h3>5. Definir quién es quién</h3>
+                <hr/>
+                <p>Un aspecto importante del documento de inicio del proyecto es la estructura general del equipo del proyecto, tanto interna como externamente. ¿Quién está trabajando en el equipo? Quién puede aprobar las cosas antes de que lleguen a un cliente. ¿A quién del lado del cliente se debe consultar antes de firmar? Establecer esto ayudará a evitar malentendidos y le dará una idea de cuán complejas serán las firmas.</p>
+                <p>Una excelente manera de indicar estas dependencias en el proyecto es un gráfico RACI. Describe quién es / debe ser:</p>
+                <ul>
+                  <li><b>Responsable</b> - ¿Quién hace el trabajo?</li>
+                  <li><b>Responsable</b> - ¿Quién toma las decisiones?</li>
+                  <li><b>Consultado</b> - ¿A quién hay que preguntar antes de continuar?</li>
+                  <li><b>Informado</b> - ¿Quién debe mantenerse informado?</li>
+                </ul>
+              </Col>
+              <Col>
+                <hr/>
+                  <h3><span class="lnr lnr-chevron-down"></span> Ideal Data</h3>
+                <hr/>
+                <img src="images/RACI.jpg" alt="" title="" className="img-fluid" />
               </Col>
             </Row>
             
