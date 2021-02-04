@@ -24,7 +24,7 @@ function Livechat() {
               <img src="/images/logo.png" alt="" alt="" />
             </div>
           </Col>
-          <Col xs={9}>
+          <Col xs={12} md={9}>
             <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
@@ -45,6 +45,8 @@ function Livechat() {
                 </ul>
               </li>
             </ul>
+            <hr/>
+            <img src="/images/kia/live-chat.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" tittle="INNOCEAN MÉXICO" />
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Equipo de desarrollo</h5>
             <hr/>
