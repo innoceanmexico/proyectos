@@ -222,7 +222,9 @@ function Status() {
                 <hr />
                 <h3>PROPUESTA DOCUMENTO IMPRESO</h3>
                 <hr />
-                <img src="images/PRESUPUESTO.jpg" alt="" title="" className="img-fluid" />
+                <div align="center">
+                  <img src="images/PRESUPUESTO.jpg" alt="" title="" className="img-fluid" />
+                </div>
               </Col>
             </Row>
 
