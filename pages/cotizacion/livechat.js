@@ -40,13 +40,23 @@ function Livechat() {
               <li><b>LENGUAJES DE DESARROLLO</b>:
                 <ul>
                   <li><b>FRONTEND</b>: HTML5, CSS3, Javascript, ReactJS/NextJS</li>
-                  <li><b>BACKEND</b>: NodeJS, MongoDB/SQL</li>
+                  <li><b>BACKEND</b>: AWS, NodeJS, MongoDB/SQL</li>
                   <li><b>VIDEO</b>: WebSockets, WebRTC(peerjs)</li>
                 </ul>
               </li>
             </ul>
             <hr/>
-            <h4>FASE 1 - CHAT TEXTO</h4>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Equipo de desarrollo</h5>
+            <hr/>
+            <ul>
+              <li><b>DESIGNER</b>: User Experience (UX), User Interface (UI)</li>
+              <li><b>FRONTEND DEVELOPER SR.</b>: Desarrollo en HTML5/Node/React.</li>
+              <li><b>BACKEND DEVELOPER SR.</b>: Desarrollo en Node/React.</li>
+              <li><b>DevOps</b>: Levantamiento de infraestructura (servers, BD, IP, Dominio y Licencias)</li>
+              <li><b>QA Tester:</b>: Pruebas de calidad en ambiente de pruebas</li>
+            </ul>
+            <hr/>
+            <h4><span class="lnr lnr-arrow-right"></span> FASE 1 - CHAT TEXTO</h4>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Propuesta técnica y económica para la <b>Fase 1 - CHAT TEXTO</b></h5>
             <hr/>
@@ -114,7 +124,7 @@ function Livechat() {
                 <tr>
                   <td>1</td>
                   <td>Infraestructura para hosting de la plataforma</td>
-                  <td>Infraestructura requerida y optimizada para montar los componentes tecnológicos de la campaña. Se incluyen Servidores, Bases de Datos, Firewalls y certificados de seguridad para hospedar la plataforma bajo un esquema de Cloud. (Estimada para 100 usuarios concurrentes).</td>
+                  <td>Infraestructura requerida y optimizada para montar los componentes tecnológicos de la campaña. Se incluyen Servidores, Bases de Datos, Firewalls y certificados de seguridad para hospedar la plataforma bajo un esquema de Cloud. (Estimada para usuarios ilimitados concurrentes).</td>
                   <td>$20,000.00</td>
                 </tr>
                 <tr>
@@ -212,8 +222,81 @@ function Livechat() {
               </tbody>
             </table>
             <hr/>
+            <hr/>
+            <h4><span class="lnr lnr-arrow-right"></span> FASE 2 - CHAT VIDEO</h4>
+            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Propuesta técnica y económica para la <b>Fase 2 - CHAT VIDEO</b></h5>
             <hr/>
+            <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>CONCEPTO</th>
+                  <th>DESCRIPCIÓN</th>
+                  <th>PRECIO</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Live chat video</td>
+                  <td>Implementación de capacidad de transmitir video en live-streaming.</td>
+                  <td>$250,000.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Integraciones</td>
+                  <td>Integraciones con las siguientes plataformas:
+                    <ul>
+                      <li>kia.com/mx</li>
+                      <li>apartatukia.com</li>
+                      <li>Dealer portal</li>
+                      <li>Sistemas CRM</li>
+                    </ul>
+                  </td>
+                  <td>$90,000.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Dashboard</td>
+                  <td>Dashboard analítico para medición y seguimiento delos principales indicadores operativos de la plataforma.</td>
+                  <td>$100,000.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td><b>$440,000.00</b></td>
+                </tr>
+              </tbody>
+            </Table>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Plan estimado de trabajo</h5>
+            <p>* 1 Mes aproximadamente</p>
+            <hr/>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">*Actividades</th>
+                  <th scope="col" colSpan="4">Abril</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Diseño de Frontend</th>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Desarrollo e implementación de Backend/Infraestructura</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                </tr>
+              </tbody>
+            </table>
           </Col>
         </Row>
       </Container>
