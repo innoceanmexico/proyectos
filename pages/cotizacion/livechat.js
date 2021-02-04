@@ -41,6 +41,7 @@ function Livechat() {
                 <ul>
                   <li><b>FRONTEND</b>: HTML5, CSS3, Javascript, ReactJS/NextJS</li>
                   <li><b>BACKEND</b>: NodeJS, MongoDB/SQL</li>
+                  <li><b>VIDEO</b>: WebSockets, WebRTC(peerjs)</li>
                 </ul>
               </li>
             </ul>
@@ -126,10 +127,91 @@ function Livechat() {
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td><b>$650,000.00</b></td>
+                  <td><b>$27,500.00</b></td>
                 </tr>
               </tbody>
             </Table>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Plan estimado de trabajo</h5>
+            <p>* 2 Meses aproximadamente</p>
+            <hr/>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">*Actividades</th>
+                  <th scope="col" colSpan="4">Febrero</th>
+                  <th scope="col" colSpan="4">Marzo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Diseño de Frontend</th>
+                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Desarrollo e implementación de Backend/Infraestructura</th>
+                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Creación e integración de Web Services y API's</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Desarrollo de CMS</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Integración con CRM</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pruebas finales y ajustes</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Propuesta técnica y económica para la <b>Fase 2 - CHAT VIDEO</b></h5>
             <hr/>
           </Col>
