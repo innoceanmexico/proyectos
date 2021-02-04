@@ -29,7 +29,7 @@ function Livechat() {
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
             <hr/>
-            <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a un chat en vivo (live chat) para KMM integrado con sus diferentes plataformas web (kia.com/mxy apartatukia.com) u operativas (DP o CRM Siebel). El live chat tendrá como objetivo principal la interacción de los visitantes de KMM con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
+            <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a un chat en vivo (live chat) para KMM integrado con sus diferentes plataformas web (www.kia.com y www.apartatukia.com) u operativas (DP o CRM Siebel). El live chat tendrá como objetivo principal la interacción de los visitantes de KMM con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Características generales del componente</h5>
             <hr/>
             <ul>
@@ -44,7 +44,10 @@ function Livechat() {
                 </ul>
               </li>
             </ul>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Propuesta técnica y económica para la <b>Fase 1 - CHAT TEXTO</b></h5>
+            <hr/>
+            <h4>FASE 1 - CHAT TEXTO</h4>
+            <hr/>
+            <h5><span class="lnr lnr-plus-circle"></span> Propuesta técnica y económica para la <b>Fase 1 - CHAT TEXTO</b></h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
@@ -95,7 +98,40 @@ function Livechat() {
                 </tr>
               </tbody>
             </Table>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Mantenimiento mensual</h5>
+            <hr/>
+            <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>CONCEPTO</th>
+                  <th>DESCRIPCIÓN</th>
+                  <th>PRECIO</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Infraestructura para hosting de la plataforma</td>
+                  <td>Infraestructura requerida y optimizada para montar los componentes tecnológicos de la campaña. Se incluyen Servidores, Bases de Datos, Firewalls y certificados de seguridad para hospedar la plataforma bajo un esquema de Cloud. (Estimada para 100 usuarios concurrentes).</td>
+                  <td>$20,000.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Operación y soporte</td>
+                  <td>Actividades de soporte y operación para mantener la plataforma en optimas operaciones.</td>
+                  <td>$7,500.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td><b>$650,000.00</b></td>
+                </tr>
+              </tbody>
+            </Table>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Propuesta técnica y económica para la <b>Fase 2 - CHAT VIDEO</b></h5>
+            <hr/>
           </Col>
         </Row>
       </Container>
