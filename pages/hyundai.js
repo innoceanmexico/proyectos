@@ -26,9 +26,57 @@ function Hyundai() {
             </div>
           </Col>
           <Col xs={9}>
-            <h5><span class="lnr lnr-arrow-right"></span> INTRODUCCIÓN</h5>
+            <div align="center">
+              <img src="images/hyundai/landing.jpg" alt="" title="" className="img-fluid" />
+            </div>
             <hr/>
-            <p>Desarrollo de propuesta de diseño de esrategía digital.</p>
+            <h3><span class="lnr lnr-arrow-right"></span> BACKEND</h3>
+            <hr/>
+            <Row>
+              <Col>
+                <h5><span class="lnr lnr-arrow-right"></span> BACKEND</h5>
+                <hr/>
+                <ul>
+                  <li>SERVER</li>
+                  <li>DOMAINS</li>
+                  <li>SSL CERTIFICADO</li>
+                  <li>PROGRAMMING</li>
+                  <li>BACKUP</li>
+                  <li>CRISIS PROGRAM</li>
+                  <li>WEB SERVICES</li>
+                  <li>CONTACT FORMS</li>
+                  <li>DATA GATHERING</li>
+                  <li>DRS MAINTENANCE</li>
+                  <li>FRONT DEVELOPMENT</li>
+                  <li>DRS FOLLOW UP WITH LEADERS</li>
+                </ul>
+              </Col>
+              <Col>
+                <h5><span class="lnr lnr-arrow-right"></span> ADOBE SCOPE</h5>
+                <hr/>
+                <ul>
+                  <li>SERVER</li>
+                  <li>PROGRAMMING (ADJUSTMENTS, BUGS)</li>
+                  <li>BACKUP</li>
+                  <li>CRISIS PROGRAM IMPLEMENTATION</li>
+                </ul>
+              </Col>
+              <Col>
+                <h5><span class="lnr lnr-arrow-right"></span> IWM | APPS</h5>
+                <hr/>
+                <ul>
+                  <li>DOMAINS</li>
+                  <li>SSL CERTIFICATE</li>
+                  <li>CRISIS PROGRAM</li>
+                  <li>MANAGEMENT</li>
+                  <li>DATA GATHERING</li>
+                  <li>WEB SERVICES</li>
+                  <li>FRONT DEVELOPMENT</li>
+                  <li>CRM FORMS</li>
+                  <li>DRS</li>
+                </ul>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
