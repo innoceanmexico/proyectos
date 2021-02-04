@@ -17,9 +17,15 @@ function Data() {
               </span>
             </h2>
             <hr />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <div className="marcas">
               <div>
-                <h2><span className="lnr lnr-arrow-right"></span> TEALIUM</h2>
+                <h1><span className="lnr lnr-arrow-right"></span> TEALIUM</h1>
+                <h5>CUSTOMER DATA HUB</h5>
+                
                 <hr/>
                 <h3>https://tealium.com/</h3>
                 <h4>Unify your data</h4>
@@ -28,6 +34,32 @@ function Data() {
                 <p>Unite your tools and teams with universally-accessible, real-time customer data.</p>
               </div>
             </div>
+          </Col>
+          <Col>
+            <h3>SCOPE</h3>
+            <hr/>
+            <ul>
+              <li>FRAGMENTED DATA</li>
+              <li>TOUCH POINTS</li>
+              <li>DATA COLLECTION - DISCONNECTED</li>
+              <li>SILOS
+                <ul>
+                  <li>RULES</li>
+                  <li>AUDIENCES</li>
+                  <li>DEFINITIONS</li>
+                </ul>
+              </li>
+              <li>INCONSISTENT EXPERIENCES</li>
+              <li>UNIFIED PORTABLE VIEW OF CUSTOMERS</li>
+              <li>CONSISTENCY</li>
+              <li>CLARITY</li>
+              <li><b>FRAGMENTATION INTO FOUNDATION</b></li>
+              <li>INTEGRATIONS</li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <div className="marcas">
               <div>
                 <hr/>
