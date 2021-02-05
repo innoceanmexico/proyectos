@@ -133,7 +133,9 @@ function Livechat() {
                   <th>#</th>
                   <th>CONCEPT</th>
                   <th>DESCRIPTION</th>
-                  <th>PRICE</th>
+                  <th className="text-center">Original Cost MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
                 </tr>
               </thead>
               <tbody>
@@ -141,19 +143,59 @@ function Livechat() {
                   <td>1</td>
                   <td>Infrastructure for hosting the platform</td>
                   <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
-                  <td>$20,000.00</td>
+                  <td className="text-center">$20,000.00</td>
+                  <td className="text-center">$2,400.00</td>
+                  <td className="text-center">$22,400.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Operation and support</td>
                   <td>Support and operation activities to keep the platform in optimal operations.</td>
-                  <td>$7,500.00</td>
+                  <td className="text-center">$7,500.00</td>
+                  <td className="text-center">$900.00</td>
+                  <td className="text-center">$8,400.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td><b>$27,500.00</b></td>
+                  <td className="text-center"><b>$27,500.00</b></td>
+                  <td className="text-center">$3,300.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$30,800.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
+                  <td className="text-center"><b>$330,000.00</b></td>
+                  <td className="text-center">$39,600.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$369,600.00</td>
+                </tr>
+              </tbody>
+            </Table>
+            <hr/>
+            <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th className="text-center"></th>
+                  <th className="text-center" colSpan="2">Total cost of the project</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
+                  <td className="text-center">$980,000.00</td>
+                  <td className="text-center">$1,097,600.00</td>
+                </tr>
+                <tr>
+                  <td>Total IWWM gain (development and 1 year maintenance)</td>
+                  <td className="text-center"></td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>$117,600.00</td>
+                </tr>
+                <tr>
+                  <td>Total IWWM gain (percentage, total project) </td>
+                  <td className="text-center"></td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>12%</td>
                 </tr>
               </tbody>
             </Table>
