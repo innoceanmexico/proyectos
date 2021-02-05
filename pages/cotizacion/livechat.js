@@ -185,7 +185,7 @@ function Livechat() {
                 <tr>
                   <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
                   <td className="text-center">$980,000.00</td>
-                  <td className="text-center">$1,097,600.00</td>
+                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>$1,097,600.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (development and 1 year maintenance)</td>
