@@ -1,6 +1,6 @@
 import Layout from '../../components/layout'
 import NavbarPrincipal from '../../components/navbarPrincipal'
-import Linear from '../../components/graficas/linear'
+import Roadmap from '../../components/graficas/roadmap'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -18,7 +18,7 @@ function ProductRoadmap() {
               </span>
             </h2>
             <hr />
-            <Linear />
+            <Roadmap />
           </Col>
         </Row>
       </Container>

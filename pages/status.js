@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import NavbarPrincipal from '../components/navbarPrincipal'
+import Linear from '../components/graficas/linear'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -28,6 +29,7 @@ function Status() {
                 <h3>1. Contexto</h3>
                 <hr />
                 <p>Describe la <b>visión estratégica, las metas y los objetivos e idealmente incluye una declaración de misión de alto nivel</b>. Esto ayudará a alinear al equipo en el enfoque y a tener en cuenta estos objetivos durante la solución. También ayudará a definir el trabajo adicional y las posibles mejoras del proyecto, ya que el equipo tiene el contexto en mente.</p>
+                <Linear />
               </Col>
               <Col>
                 <hr />

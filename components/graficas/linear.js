@@ -47,7 +47,7 @@ function Linear() {
     };
   }, []);
   return (
-    <div id="chartdiv" style={{ width: "100%", height: "590px" }}></div>
+    <div id="chartdiv" style={{ width: "100%", height: "390px" }}></div>
   )
 }
 
