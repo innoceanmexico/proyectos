@@ -25,8 +25,8 @@ function LivechatEs() {
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
-            <Link href="/cotizacion/livechat/"><a className="btn btn-default mt-3 w-100 mb-0">ENGLISH</a></Link>
-            <Link href="/cotizacion/livechat-es/"><a className="btn btn-default w-100">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/livechat/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
+            <Link href="/cotizacion/livechat-es/"><a className="btn btn-default m-0 mt-3 w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={9}>
             <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
@@ -69,11 +69,11 @@ function LivechatEs() {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th>CONCEPTO</th>
+                  <th>DESCRIPCIÓN</th>
+                  <th className="text-center">Costo Original MXN</th>
+                  <th className="text-center">IWN Ganancia MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluyendo IWN Ganancia MXN</th>
                 </tr>
               </thead>
               <tbody>
@@ -126,17 +126,17 @@ function LivechatEs() {
                 </tr>
               </tbody>
             </Table>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Mantenimiento mensual</h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th>CONCEPTO</th>
+                  <th>DESCRIPCIÓN</th>
+                  <th className="text-center">Costo Original MXN</th>
+                  <th className="text-center">IWN Ganancia MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluyendo IWN Ganancia MXN</th>
                 </tr>
               </thead>
               <tbody>
@@ -179,7 +179,7 @@ function LivechatEs() {
               <thead>
                 <tr>
                   <th className="text-center"></th>
-                  <th className="text-center" colSpan="2">Total cost of the project</th>
+                  <th className="text-center" colSpan="2">Costo total del proyecto</th>
                 </tr>
               </thead>
               <tbody>
