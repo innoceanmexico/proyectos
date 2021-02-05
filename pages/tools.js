@@ -14,12 +14,10 @@ function Tools() {
           <Col>
           <h2 className="mt-3">
               <span>
-                <span style={{ color: '#f0582a' }}>[</span> FORMATO SEGUIMIENTO DE STATUS DE PROYECTOS <span style={{ color: '#f0582a' }}>]</span>
+                <span style={{ color: '#f0582a' }}>[</span> INNOCEAN DEVELOPMENT TOOLS <span style={{ color: '#f0582a' }}>]</span>
               </span>
             </h2>
-            <hr />
-            <h3>HERRAMIENTAS SUGERIDAS PARA DESARROLLO DE PROYECTOS</h3>
-            <hr />
+            <hr/>
           </Col>
         </Row>
         <Row>
@@ -35,8 +33,8 @@ function Tools() {
             <p>TypeScript is an open-source front-end scripting language. It is a strict syntactical superset of JavaScript that adds optional static typing. It is designed for the development of large applications and compiles to JavaScript. TypeScript creates the best web development environment for front-end developers.</p>
             <h4>GitHub</h4>
             <h5>
-              <Link href="https://github.com/">
-                <a target="_bank">https://github.com/</a>
+              <Link href="https://github.com/innoceanmexico">
+                <a target="_bank">https://github.com/innoceanmexico</a>
               </Link>
             </h5>
             <p>GitHub is a web development platform inspired by the way you work. This tool allows developers to examine code, create software applications and manage projects. Key features: it offers tools suitable for the job, allows all the code in one place, coordinates use, stays aligned and after each GitHub project management tool, the developers can host the direct documentation through the repositories.</p>
@@ -66,8 +64,8 @@ function Tools() {
             <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.</p>
             <h4>Jira</h4>
             <h5>
-              <Link href="https://www.atlassian.com/software/jira">
-                <a target="_bank">https://www.atlassian.com/software/jira</a>
+              <Link href="https://innoceanmexico.atlassian.net/">
+                <a target="_bank">https://innoceanmexico.atlassian.net/</a>
               </Link>
             </h5>
             <h5><span class="lnr lnr-arrow-right"></span> Plan</h5>
