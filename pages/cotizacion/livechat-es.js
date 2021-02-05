@@ -290,22 +290,26 @@ function LivechatEs() {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>CONCEPTO</th>
-                  <th>DESCRIPCIÓN</th>
-                  <th>PRECIO</th>
+                  <th>CONCEPT</th>
+                  <th>DESCRIPTION</th>
+                  <th className="text-center">Original Cost MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
                   <td>Live chat video</td>
-                  <td>Implementación de capacidad de transmitir video en live-streaming.</td>
+                  <td>Implementation of the ability to transmit live-streaming video.</td>
                   <td>$250,000.00</td>
+                  <td className="text-center">$30,000.00</td>
+                  <td className="text-center">$280,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Integraciones</td>
-                  <td>Integraciones con las siguientes plataformas:
+                  <td>Integrations with the following platforms:
                     <ul>
                       <li>kia.com/mx</li>
                       <li>apartatukia.com</li>
@@ -314,18 +318,24 @@ function LivechatEs() {
                     </ul>
                   </td>
                   <td>$90,000.00</td>
+                  <td className="text-center">$10,800.00</td>
+                  <td className="text-center">$100,800.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Dashboard</td>
-                  <td>Dashboard analítico para medición y seguimiento delos principales indicadores operativos de la plataforma.</td>
+                  <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
                   <td>$100,000.00</td>
+                  <td className="text-center">$1,200.00</td>
+                  <td className="text-center">$101,200.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td><b>$440,000.00</b></td>
+                  <td className="text-center"><b>$440,000.00</b></td>
+                  <td className="text-center"><b>$42,000.00</b></td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}><b>$482,000.00</b></td>
                 </tr>
               </tbody>
             </Table>
