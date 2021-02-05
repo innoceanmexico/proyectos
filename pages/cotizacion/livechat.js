@@ -70,7 +70,9 @@ function Livechat() {
                   <th>#</th>
                   <th>CONCEPT</th>
                   <th>DESCRIPTION</th>
-                  <th>PRICE</th>
+                  <th className="text-center">Original Cost MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
                 </tr>
               </thead>
               <tbody>
@@ -78,13 +80,17 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat</td>
                   <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                  <td>$310,000.00</td>
+                  <td className="text-center">$310,000.00</td>
+                  <td className="text-center">$37,200.00</td>
+                  <td className="text-center">$347,200.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Administration module</td>
                   <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
-                  <td>$150,000.00</td>
+                  <td className="text-center">$150,000.00</td>
+                  <td className="text-center">$18,000.00</td>
+                  <td className="text-center">$168,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -97,19 +103,25 @@ function Livechat() {
                       <li>Sistemas CRM</li>
                     </ul>
                   </td>
-                  <td>$90,000.00</td>
+                  <td className="text-center">$90,000.00</td>
+                  <td className="text-center">$10,800.00</td>
+                  <td className="text-center">$100,800.00</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  <td>$100,000.00</td>
+                  <td className="text-center">$100,000.00</td>
+                  <td className="text-center">$12,000.00</td>
+                  <td className="text-center">$112,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td><b>$650,000.00</b></td>
+                  <td className="text-center"><b>$650,000.00</b></td>
+                  <td className="text-center">$78,000.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$728,000.00</td>
                 </tr>
               </tbody>
             </Table>

@@ -114,3 +114,7 @@ ul.menuLateral li a:hover {
   background: #F05829;
   text-decoration: none;
 }
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
