@@ -290,11 +290,11 @@ function LivechatEs() {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th>CONCEPTO</th>
+                  <th>DESCRIPCIÓN</th>
+                  <th className="text-center">Costo Original MXN</th>
+                  <th className="text-center">IWN Ganancia MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluyendo IWN Ganancia MXN</th>
                 </tr>
               </thead>
               <tbody>
