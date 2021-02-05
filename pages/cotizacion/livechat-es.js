@@ -366,6 +366,14 @@ function LivechatEs() {
                 </tr>
               </tbody>
             </table>
+            <hr/>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
+            <hr/>
+            <ul>
+              <li>El tiempo de desarrollo y liberación de los componentes en la presente propuesta desde 4 meses a partir de la aceptación formal de la misma.</li>
+              <li>En caso de aceptación de la presente propuesta será necesario definir en conjunto, o confirmar las reglas de negocio propuestas bajo las que operarán las plataformas(ej. por cuanto tiempo quedará reservado antes  de volver  a ponerlo  disponible, un  automóvil sin  recibir  el  pago  de apartado;  o, cuantas notificaciones por correo electrónico deberá recibir el usuario durante el procesos y pago de apartado).</li>
+              <li>Propuesta económica valida por 30días naturales a partir de la fecha de la presente.Precios sinIVA. No se incluyen viáticos en caso de requerirse.</li>
+            </ul>
           </Col>
         </Row>
         <Row>

@@ -350,7 +350,7 @@ function Livechat() {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Diseño de Frontend</th>
+                  <th scope="row">Frontend Design</th>
                   <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td>S3</td>
@@ -365,13 +365,17 @@ function Livechat() {
                 </tr>
               </tbody>
             </table>
+            <hr/>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
+            <hr/>
+            <ul>
+              <li>The development and release time of the components in this proposal from 4 months from the formal acceptance thereof.</li>
+              <li>In case of acceptance of this proposal, it will be necessary to jointly define, or confirm the proposed business rules under which the platforms will operate (eg, for how long will it be reserved before making it available again, a car without receiving the payment of section ; or, how many email notifications the user should receive during the process and section payment).</li>
+              <li>Economic proposal valid for 30 calendar days from the date hereof. Prices without VAT. Travel expenses are not included if required.</li>
+            </ul>
           </Col>
         </Row>
-        <Row>
-          <Col>
-          
-          </Col>
-        </Row>
+
       </Container>
     </Layout>
     
