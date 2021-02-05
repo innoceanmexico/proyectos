@@ -69,28 +69,34 @@ function LivechatEs() {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>CONCEPTO</th>
-                  <th>DESCRIPCIÓN</th>
-                  <th>PRECIO</th>
+                  <th>CONCEPT</th>
+                  <th>DESCRIPTION</th>
+                  <th className="text-center">Original Cost MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
                   <td>Live chat</td>
-                  <td>Software de atención online a clientes y visitantes de las diferentes plataformas web de KMM.</td>
-                  <td>$310,000.00</td>
+                  <td>Online service software for customers and visitors of the different KMM web platforms.</td>
+                  <td className="text-center">$310,000.00</td>
+                  <td className="text-center">$37,200.00</td>
+                  <td className="text-center">$347,200.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Módulo de administración</td>
-                  <td>Módulo para  las  altas,  bajas  y  cambios  de  los  usuarios o agentes a interactuar/operaren el livechat.</td>
-                  <td>$150,000.00</td>
+                  <td>Administration module</td>
+                  <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
+                  <td className="text-center">$150,000.00</td>
+                  <td className="text-center">$18,000.00</td>
+                  <td className="text-center">$168,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Integraciones</td>
-                  <td>Integraciones con las siguientes plataformas:
+                  <td>Integrations</td>
+                  <td>Integrations with the following platforms:
                     <ul>
                       <li>kia.com/mx</li>
                       <li>apartatukia.com</li>
@@ -98,56 +104,104 @@ function LivechatEs() {
                       <li>Sistemas CRM</li>
                     </ul>
                   </td>
-                  <td>$90,000.00</td>
+                  <td className="text-center">$90,000.00</td>
+                  <td className="text-center">$10,800.00</td>
+                  <td className="text-center">$100,800.00</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Dashboard</td>
-                  <td>Dashboard analítico para medición y seguimiento delos principales indicadores operativos de la plataforma.</td>
-                  <td>$100,000.00</td>
+                  <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
+                  <td className="text-center">$100,000.00</td>
+                  <td className="text-center">$12,000.00</td>
+                  <td className="text-center">$112,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td><b>$650,000.00</b></td>
+                  <td className="text-center"><b>$650,000.00</b></td>
+                  <td className="text-center">$78,000.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$728,000.00</td>
                 </tr>
               </tbody>
             </Table>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Mantenimiento mensual</h5>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>CONCEPTO</th>
-                  <th>DESCRIPCIÓN</th>
-                  <th>PRECIO</th>
+                  <th>CONCEPT</th>
+                  <th>DESCRIPTION</th>
+                  <th className="text-center">Original Cost MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Infraestructura para hosting de la plataforma</td>
-                  <td>Infraestructura requerida y optimizada para montar los componentes tecnológicos de la campaña. Se incluyen Servidores, Bases de Datos, Firewalls y certificados de seguridad para hospedar la plataforma bajo un esquema de Cloud. (Estimada para usuarios ilimitados concurrentes).</td>
-                  <td>$20,000.00</td>
+                  <td>Infrastructure for hosting the platform</td>
+                  <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
+                  <td className="text-center">$20,000.00</td>
+                  <td className="text-center">$2,400.00</td>
+                  <td className="text-center">$22,400.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Operación y soporte</td>
-                  <td>Actividades de soporte y operación para mantener la plataforma en optimas operaciones.</td>
-                  <td>$7,500.00</td>
+                  <td>Operation and support</td>
+                  <td>Support and operation activities to keep the platform in optimal operations.</td>
+                  <td className="text-center">$7,500.00</td>
+                  <td className="text-center">$900.00</td>
+                  <td className="text-center">$8,400.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td><b>$27,500.00</b></td>
+                  <td className="text-center"><b>$27,500.00</b></td>
+                  <td className="text-center">$3,300.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$30,800.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
+                  <td className="text-center"><b>$330,000.00</b></td>
+                  <td className="text-center">$39,600.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$369,600.00</td>
+                </tr>
+              </tbody>
+            </Table>
+            <hr/>
+            <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th className="text-center"></th>
+                  <th className="text-center" colSpan="2">Total cost of the project</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
+                  <td className="text-center">$980,000.00</td>
+                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>$1,097,600.00</td>
+                </tr>
+                <tr>
+                  <td>Total IWWM gain (development and 1 year maintenance)</td>
+                  <td className="text-center"></td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>$117,600.00</td>
+                </tr>
+                <tr>
+                  <td>Total IWWM gain (percentage, total project) </td>
+                  <td className="text-center"></td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>12%</td>
                 </tr>
               </tbody>
             </Table>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Plan estimado de trabajo</h5>
-            <p>* 2 Meses aproximadamente</p>
+            <p>* 6 Semanas aproximadamente</p>
             <hr/>
             <table class="table table-striped">
               <thead>
