@@ -367,7 +367,7 @@ function LivechatEs() {
               </tbody>
             </table>
             <hr/>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>NOTAS IMPORTANTES</b></h5>
             <hr/>
             <ul>
               <li>El tiempo de desarrollo y liberación de los componentes en la presente propuesta desde 4 meses a partir de la aceptación formal de la misma.</li>
