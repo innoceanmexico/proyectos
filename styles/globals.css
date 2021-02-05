@@ -118,3 +118,9 @@ ul.menuLateral li a:hover {
 .table > tbody > tr > td {
   vertical-align: middle;
 }
+
+@media all and (max-width: 699px) {
+  body {
+    display: grid;
+  }
+}
