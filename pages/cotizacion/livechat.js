@@ -8,7 +8,7 @@ import Table from 'react-bootstrap/Table'
 function Livechat() {
   return (
     <Layout>
-      <Container fluid={true} className="cotizacion">
+      <Container className="cotizacion">
         <Row>
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
@@ -20,7 +20,7 @@ function Livechat() {
           </Col>
         </Row>
         <Row style={{ marginBottom: '90px'}}>
-          <Col xs={12} md={4} className="mt-2">
+          <Col className="mt-2">
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
