@@ -12,6 +12,9 @@ export default function Home() {
               PROYECTOS <span className="naranja">DIGITAL WEB</span>
             </h1>
           </Link>
+          <Link href="/proyectos">
+            <button className="btn btn-default">INGRESAR</button>
+          </Link>
         </main>
       </div>
     </Layout>
