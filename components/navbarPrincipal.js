@@ -8,7 +8,7 @@ function NavbarPrincipal() {
       <Navbar bg="light" expand="lg">
         <Navbar.Brand>
           <Link href="/">
-            <img src="images/logo.png" alt="innocean méxico" />
+            <img src="/images/logo.png" alt="innocean méxico" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

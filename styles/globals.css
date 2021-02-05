@@ -103,4 +103,14 @@ ul.menuLateral li a:hover {
   background: #333333;
 }
 
+.submenu a {
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  transition: all 1s;
+}
 
+.submenu a:hover {
+  background: #F05829;
+  text-decoration: none;
+}

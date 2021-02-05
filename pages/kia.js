@@ -23,7 +23,7 @@ function Kia() {
         <Row style={{ marginBottom: '90px'}}>
           <Col>
             <div align="center">
-              <img src="images/logo-kia.jpg" alt="" alt="" />
+              <img src="/images/logo-kia.jpg" alt="" alt="" />
             </div>
             <hr/>
             <ul className="menuLateral">

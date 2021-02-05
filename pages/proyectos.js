@@ -48,8 +48,8 @@ export default function Proyectos() {
             </Col>
           </Row>
           <Row>
-            {proyectos.map(proyecto => (
-              <Card style={{ width: '100%', margin: '5px 15px' }}>
+            {proyectos.map((proyecto, ide) => (
+              <Card style={{ width: '100%', margin: '5px 15px' }} key={ide}>
                 <div className="laimagen">
                   <Card.Img variant="top" src={proyecto.logo} style={{ width: '100px'}} />
                 </div>
