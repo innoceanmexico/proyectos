@@ -11,7 +11,7 @@ function LivechatEs() {
       <Container className="cotizacion">
         <Row>
           <Col className="d-flex flex-just">
-            <h2 className="mt-3">
+            <h2 className="mt-3 mb-3">
               <span>
                 <span style={{ color: '#f0582a' }}>[</span> COTIZACIÓN LIVE CHAT <span style={{ color: '#f0582a' }}>]</span>
               </span>
@@ -25,12 +25,11 @@ function LivechatEs() {
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
-            <Link href="/cotizacion/livechat/"><a className="btn btn-default mt-3">ENGLISH</a></Link>
-            <Link href="/cotizacion/livechat-es/"><a className="btn btn-default mt-3">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/livechat/"><a className="btn btn-default mt-3 w-100 mb-0">ENGLISH</a></Link>
+            <Link href="/cotizacion/livechat-es/"><a className="btn btn-default w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={9}>
             <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
-            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
             <hr/>
             <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a un chat en vivo (live chat) para KMM integrado con sus diferentes plataformas web (www.kia.com y www.apartatukia.com) u operativas (DP o CRM Siebel). El live chat tendrá como objetivo principal la interacción de los visitantes de KMM con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
