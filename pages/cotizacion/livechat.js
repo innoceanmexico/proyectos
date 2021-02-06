@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Layout from '../../components/layout'
+import Pie from '../../components/graficas/pie'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -186,6 +187,9 @@ function Livechat() {
                 </tr>
               </tbody>
             </Table>
+            <hr/>
+            <Pie />
+            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
             <hr/>
             <Table striped bordered hover size="sm">
