@@ -5,11 +5,11 @@ import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
 am4core.useTheme(am4themes_animated);
 
-function Pie() {
+function Pie({id}) {
   const chart = useRef(null);
 
   useLayoutEffect(() => {
-    let x = am4core.create("chartdiv", am4charts.XYChart);
+    let x = am4core.create(`chartdiv${id}`, am4charts.XYChart);
 
     x.paddingRight = 20;
 
@@ -47,7 +47,7 @@ function Pie() {
     };
   }, []);
   return (
-    <div id="chartdiv" style={{ width: "100%", height: "390px" }}></div>
+    <div id={`chartdiv${id}`} style={{ width: "100%", height: "390px" }}></div>
   )
 }
 

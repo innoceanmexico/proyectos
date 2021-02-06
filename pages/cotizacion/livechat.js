@@ -188,7 +188,7 @@ function Livechat() {
               </tbody>
             </Table>
             <hr/>
-            <Pie />
+            <Pie id="1" />
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
             <hr/>
@@ -258,6 +258,7 @@ function Livechat() {
                 </tr>
               </tbody>
             </Table>
+            <Pie id="2" />
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
             <p>* 6 Weeks</p>
             <hr/>
