@@ -59,16 +59,8 @@ function Livechat() {
   const totalYear = function(valor1, valor2){
     const eltotal = valor1 + valor2;
     const eltotalL = eltotal.toLocaleString();
-    const eltotalProfit = eltotal * .15.toLocaleString();
-    const eltotalProfitL = eltotalProfit.toLocaleString();
-    const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
-    const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
     return(
-      <>
-      <td className="text-center"><b>${eltotalL}.00</b></td>
-      <td className="text-center">${eltotalProfitL}.00</td>
-      <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
-      </>
+      eltotalL
     )
   }
 
@@ -218,9 +210,9 @@ function Livechat() {
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
-                  <td className="text-center"><b>$330,000.00</b></td>
-                  <td className="text-center">$39,600.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$369,600.00</td>
+                  <td className="text-center"><b>${totalYear(650000, 27500)}.00</b></td>
+                  <td className="text-center">${totalYear(97500, 4125)}.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${totalYear(677500, 101625)}.00</td>
                 </tr>
               </tbody>
             </Table>
