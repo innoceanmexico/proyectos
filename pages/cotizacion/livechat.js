@@ -120,8 +120,6 @@ function Livechat() {
               </li>
             </ul>
             <hr/>
-            <img src="/images/kia/live-chat.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" tittle="INNOCEAN MÉXICO" />
-            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Equipo de desarrollo</h5>
             <hr/>
             <ul>
@@ -358,6 +356,7 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat video</td>
                   <td>Implementation of the ability to transmit live-streaming video.</td>
+                  {calcularCosto(18000)}
                   <td>$250,000.00</td>
                   <td className="text-center">$30,000.00</td>
                   <td className="text-center">$280,000.00</td>
