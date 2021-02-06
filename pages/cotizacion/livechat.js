@@ -56,7 +56,14 @@ function Livechat() {
     )
   }
 
-  const totalYear = function(valor1, valor2){
+  const totalYear = function(valor1){
+    const eltotal = valor1 * 12;
+    const eltotalL = eltotal.toLocaleString();
+    return(
+      eltotalL
+    )
+  }
+  const profitSuma = function(valor1, valor2){
     const eltotal = valor1 + valor2;
     const eltotalL = eltotal.toLocaleString();
     return(
@@ -217,9 +224,9 @@ function Livechat() {
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
-                  <td className="text-center"><b>${totalYear(500000, 24500)}.00</b></td>
-                  <td className="text-center">${totalYear(75000, 3675)}.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${totalYear(575000, 28175)}.00</td>
+                  <td className="text-center"><b>${totalYear(24500)}.00</b></td>
+                  <td className="text-center">${totalYear(3675)}.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${profitSuma(294000, 44100)}.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -234,13 +241,13 @@ function Livechat() {
               <tbody>
                 <tr>
                   <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
-                  <td className="text-center">${totalYear(500000, 524500)}.00</td>
-                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${totalYear(575000, 603175)}.00</td>
+                  <td className="text-center">${profitSuma(500000, 294000)}.00</td>
+                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${profitSuma(575000, 338100)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (development and 1 year maintenance)</td>
                   <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(1178175,1024500)}.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(913100,794000)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (percentage, total project) </td>
