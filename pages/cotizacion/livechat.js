@@ -356,10 +356,7 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat video</td>
                   <td>Implementation of the ability to transmit live-streaming video.</td>
-                  {calcularCosto(18000)}
-                  <td>$250,000.00</td>
-                  <td className="text-center">$30,000.00</td>
-                  <td className="text-center">$280,000.00</td>
+                  {calcularCosto(200000)}
                 </tr>
                 <tr>
                   <td>2</td>
@@ -372,25 +369,19 @@ function Livechat() {
                       <li>Sistemas CRM</li>
                     </ul>
                   </td>
-                  <td>$90,000.00</td>
-                  <td className="text-center">$10,800.00</td>
-                  <td className="text-center">$100,800.00</td>
+                  {calcularCosto(80000)}
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  <td>$100,000.00</td>
-                  <td className="text-center">$1,200.00</td>
-                  <td className="text-center">$101,200.00</td>
+                  {calcularCosto(90000)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$440,000.00</b></td>
-                  <td className="text-center"><b>$42,000.00</b></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}><b>$482,000.00</b></td>
+                  {total1(90000, 130000, 70000, 50000)}
                 </tr>
               </tbody>
             </Table>
