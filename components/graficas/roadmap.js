@@ -215,7 +215,7 @@ function Roadmap() {
 
 
   let label = chart.createChild(am4core.Label);
-  label.text = "Another unlucky day in the office."
+  label.text = "Estimated work plan."
   label.isMeasured = false;
   label.y = am4core.percent(40);
   label.x = am4core.percent(50);

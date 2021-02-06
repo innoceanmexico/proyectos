@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '../../components/layout'
 import Pie from '../../components/graficas/pie'
+import Roadmap from '../../components/graficas/roadmap'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -262,6 +263,7 @@ function Livechat() {
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
             <p>* 6 Weeks</p>
             <hr/>
+            
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -339,6 +341,7 @@ function Livechat() {
                 </tr>
               </tbody>
             </table>
+            <Roadmap />
             <hr/>
             <hr/>
             <h4><span class="lnr lnr-arrow-right"></span> PHASE 2 - VIDEO CHAT</h4>
