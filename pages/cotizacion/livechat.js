@@ -146,13 +146,13 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat</td>
                   <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                  {calcularCosto(310000)}
+                  {calcularCosto(290000)}
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Administration module</td>
                   <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
-                  {calcularCosto(150000)}
+                  {calcularCosto(130000)}
                 </tr>
                 <tr>
                   <td>3</td>
@@ -165,19 +165,19 @@ function Livechat() {
                       <li>Sistemas CRM</li>
                     </ul>
                   </td>
-                  {calcularCosto(90000)}
+                  {calcularCosto(70000)}
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  {calcularCosto(100000)}
+                  {calcularCosto(90000)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  {total1(310000, 150000, 90000, 100000)}
+                  {total1(290000, 130000, 70000, 90000)}
                 </tr>
               </tbody>
             </Table>
@@ -199,25 +199,25 @@ function Livechat() {
                   <td>1</td>
                   <td>Infrastructure for hosting the platform</td>
                   <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
-                  {calcularCosto(20000)}
+                  {calcularCosto(18000)}
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Operation and support</td>
                   <td>Support and operation activities to keep the platform in optimal operations.</td>
-                  {calcularCosto(7500)}
+                  {calcularCosto(6500)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  {total2(20000, 7500)}
+                  {total2(18000, 6500)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
-                  <td className="text-center"><b>${totalYear(650000, 27500)}.00</b></td>
+                  <td className="text-center"><b>${totalYear(580000, 24500)}.00</b></td>
                   <td className="text-center">${totalYear(97500, 4125)}.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${totalYear(677500, 101625)}.00</td>
                 </tr>
@@ -234,13 +234,13 @@ function Livechat() {
               <tbody>
                 <tr>
                   <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
-                  <td className="text-center">${totalYear(650000, 677500)}.00</td>
-                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${totalYear(747500, 779125)}.00</td>
+                  <td className="text-center">${totalYear(580000, 604500)}.00</td>
+                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${totalYear(667000, 779125)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (development and 1 year maintenance)</td>
                   <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(1526625, 1327500)}.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(1446125, 1184500)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (percentage, total project) </td>
