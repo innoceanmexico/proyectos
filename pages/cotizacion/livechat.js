@@ -6,6 +6,72 @@ import Col from 'react-bootstrap/Col'
 import Table from 'react-bootstrap/Table'
 
 function Livechat() {
+
+  const calcularCosto = function(precio){
+    const phase1Oc1 = precio;
+    const phase1Oc1L = phase1Oc1.toLocaleString();
+    const phase1Oc1Profit = precio * .15.toLocaleString();
+    const phase1Oc1ProfitL = phase1Oc1Profit.toLocaleString();
+    const phase1Oc1ProfitTotal = (phase1Oc1 + phase1Oc1Profit).toLocaleString();
+    const phase1Oc1ProfitTotalL = phase1Oc1ProfitTotal.toLocaleString();
+
+    return (
+      <>
+        <td className="text-center">${phase1Oc1L}.00</td>
+        <td className="text-center">${phase1Oc1ProfitL}.00</td>
+        <td className="text-center">${phase1Oc1ProfitTotalL}.00</td>
+      </>
+    )
+  }
+
+  const total1 = function(valor1, valor2, valor3, valor4){
+    const eltotal = valor1 + valor2 + valor3 + valor4;
+    const eltotalL = eltotal.toLocaleString();
+    const eltotalProfit = eltotal * .15.toLocaleString();
+    const eltotalProfitL = eltotalProfit.toLocaleString();
+    const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
+    const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
+    return(
+      <>
+      <td className="text-center"><b>${eltotalL}.00</b></td>
+      <td className="text-center">${eltotalProfitL}.00</td>
+      <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
+      </>
+    )
+  }
+
+  const total2 = function(valor1, valor2){
+    const eltotal = valor1 + valor2;
+    const eltotalL = eltotal.toLocaleString();
+    const eltotalProfit = eltotal * .15.toLocaleString();
+    const eltotalProfitL = eltotalProfit.toLocaleString();
+    const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
+    const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
+    return(
+      <>
+      <td className="text-center"><b>${eltotalL}.00</b></td>
+      <td className="text-center">${eltotalProfitL}.00</td>
+      <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
+      </>
+    )
+  }
+
+  const totalYear = function(valor1, valor2){
+    const eltotal = valor1 + valor2;
+    const eltotalL = eltotal.toLocaleString();
+    const eltotalProfit = eltotal * .15.toLocaleString();
+    const eltotalProfitL = eltotalProfit.toLocaleString();
+    const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
+    const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
+    return(
+      <>
+      <td className="text-center"><b>${eltotalL}.00</b></td>
+      <td className="text-center">${eltotalProfitL}.00</td>
+      <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
+      </>
+    )
+  }
+
   return (
     <Layout>
       <Container className="cotizacion">
@@ -58,6 +124,7 @@ function Livechat() {
               <li><b>BACKEND DEVELOPER SR.</b>: Development in Node / React.</li>
               <li><b>DevOps</b>: Infrastructure survey (servers, DB, IP, Domain and Licenses).</li>
               <li><b>QA Tester:</b>: Quality testing in testing environment.</li>
+              <li><b>2 Operators:</b>: Backend and frontend platform operators.</li>
             </ul>
             <hr/>
             <h4><span class="lnr lnr-arrow-right"></span> PHASE 1 - CHAT TEXT</h4>
@@ -80,17 +147,13 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat</td>
                   <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                  <td className="text-center">$310,000.00</td>
-                  <td className="text-center">$37,200.00</td>
-                  <td className="text-center">$347,200.00</td>
+                  {calcularCosto(310000)}
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Administration module</td>
                   <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
-                  <td className="text-center">$150,000.00</td>
-                  <td className="text-center">$18,000.00</td>
-                  <td className="text-center">$168,000.00</td>
+                  {calcularCosto(150000)}
                 </tr>
                 <tr>
                   <td>3</td>
@@ -103,25 +166,19 @@ function Livechat() {
                       <li>Sistemas CRM</li>
                     </ul>
                   </td>
-                  <td className="text-center">$90,000.00</td>
-                  <td className="text-center">$10,800.00</td>
-                  <td className="text-center">$100,800.00</td>
+                  {calcularCosto(90000)}
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  <td className="text-center">$100,000.00</td>
-                  <td className="text-center">$12,000.00</td>
-                  <td className="text-center">$112,000.00</td>
+                  {calcularCosto(100000)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$650,000.00</b></td>
-                  <td className="text-center">$78,000.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$728,000.00</td>
+                  {total1(310000, 150000, 90000, 100000)}
                 </tr>
               </tbody>
             </Table>
@@ -143,25 +200,19 @@ function Livechat() {
                   <td>1</td>
                   <td>Infrastructure for hosting the platform</td>
                   <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
-                  <td className="text-center">$20,000.00</td>
-                  <td className="text-center">$2,400.00</td>
-                  <td className="text-center">$22,400.00</td>
+                  {calcularCosto(20000)}
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Operation and support</td>
                   <td>Support and operation activities to keep the platform in optimal operations.</td>
-                  <td className="text-center">$7,500.00</td>
-                  <td className="text-center">$900.00</td>
-                  <td className="text-center">$8,400.00</td>
+                  {calcularCosto(7500)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$27,500.00</b></td>
-                  <td className="text-center">$3,300.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$30,800.00</td>
+                  {total2(20000, 7500)}
                 </tr>
                 <tr>
                   <td></td>
