@@ -146,7 +146,7 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat</td>
                   <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                  {calcularCosto(290000)}
+                  {calcularCosto(250000)}
                 </tr>
                 <tr>
                   <td>2</td>
@@ -171,13 +171,13 @@ function Livechat() {
                   <td>4</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  {calcularCosto(90000)}
+                  {calcularCosto(50000)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  {total1(290000, 130000, 70000, 90000)}
+                  {total1(250000, 130000, 70000, 50000)}
                 </tr>
               </tbody>
             </Table>
@@ -217,9 +217,9 @@ function Livechat() {
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
-                  <td className="text-center"><b>${totalYear(580000, 24500)}.00</b></td>
-                  <td className="text-center">${totalYear(97500, 4125)}.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${totalYear(677500, 101625)}.00</td>
+                  <td className="text-center"><b>${totalYear(500000, 24500)}.00</b></td>
+                  <td className="text-center">${totalYear(75000, 3675)}.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${totalYear(575000, 28175)}.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -234,13 +234,13 @@ function Livechat() {
               <tbody>
                 <tr>
                   <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
-                  <td className="text-center">${totalYear(580000, 604500)}.00</td>
-                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${totalYear(667000, 779125)}.00</td>
+                  <td className="text-center">${totalYear(500000, 524500)}.00</td>
+                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${totalYear(575000, 603175)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (development and 1 year maintenance)</td>
                   <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(1446125, 1184500)}.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(1178175,1024500)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (percentage, total project) </td>
