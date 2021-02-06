@@ -424,6 +424,7 @@ function Livechat() {
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
             <hr/>
             <ul>
+              <li><b>No other development is included that is not within what is described above</b>.</li>
               <li>The development and release time of the components in this proposal from 4 months from the formal acceptance thereof.</li>
               <li>In case of acceptance of this proposal, it will be necessary to jointly define, or confirm the proposed business rules under which the platforms will operate (eg, for how long will it be reserved before making it available again, a car without receiving the payment of section ; or, how many email notifications the user should receive during the process and section payment).</li>
               <li>Economic proposal valid for 30 calendar days from the date hereof. Prices without VAT. Travel expenses are not included if required.</li>
