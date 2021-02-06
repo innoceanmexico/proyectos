@@ -63,6 +63,13 @@ function Livechat() {
       eltotalL
     )
   }
+  const profit = function(valor1, valor2){
+    const eltotal = valor1 - valor2;
+    const eltotalL = eltotal.toLocaleString();
+    return(
+      eltotalL
+    )
+  }
 
   return (
     <Layout>
@@ -227,18 +234,18 @@ function Livechat() {
               <tbody>
                 <tr>
                   <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
-                  <td className="text-center">$980,000.00</td>
-                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>$1,097,600.00</td>
+                  <td className="text-center">${totalYear(650000, 677500)}.00</td>
+                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${totalYear(747500, 779125)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (development and 1 year maintenance)</td>
                   <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>$117,600.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(1526625, 1327500)}.00</td>
                 </tr>
                 <tr>
                   <td>Total IWWM gain (percentage, total project) </td>
                   <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>12%</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>15%</td>
                 </tr>
               </tbody>
             </Table>
