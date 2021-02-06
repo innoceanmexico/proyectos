@@ -245,12 +245,12 @@ function Livechat() {
                   <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${profitSuma(575000, 338100)}.00</td>
                 </tr>
                 <tr>
-                  <td>Total IWWM gain (development and 1 year maintenance)</td>
+                  <td>Total IWM gain (development and 1 year maintenance)</td>
                   <td className="text-center"></td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>${profit(913100,794000)}.00</td>
                 </tr>
                 <tr>
-                  <td>Total IWWM gain (percentage, total project) </td>
+                  <td>Total IWM gain (percentage, total project) </td>
                   <td className="text-center"></td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>15%</td>
                 </tr>
