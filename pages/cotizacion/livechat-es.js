@@ -39,7 +39,7 @@ function LivechatEs() {
               <li><b>PLATAFORMA</b>: Componente para implementar en plataforma web</li>
               <li><b>DISEÑO</b>: De acuerdo con identidad corporativa de la marca.</li>
               <li><b>INTEGRACIONES</b>: con CRM, DP, Kia.com/mx y apartatukia.com</li>
-              <li><b>IDIOMAS</b>: Español / Inglés</li>
+              <li><b>IDIOMAS</b>: Español / Inglés / koreano</li>
               <li><b>LENGUAJES DE DESARROLLO</b>:
                 <ul>
                   <li><b>FRONTEND</b>: HTML5, CSS3, Javascript, ReactJS/NextJS</li>

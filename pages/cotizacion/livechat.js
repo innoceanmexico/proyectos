@@ -103,7 +103,7 @@ function Livechat() {
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
             <hr/>
-            <p>Design, develop, deploy, support, maintain and host a live chat for KMM integrated with its different web platforms (www.kia.com and www.apartatukia.com) or operational (DP or CRM Siebel) . The main objective of the live chat will be the interaction of KMM's visitors with a pool of corporate agents or the dealer network through text messages and live video conferences.</p>
+            <p><b></b>Design, develop, deploy, support, maintain and host a live chat for KMM integrated with its different web platforms (www.kia.com and www.apartatukia.com) or operational (DP or CRM Siebel) . The main objective of the live chat will be the interaction of KMM's visitors with a pool of corporate agents or the dealer network through text messages and live video conferences.</p>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> General characteristics of the chat component</h5>
             <hr/>
             <ul>
