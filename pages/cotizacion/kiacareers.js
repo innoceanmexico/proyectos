@@ -218,8 +218,8 @@ function Kiacareers() {
                   </li>
                   <li><b>Development</b>
                     <ul>
-                      <li><b>FRONTEND (4 weeks)</b></li>
-                      <li><b>BACKEND (5 weeks)</b></li>
+                      <li><b>FRONTEND (2 weeks)</b></li>
+                      <li><b>BACKEND (3 weeks)</b></li>
                       <li><b>Dictionaries implemented in the 3 main systems (3 weeks)</b></li>
                     </ul>
                   </li>
