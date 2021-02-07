@@ -228,11 +228,11 @@ function Kiacareers() {
               </li>
             </ul>
             <hr/>
-            <h3 className="naranja"><span class="lnr lnr-arrow-right"></span> Total 4 months</h3>
+            <h3 className="naranja"><span class="lnr lnr-arrow-right"></span> Total 2 months</h3>
             <hr/>
-            <h4><span class="lnr lnr-arrow-right"></span> PHASE 1 - CHAT TEXT</h4>
+            <h4><span class="lnr lnr-arrow-right"></span> COST</h4>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1 - CHAT TEXT</b></h5>
+            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1</b></h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
@@ -248,50 +248,35 @@ function Kiacareers() {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Live chat</td>
-                  <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                  <td className="text-center">$310,000.00</td>
-                  <td className="text-center">$37,200.00</td>
-                  <td className="text-center">$347,200.00</td>
+                  <td>Core System</td>
+                  <td>(Public Website, Apply System, Admin System).</td>
+                  <td className="text-center">$180,000.00</td>
+                  <td className="text-center">$27,000.00</td>
+                  <td className="text-center">$207,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Administration module</td>
-                  <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
-                  <td className="text-center">$150,000.00</td>
-                  <td className="text-center">$18,000.00</td>
-                  <td className="text-center">$168,000.00</td>
+                  <td>Dictionaries to support 3 different Languages</td>
+                  <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
+                  <td className="text-center">$35,000.00</td>
+                  <td className="text-center">$5,250.00</td>
+                  <td className="text-center">$40,250.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Integrations</td>
-                  <td>Integrations with the following platforms:
-                    <ul>
-                      <li>kia.com/mx</li>
-                      <li>apartatukia.com</li>
-                      <li>Dealer portal</li>
-                      <li>Sistemas CRM</li>
-                    </ul>
-                  </td>
-                  <td className="text-center">$90,000.00</td>
-                  <td className="text-center">$10,800.00</td>
-                  <td className="text-center">$100,800.00</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Dashboard</td>
-                  <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  <td className="text-center">$100,000.00</td>
-                  <td className="text-center">$12,000.00</td>
-                  <td className="text-center">$112,000.00</td>
+                  <td>WhatsApp notification system</td>
+                  <td></td>
+                  <td className="text-center">$10,000.00</td>
+                  <td className="text-center">$1,500.00</td>
+                  <td className="text-center">$11,500.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$650,000.00</b></td>
-                  <td className="text-center">$78,000.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$728,000.00</td>
+                  <td className="text-center"><b>$225,000.00</b></td>
+                  <td className="text-center">$33,750.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$258,750.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -311,66 +296,18 @@ function Kiacareers() {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Infrastructure for hosting the platform</td>
-                  <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
-                  <td className="text-center">$20,000.00</td>
-                  <td className="text-center">$2,400.00</td>
-                  <td className="text-center">$22,400.00</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Operation and support</td>
-                  <td>Support and operation activities to keep the platform in optimal operations.</td>
-                  <td className="text-center">$7,500.00</td>
-                  <td className="text-center">$900.00</td>
-                  <td className="text-center">$8,400.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$27,500.00</b></td>
-                  <td className="text-center">$3,300.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$30,800.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
-                  <td className="text-center"><b>$330,000.00</b></td>
-                  <td className="text-center">$39,600.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$369,600.00</td>
+                  <td>Monthly maintenance<br/><b>(per month )</b></td>
+                  <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
+                  <td className="text-center">$27,500.00</td>
+                  <td className="text-center">$4,125.00</td>
+                  <td className="text-center">$31,625.00</td>
                 </tr>
               </tbody>
             </Table>
+            
             <hr/>
-            <Table striped bordered hover size="sm">
-              <thead>
-                <tr>
-                  <th className="text-center"></th>
-                  <th className="text-center" colSpan="2">Total cost of the project</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
-                  <td className="text-center">$980,000.00</td>
-                  <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>$1,097,600.00</td>
-                </tr>
-                <tr>
-                  <td>Total IWWM gain (development and 1 year maintenance)</td>
-                  <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>$117,600.00</td>
-                </tr>
-                <tr>
-                  <td>Total IWWM gain (percentage, total project) </td>
-                  <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>12%</td>
-                </tr>
-              </tbody>
-            </Table>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
-            <p>* 6 Weeks</p>
+            <p>* 8 Weeks</p>
             <hr/>
             <table class="table table-striped">
               <thead>
@@ -450,98 +387,20 @@ function Kiacareers() {
               </tbody>
             </table>
             <hr/>
-            <hr/>
-            <h4><span class="lnr lnr-arrow-right"></span> PHASE 2 - VIDEO CHAT</h4>
-            <hr/>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 2 - VIDEO CHAT</b></h5>
-            <hr/>
-            <Table striped bordered hover size="sm">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Live chat video</td>
-                  <td>Implementation of the ability to transmit live-streaming video.</td>
-                  <td>$250,000.00</td>
-                  <td className="text-center">$30,000.00</td>
-                  <td className="text-center">$280,000.00</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Integraciones</td>
-                  <td>Integrations with the following platforms:
-                    <ul>
-                      <li>kia.com/mx</li>
-                      <li>apartatukia.com</li>
-                      <li>Dealer portal</li>
-                      <li>Sistemas CRM</li>
-                    </ul>
-                  </td>
-                  <td>$90,000.00</td>
-                  <td className="text-center">$10,800.00</td>
-                  <td className="text-center">$100,800.00</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Dashboard</td>
-                  <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  <td>$100,000.00</td>
-                  <td className="text-center">$1,200.00</td>
-                  <td className="text-center">$101,200.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$440,000.00</b></td>
-                  <td className="text-center"><b>$42,000.00</b></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}><b>$482,000.00</b></td>
-                </tr>
-              </tbody>
-            </Table>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
-            <p>* 4 weeks approximately</p>
-            <hr/>
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">*Activities</th>
-                  <th scope="col" colSpan="4">April</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Frontend Design</th>
-                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                </tr>
-                <tr>
-                  <th scope="row">Backend / Infrastructure development and implementation</th>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
-                </tr>
-              </tbody>
-            </table>
-            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
             <hr/>
             <ul>
-              <li>The development and release time of the components in this proposal from 4 months from the formal acceptance thereof.</li>
-              <li>In case of acceptance of this proposal, it will be necessary to jointly define, or confirm the proposed business rules under which the platforms will operate (eg, for how long will it be reserved before making it available again, a car without receiving the payment of section ; or, how many email notifications the user should receive during the process and section payment).</li>
-              <li>Economic proposal valid for 30 calendar days from the date hereof. Prices without VAT. Travel expenses are not included if required.</li>
+              <li><b>Any development that is external to the delivered system or exceeds 36hrs a month, will have to be quoted separately.<br/>It is not considered a connection to other systems.</b></li>
+              <li>No other development is included that is not within what is described above.</li>
+              <li>It does not include new developments or improvements to the platform that are outside of the 36 hours of monthly development,  if any new component is required, it will be priced separately.</li>
+              <li>Does not include connections to other systems, if any connection is required, it will be priced separately.</li>
+              <li>The development time will begin to count from the approval of the quote.</li>
+              <li>The time described only covers business days.</li>
+              <li>Maintenance is understood as the constant review and necessary adjustments that ensure the correct operation of the platform.</li>
+              <li>The platform will live in the INNOCEAN infrastructure until the end of the project; If the client requires maintenance services, the system continues to live in this same infrastructure, otherwise it is implemented in an account created specifically for the system's own use, releasing INNOCEAN from any responsibility.</li>
+              <li>The source code is the intellectual property of INNOCEAN, a copy is provided for the exclusive and sole use of the requested project.</li>
+              <li>This quote does not include generation or updating of content (VIDEOS, ARTS, TEXTS, VIRTUAL TOURS or other content that requires preparation by third parties).</li>
+              <li>Supports the mentioned languages: Spanish , English and Corean.</li>
             </ul>
           </Col>
         </Row>

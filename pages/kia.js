@@ -28,6 +28,13 @@ function Kia() {
             <hr/>
             <ul className="menuLateral">
               <li>
+                <Link href="/cotizacion/kiacareers">
+                  <a>
+                  <span class="lnr lnr-arrow-right"></span> KIA CAREERS
+                  </a>
+                </Link>
+              </li>
+              <li>
                 <Link href="/cotizacion/livechat">
                   <a>
                   <span class="lnr lnr-arrow-right"></span> LIVE CHAT
