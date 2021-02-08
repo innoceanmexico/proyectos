@@ -31,11 +31,11 @@ function Kiacareers() {
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
             <hr/>
-            <p>Develop a digital platform dedicated for the constant communication with the KIA’s end users, with the main goal to help position the company as the best place to work in Mexico City and support the hiring process.</p>
+            <p>Develop a <b>digital platform dedicated for the constant communication with the KIA’s end users</b>, with the main goal to help <b>position the company as the best place to work in Mexico</b> and support the hiring process.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
             <hr/>
-            <p>The platform will have 3 different areas: Public Website, Application Vacancy System and Super Users Administrator System.</p>
+            <p>The platform will have <b>3 different areas</b>: Public Website, Application Vacancy System and Super Users Administrator System.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Public Website:</h5>
             <hr/>
@@ -57,6 +57,7 @@ function Kiacareers() {
                     <li>Testimonials</li>
                     <li>Vacancies</li>
                   </ul>
+                  <li><b>Live chat</b> Component Integration</li>
                 </ul>
               </li>
               <hr/>
@@ -100,7 +101,7 @@ function Kiacareers() {
                       <li>The super users could create different types of users for different proposes</li>
                       <li><b>Upload and edit info in different languages (Spanish, English, Korean)</b>
                         <ul>
-                          <li>Content Manager Systems form the public website
+                          <li><b>Content Manager Systems form the public website</b>
                             <ul>
                               <li>Upload and video management</li>
                               <li>News Management</li>
@@ -109,14 +110,14 @@ function Kiacareers() {
                               <li>Testimonials Management</li>
                             </ul>
                           </li>
-                          <li>Users Manager
+                          <li><b>Users Manager</b>
                             <ul>
                               <li>Give access to different areas</li>
                               <li>Create, update & delete users</li>
                               <li>Create, update & delete admins</li>
                             </ul>
                           </li>
-                          <li>Vacancies
+                          <li><b>Vacancies</b>
                             <ul>
                               <li>Create, update & delete vacancy info</li>
                               <li>Profile vacancy editor</li>
@@ -129,7 +130,7 @@ function Kiacareers() {
                               </li>
                             </ul>
                           </li>
-                          <li>Application management system
+                          <li><b>Application management system</b>
                             <ul>
                               <li>Reception</li>
                               <li>Update</li>
@@ -142,9 +143,9 @@ function Kiacareers() {
                               <li>Rejected applications</li>
                             </ul>
                           </li>
-                          <li>Notifications via platform or email</li>
-                          <li>Notifications via WHATSAPP</li>
-                          <li>Support area
+                          <li><b>Notifications via platform or email</b></li>
+                          <li><b>Notifications via WHATSAPP</b></li>
+                          <li><b>Support area</b>
                             <ul>
                               <li>Section where the admins can help the end users to solve their doubts through tickets system</li>
                             </ul>
@@ -162,14 +163,20 @@ function Kiacareers() {
             <h6><span class="lnr lnr-arrow-right"></span> Each area will work under an environment developed in AWS (AMAZON WEB SERVICES):</h6>
             <ul>
               <li>Administrator y users security logins in AWS COGNITO</li>
-              <li>Database management in AWS DYNAMODB</li>
-              <li>Access to services through AWS APIGATEWAY</li>
-              <li>Developed Microservices in AWS LAMBDAS</li>
-              <li><b>Security and user data encryption through SSL</b></li>
+              <li>Database management in <b>AWS DYNAMODB</b></li>
+              <li>Access to services through <b>AWS APIGATEWAY</b></li>
+              <li>Developed Microservices in <b>AWS LAMBDAS</b></li>
+              <li><b>Security and user data <b>encryption through SSL</b></b></li>
             </ul>
+            <hr/>
+            <div align="center mt-3 mb-3">
+              <img src="/images/kia/server.jpg" className="img-fluid" alt="" alt="" />
+            </div>
+            <hr/>
             <div align="center mt-3 mb-3">
               <img src="/images/kia/ssl.jpg" className="img-fluid" alt="" alt="" />
             </div>
+            <hr/>
             <h6><span class="lnr lnr-arrow-right"></span> Platform structure:</h6>
             <ul>
               <li>FRONTEND: HTML, CSS3, JAVASCRIPT
@@ -227,6 +234,54 @@ function Kiacareers() {
                     </ul>
                   </li>
                   <li><b>QA (1 week)</b></li>
+                </ul>
+              </li>
+            </ul>
+            <hr/>
+            <h3 className="naranja"><span class="lnr lnr-arrow-right"></span> Human Resources</h3>
+            <hr/>
+            <p>we’ll need a Development team that will be very strong in Development, Frontend design, Database architect, Service Connection and Artificial Intelligence.</p>
+            <h6><b><span class="lnr lnr-arrow-right"></span> Team experts:</b></h6>
+            <ul>
+              <li><b>1 Frontend Developer</b>
+                <ul>
+                  <li><b>Characteristics:</b>
+                    <ul>
+                      <li>Simple, clean and semantic HTML.</li>
+                      <li>Responsive, flexible, adaptable, component driven, object oriented CSS</li>
+                      <li>modular, concise, well documented JavaScript code. Someone who knows when it's right (and when it's wrong) to use a library</li>
+                      <li>Command line knowledge and the ability to use a version control system like Git</li>
+                      <li>Uses a build script to optimise their images and CSS, and which concatenates & minifies their JavaScript</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <hr/>
+              <li><b>1 Backend Developer</b>
+                <ul>
+                  <li><b>Characteristics:</b>
+                    <ul>
+                      <li>Creating, integrating, and managing databases. Some examples are MySQL, PostgreSQL and MongoDB
+Building server-side software using backend frameworks like NodeJS</li>
+                      <li>Doing cloud computing integration web server technologies</li>
+                      <li>Implements server-side programming languages, like JavaScript, PHP, and Python</li>
+                      <li>Development, deployment, and maintenance of content management systems</li>
+                      <li>Doing API integration and security settings</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><b>2 Digital Managers</b>
+                <ul>
+                  <li><b>Characteristics:</b>
+                    <ul>
+                      <li>Adaptability and Creative Problem-Solving</li>
+                      <li>Leadership Skills</li>
+                      <li>Business Acumen</li>
+                      <li>Communication Skills</li>
+                      <li>Analytic Skills</li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
             </ul>

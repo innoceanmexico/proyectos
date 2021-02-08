@@ -95,7 +95,7 @@ function Kiacareers() {
               <hr/>
                 <ul>
                   <li>Los superusuarios / administradores tendrán acceso para gestionar cada área dentro de la plataforma</li>
-                  <li>•	El sistema tendrá la opción de mostrar la información en 3 idiomas diferentes (inglés, español, coreano)
+                  <li>El sistema tendrá la opción de mostrar la información en 3 idiomas diferentes (inglés, español, coreano)
                     <ul>
                       <li>Los superusuarios pueden crear diferentes tipos de usuarios para diferentes propósitos.</li>
                       <li><b>Cargar y editar información en diferentes idiomas (español, inglés, coreano)</b>
@@ -118,35 +118,35 @@ function Kiacareers() {
                           </li>
                           <li>Vacantes
                             <ul>
-                              <li>Create, update & delete vacancy info</li>
-                              <li>Profile vacancy editor</li>
-                              <li>Dynamic phases creator system
+                              <li>Crear, actualizar y eliminar información de vacantes</li>
+                              <li>Editora de perfil de vacantes</li>
+                              <li>Sistema creador de fases dinámicas
                                 <ul>
-                                  <li>Assignment of managers for each phase</li>
-                                  <li>Define the necessary requirements per phase</li>
-                                  <li>Test creator system for each Vacancy</li>
+                                  <li>Asignación de gerentes para cada fase</li>
+                                  <li>Definir los requisitos necesarios por fase</li>
+                                  <li>Prueba el sistema de creación para cada vacante</li>
                                 </ul>
                               </li>
                             </ul>
                           </li>
-                          <li>Application management system
+                          <li>Sistema de gestión de aplicaciones
                             <ul>
-                              <li>Reception</li>
-                              <li>Update</li>
-                              <li>Approvement
+                              <li>Recepción</li>
+                              <li>Actualizar</li>
+                              <li>Aprobación
                                 <ul>
-                                  <li>For the vacancy application</li>
-                                  <li>For vacancy phase</li>
+                                  <li>Para la solicitud de vacante</li>
+                                  <li>Para la fase de vacante</li>
                                 </ul>
                               </li>
-                              <li>Rejected applications</li>
+                              <li>Aplicaciones rechazadas</li>
                             </ul>
                           </li>
-                          <li>Notifications via platform or email</li>
-                          <li>Notifications via WHATSAPP</li>
-                          <li>Support area
+                          <li>Notificaciones a través de plataforma o correo electrónico</li>
+                          <li>Notificaciones a través de WHATSAPP</li>
+                          <li>Área de apoyo
                             <ul>
-                              <li>Section where the admins can help the end users to solve their doubts through tickets system</li>
+                              <li>Sección donde los administradores pueden ayudar a los usuarios finales a resolver sus dudas a través del sistema de tickets</li>
                             </ul>
                           </li>
                         </ul>
@@ -157,20 +157,22 @@ function Kiacareers() {
               </li>
             </ul>
             <hr/>
-              <h5 className="naranja"><span class="lnr lnr-plus-circle"></span> Technology</h5>
+              <h5 className="naranja"><span class="lnr lnr-plus-circle"></span> Tecnología</h5>
             <hr/>
-            <h6><span class="lnr lnr-arrow-right"></span> Each area will work under an environment developed in AWS (AMAZON WEB SERVICES):</h6>
+            <h6><span class="lnr lnr-arrow-right"></span> Cada área funcionará bajo un entorno desarrollado en AWS (AMAZON WEB SERVICES):</h6>
             <ul>
-              <li>Administrator y users security logins in AWS COGNITO</li>
-              <li>Database management in AWS DYNAMODB</li>
-              <li>Access to services through AWS APIGATEWAY</li>
-              <li>Developed Microservices in AWS LAMBDAS</li>
-              <li><b>Security and user data encryption through SSL</b></li>
+              <li>Inicio de sesión de seguridad de administrador y usuarios en AWS COGNITO</li>
+              <li>Gestión de bases de datos en AWS DYNAMODB</li>
+              <li>Acceso a los servicios a través de AWS APIGATEWAY</li>
+              <li>Microservicios desarrollados en AWS LAMBDAS</li>
+              <li><b>Seguridad y cifrado de datos de usuario a través de SSL</b></li>
             </ul>
+            <hr/>
             <div align="center mt-3 mb-3">
               <img src="/images/kia/ssl.jpg" className="img-fluid" alt="" alt="" />
             </div>
-            <h6><span class="lnr lnr-arrow-right"></span> Platform structure:</h6>
+            <hr/>
+            <h6><span class="lnr lnr-arrow-right"></span> Estructura de la plataforma:</h6>
             <ul>
               <li>FRONTEND: HTML, CSS3, JAVASCRIPT
                 <ul>
