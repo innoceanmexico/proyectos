@@ -368,12 +368,21 @@ Building server-side software using backend frameworks like NodeJS</li>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Monthly maintenance<br/><b>(per month )</b></td>
+                  <td>Monthly maintenance<br/><b>(per month)</b></td>
                   <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
                   <td className="text-center">$27,500.00</td>
                   <td className="text-center">$4,125.00</td>
                   <td className="text-center">$31,625.00</td>
                 </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL COST PER YEAR</b></td>
+                  <td className="text-center"><b>$330,000.00</b></td>
+                  <td className="text-center">$49,500.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$379,500.00</td>
+                </tr>
+            
               </tbody>
             </Table>
             
