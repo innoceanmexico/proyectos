@@ -329,12 +329,26 @@ Building server-side software using backend frameworks like NodeJS</li>
                   <td className="text-center">$11,500.00</td>
                 </tr>
                 <tr>
+                  <td>4</td>
+                  <td>Human resources</td>
+                  <td>
+                    <ul>
+                      <li>1 Frontend Developer</li>
+                      <li>1 Backend Developer</li>
+                      <li>2 Digital Managers</li>
+                    </ul>
+                  </td>
+                  <td className="text-center">$45,000.00</td>
+                  <td className="text-center">$6,750.00</td>
+                  <td className="text-center">$51,750.00</td>
+                </tr>
+                <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$225,000.00</b></td>
-                  <td className="text-center">$33,750.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$258,750.00</td>
+                  <td className="text-center"><b>$270,000.00</b></td>
+                  <td className="text-center">$40,500.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$310,500.00</td>
                 </tr>
               </tbody>
             </Table>
