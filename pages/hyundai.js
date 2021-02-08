@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/layout'
 import NavbarPrincipal from '../components/navbarPrincipal'
 import Container from 'react-bootstrap/Container'
@@ -24,6 +25,16 @@ function Hyundai() {
             <div align="center">
               <img src="images/logo-hyundai.jpg" alt="" alt="" />
             </div>
+            <hr/>
+            <ul className="menuLateral">
+              <li>
+                <Link href="/cotizacion/hyundai-distribuidores">
+                  <a>
+                  <span class="lnr lnr-arrow-right"></span> DISTRIBUIDORES
+                  </a>
+                </Link>
+              </li>
+            </ul>
           </Col>
           <Col xs={9}>
             <div align="center">
