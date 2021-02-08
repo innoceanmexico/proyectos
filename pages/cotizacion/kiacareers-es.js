@@ -28,95 +28,95 @@ function Kiacareers() {
             <Link href="/cotizacion/kiacareers-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={10}>
-            <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
+            <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
             <hr/>
-            <p>Develop a digital platform dedicated for the constant communication with the KIA’s end users, with the main goal to help position the company as the best place to work in Mexico City and support the hiring process.</p>
+            <p>Desarrollar una plataforma digital dedicada a la comunicación constante con los usuarios finales del KIA, con el objetivo principal de ayudar a posicionar a la empresa como el mejor lugar para trabajar en la Ciudad de México y apoyar el proceso de contratación..</p>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
+            <h5><span class="lnr lnr-plus-circle"></span> Plataforma</h5>
             <hr/>
-            <p>The platform will have 3 different areas: Public Website, Application Vacancy System and Super Users Administrator System.</p>
+            <p>La plataforma tendrá 3 secciones diferentes: Sitio web público, Sistema de vacantes de aplicaciones y Sistema de administrador de superusuarios.</p>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Public Website:</h5>
+            <h5><span class="lnr lnr-plus-circle"></span> Sitio web público:</h5>
             <hr/>
             <ul>
-              <li><b>Develop a dynamic public website, to keep the end users updated with information about company and their culture, and the option to display the information in different languages (Spanish, English, Korean)</b>
+              <li><b>Desarrollar un sitio web público dinámico, para mantener a los usuarios finales actualizados con información sobre la empresa y su cultura, y la opción de mostrar la información en diferentes idiomas (español, inglés, coreano)</b>
               <hr/>
                 <ul>
-                  <li>This website could be embedded into the kia.com main website by an IFRAME or it could live in an external domain (recommended)</li>
-                  <li>Deploy information like:</li>
+                  <li>Este sitio web podría estar integrado en el sitio web principal de kia.com mediante un IFRAME o podría residir en un dominio externo (recomendado).</li>
+                  <li>Mostrar información como:</li>
                   <ul>
-                    <li>Organizational culture</li>
-                    <li>News</li>
+                    <li>Cultura organizacional</li>
+                    <li>Noticias</li>
                     <li>FAQ´S</li>
                     <li>Videos
                       <ul>
-                        <li>Virtual Tours</li>
+                        <li>Tours virtuales</li>
                       </ul>
                     </li>
-                    <li>Testimonials</li>
-                    <li>Vacancies</li>
+                    <li>Testimoniales</li>
+                    <li>Vacantes</li>
                   </ul>
                 </ul>
               </li>
               <hr/>
-              <li><b>Application Vacancy System</b>
+              <li><b>Sistema de solicitud de vacantes</b>
               <hr/>
                 <ul>
-                  <li>The users that want to apply to some vacancy displayed on the public website, could create a new profile into the Application Vacancy System and apply immediately and the option to apply in different languages (Spanish, English, Korean)
+                  <li>Los usuarios que deseen postularse a alguna vacante mostrada en el sitio web público, podrían crear un nuevo perfil en el Sistema de Solicitud de Vacantes y postularse de inmediato y la opción de postularse en diferentes idiomas (español, inglés, coreano)
                     <ul>
-                      <li>Register form</li>
-                      <li>User / Password</li>
-                      <li>Personal user data form</li>
-                      <li>Upload files system
+                      <li>Forma de registro</li>
+                      <li>Usuario / Contraseña</li>
+                      <li>Formulario de datos personales del usuario</li>
+                      <li>Sistema de carga de archivos
                         <ul>
-                          <li>Photography</li>
-                          <li>Documentation</li>
+                          <li>Fotografía</li>
+                          <li>Documentación</li>
                         </ul>
                       </li>
-                      <li>General dashboard to display the current vacancy user applied status</li>
-                      <li>Timeline to show the different phases to fulfill
+                      <li>Panel de control general para mostrar el estado actual de la vacante aplicada por el usuario</li>
+                      <li>Línea de tiempo para mostrar las diferentes fases a cumplir
                         <ul>
-                          <li>Necessary requirements to fulfill each phase</li>
+                          <li>Requisitos necesarios para cumplir cada fase</li>
                         </ul>
                       </li>
-                      <li>Test to approve per user depending on the vacancy
+                      <li>Prueba para aprobar por usuario en función de la vacante
                         <ul>
-                          <li>Certificate generator system for each test accomplished successfully</li>
+                          <li>Sistema generador de certificados para cada prueba realizada con éxito</li>
                         </ul>
                       </li>
-                      <li>Administrator notification through the platform and email</li>
+                      <li>Notificación al administrador a través de la plataforma y correo electrónico</li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <hr/>
-              <li><b>Admin Superusers</b>
+              <li><b>Superusuarios administradores</b>
               <hr/>
                 <ul>
-                  <li>The superusers/admins will have access to manage each area inside the platform</li>
-                  <li>•	The system will have the option to display the information in 3 different language (English, Spanish, Korean)
+                  <li>Los superusuarios / administradores tendrán acceso para gestionar cada área dentro de la plataforma</li>
+                  <li>•	El sistema tendrá la opción de mostrar la información en 3 idiomas diferentes (inglés, español, coreano)
                     <ul>
-                      <li>The super users could create different types of users for different proposes</li>
-                      <li><b>Upload and edit info in different languages (Spanish, English, Korean)</b>
+                      <li>Los superusuarios pueden crear diferentes tipos de usuarios para diferentes propósitos.</li>
+                      <li><b>Cargar y editar información en diferentes idiomas (español, inglés, coreano)</b>
                         <ul>
-                          <li>Content Manager Systems form the public website
+                          <li>Los sistemas de gestión de contenido forman el sitio web público
                             <ul>
-                              <li>Upload and video management</li>
-                              <li>News Management</li>
-                              <li>Upload and Image management</li>
-                              <li>FAQ’S Management</li>
-                              <li>Testimonials Management</li>
+                              <li>Gestión de subida de vídeo</li>
+                              <li>Gestión de noticias</li>
+                              <li>Gestión de subida e imagen</li>
+                              <li>Gestión de preguntas frecuentes</li>
+                              <li>Gestión de testimonios</li>
                             </ul>
                           </li>
-                          <li>Users Manager
+                          <li>Administrador de usuarios
                             <ul>
-                              <li>Give access to different areas</li>
-                              <li>Create, update & delete users</li>
-                              <li>Create, update & delete admins</li>
+                              <li>Dar acceso a diferentes áreas</li>
+                              <li>Crear, actualizar y eliminar usuarios</li>
+                              <li>Crear, actualizar y eliminar administradores</li>
                             </ul>
                           </li>
-                          <li>Vacancies
+                          <li>Vacantes
                             <ul>
                               <li>Create, update & delete vacancy info</li>
                               <li>Profile vacancy editor</li>
@@ -167,6 +167,9 @@ function Kiacareers() {
               <li>Developed Microservices in AWS LAMBDAS</li>
               <li><b>Security and user data encryption through SSL</b></li>
             </ul>
+            <div align="center mt-3 mb-3">
+              <img src="/images/kia/ssl.jpg" className="img-fluid" alt="" alt="" />
+            </div>
             <h6><span class="lnr lnr-arrow-right"></span> Platform structure:</h6>
             <ul>
               <li>FRONTEND: HTML, CSS3, JAVASCRIPT
