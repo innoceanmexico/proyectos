@@ -25,41 +25,41 @@ function Roadmap() {
     "color": colorSet.getIndex(15),
     "text": "I will have\na healthy day today!",
     "textDisabled": false,
-    "icon": "/wp-content/uploads/assets/timeline/timeline0.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline0.svg"
   }, {
     "category": "",
     "start": "2019-01-10 07:00",
     "end": "2019-01-10 08:00",
     "color": colorSet.getIndex(14),
-    "icon": "/wp-content/uploads/assets/timeline/timeline1.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline1.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 08:00",
     "end": "2019-01-10 09:00",
     "color": colorSet.getIndex(13),
-    "icon": "/wp-content/uploads/assets/timeline/timeline2.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline2.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 09:00",
     "end": "2019-01-10 10:00",
     "color": colorSet.getIndex(12),
-    "icon": "/wp-content/uploads/assets/timeline/timeline2.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline2.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 10:00",
     "end": "2019-01-10 12:00",
     "color": colorSet.getIndex(11),
-    "icon": "/wp-content/uploads/assets/timeline/timeline2.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline2.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 12:00",
     "end": "2019-01-10 13:00",
     "color": colorSet.getIndex(10),
-    "icon": "/wp-content/uploads/assets/timeline/timeline1.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline1.svg"
   },
   {
     "category": "",
@@ -68,63 +68,63 @@ function Roadmap() {
     "color": colorSet.getIndex(9),
     "text": "One beer doesn't count.",
     "textDisabled": false,
-    "icon": "/wp-content/uploads/assets/timeline/timeline3.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline3.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 14:00",
     "end": "2019-01-10 16:00",
     "color": colorSet.getIndex(8),
-    "icon": "/wp-content/uploads/assets/timeline/timeline2.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline2.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 16:00",
     "end": "2019-01-10 17:00",
     "color": colorSet.getIndex(7),
-    "icon": "/wp-content/uploads/assets/timeline/timeline4.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline4.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 17:00",
     "end": "2019-01-10 20:00",
     "color": colorSet.getIndex(6),
-    "icon": "/wp-content/uploads/assets/timeline/timeline2.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline2.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 20:00",
     "end": "2019-01-10 20:30",
     "color": colorSet.getIndex(5),
-    "icon": "/wp-content/uploads/assets/timeline/timeline3.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline3.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 20:30",
     "end": "2019-01-10 21:30",
     "color": colorSet.getIndex(4),
-    "icon": "/wp-content/uploads/assets/timeline/timeline3.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline3.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 21:30",
     "end": "2019-01-10 22:00",
     "color": colorSet.getIndex(3),
-    "icon": "/wp-content/uploads/assets/timeline/dance.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/dance.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 22:00",
     "end": "2019-01-10 23:00",
     "color": colorSet.getIndex(2),
-    "icon": "/wp-content/uploads/assets/timeline/timeline5.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline5.svg"
   },
   {
     "category": "",
     "start": "2019-01-10 23:00",
     "end": "2019-01-11 00:00",
     "color": colorSet.getIndex(1),
-    "icon": "/wp-content/uploads/assets/timeline/timeline6.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline6.svg"
   },
   {
     "category": "",
@@ -133,7 +133,7 @@ function Roadmap() {
     "color": colorSet.getIndex(0),
     "text": "Damn...",
     "textDisabled": false,
-    "icon": "/wp-content/uploads/assets/timeline/timeline7.svg"
+    "icon": "https://www.amcharts.com//wp-content/uploads/assets/timeline/timeline7.svg"
   }];
 
   chart.fontSize = 10;
