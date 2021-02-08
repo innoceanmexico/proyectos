@@ -167,22 +167,19 @@ function Kiacareers() {
               <li>Developed Microservices in AWS LAMBDAS</li>
               <li><b>Security and user data encryption through SSL</b></li>
             </ul>
-            <div align="center mt-3 mb-3">
-              <img src="/images/kia/ssl.jpg" className="img-fluid" alt="" alt="" />
-            </div>
             <h6><span class="lnr lnr-arrow-right"></span> Platform structure:</h6>
             <ul>
               <li>FRONTEND: HTML, CSS3, JAVASCRIPT
                 <ul>
-                  <li>FRAMEWORK <b>ReactJS</b></li>
+                  <li>FRAMEWORK REACT</li>
                 </ul>
               </li>
-              <li>BACKEND: <b>NodeJS</b></li>
+              <li>BACKEND: <b>NODEJS</b></li>
               <li>3 Dictionaries to develop
                 <ul>
                   <li>Main System Dictionary
                     <ul>
-                      <li><b>Core System interfaces displayed in 3 different languages</b></li>
+                      <li>Core System interfaces displayed in 3 different languages</li>
                     </ul>
                   </li>
                   <li>Apply System Dictionary
