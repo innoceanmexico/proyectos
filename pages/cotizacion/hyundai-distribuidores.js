@@ -5,8 +5,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Table from 'react-bootstrap/Table'
 
-
-
 let fruits = ['orange', 'apple', 'melon', 'grapes', 'bananas', 'mangos', 'watermelon', 'strawberry', 'lemon', 'pinneaple'];
 let inverted_fruits = [];
 
