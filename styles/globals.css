@@ -119,6 +119,10 @@ ul.menuLateral li a:hover {
   vertical-align: middle;
 }
 
+.submenu a {
+  margin-right: 5px;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;
