@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Table from 'react-bootstrap/Table'
 
-function HyundaiDistribuidores() {
+function HyundaiSeminuevos() {
   return (
     <Layout>
       <Container className="cotizacion">
@@ -24,8 +24,8 @@ function HyundaiDistribuidores() {
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
-            <Link href="/cotizacion/kiacareers/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
-            <Link href="/cotizacion/kiacareers-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/hyundai-seminuevos/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
+            <Link href="/cotizacion/hyundai-seminuevos-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={10}>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
@@ -492,4 +492,4 @@ Building server-side software using backend frameworks like NodeJS</li>
   )
 }
 
-export default HyundaiDistribuidores;
+export default HyundaiSeminuevos;

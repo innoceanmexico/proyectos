@@ -33,6 +33,11 @@ function Hyundai() {
                   <span class="lnr lnr-arrow-right"></span> DISTRIBUIDORES
                   </a>
                 </Link>
+                <Link href="/cotizacion/hyundai-seminuevos">
+                  <a>
+                  <span class="lnr lnr-arrow-right"></span> PLATAFORMA SEMINUEVOS
+                  </a>
+                </Link>
               </li>
             </ul>
           </Col>
