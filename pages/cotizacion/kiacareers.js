@@ -40,7 +40,7 @@ function Kiacareers() {
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
             <p>Develop a <b>digital platform dedicated for the constant communication with the KIA’s end users</b>, with the main goal to help <b>position the company as the best place to work in Mexico</b> and support the hiring process.</p>
             <hr/>
-            <h3><span class="lnr lnr-chevron-right"></span> DOCUMENT</h3>
+            <h5><span class="lnr lnr-chevron-right"></span> Document</h5>
             <iframe id="iframepdf" src="/images/kia/web_presentation_careers_TECH.pdf" style={{width: '100%',height: '590px',border:'0'}}></iframe>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
