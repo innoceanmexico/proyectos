@@ -31,14 +31,13 @@ function Calculator() {
                   We'll never share your email with anyone else.
     </Form.Text>
               </Form.Group>
-
               <Form.Group controlId="formBasicPassword">
                 <Form.Label>HORAS TRABAJADAS:</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
               <Button variant="primary" type="submit">
                 CALCULAR FTE
-  </Button>
+              </Button>
             </Form>
           </Col>
         </Row>

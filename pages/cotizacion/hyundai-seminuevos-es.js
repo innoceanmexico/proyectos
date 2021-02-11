@@ -31,7 +31,7 @@ function KiacareersEs() {
             <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
             <hr/>
-            <p>Desarrollar una plataforma digital dedicada a la comunicación constante con los usuarios finales del KIA, con el objetivo principal de ayudar a posicionar a la empresa como el mejor lugar para trabajar en la Ciudad de México y apoyar el proceso de contratación..</p>
+            <p>Desarrollar una plataforma digital dedicada a la comunicación constante con los usuarios finales del HYUNDAI, con el objetivo principal de ayudar a publicar un programa de venta de autos seminuevos mediante dealers.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Plataforma</h5>
             <hr/>
@@ -43,7 +43,7 @@ function KiacareersEs() {
               <li><b>Desarrollar un sitio web público dinámico, para mantener a los usuarios finales actualizados con información sobre la empresa y su cultura, y la opción de mostrar la información en diferentes idiomas (español, inglés, coreano)</b>
               <hr/>
                 <ul>
-                  <li>Este sitio web podría estar integrado en el sitio web principal de kia.com mediante un IFRAME o podría residir en un dominio externo (recomendado).</li>
+                  <li>Este sitio web podría estar integrado en el sitio web principal de HYUNDAI mediante un IFRAME o podría residir en un dominio externo (recomendado).</li>
                   <li>Mostrar información como:</li>
                   <ul>
                     <li>Cultura organizacional</li>

@@ -31,7 +31,7 @@ function HyundaiSeminuevos() {
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
             <hr/>
-            <p>Develop a <b>digital platform dedicated for the constant communication with the KIA’s end users</b>, with the main goal to help <b>position the company as the best place to work in Mexico</b> and support the hiring process.</p>
+            <p>Develop a digital platform dedicated to constant communication with the end users of the HYUNDAI, with the main objective of helping to publish a program for the sale of pre-owned cars through dealers.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
             <hr/>
@@ -43,7 +43,7 @@ function HyundaiSeminuevos() {
               <li><b>Develop a dynamic public website, to keep the end users updated with information about company and their culture, and the option to display the information in different languages (Spanish, English, Korean)</b>
               <hr/>
                 <ul>
-                  <li>This website could be embedded into the kia.com main website by an IFRAME or it could live in an external domain (recommended)</li>
+                  <li>This website could be embedded into the HYUNDAI main website by an IFRAME or it could live in an external domain (recommended)</li>
                   <li>Deploy information like:</li>
                   <ul>
                     <li>Organizational culture</li>
