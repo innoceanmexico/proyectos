@@ -49,9 +49,9 @@ export default function Proyectos() {
           </Row>
           <Row>
             {proyectos.map((proyecto, ide) => (
-              <Card style={{ width: '100%', margin: '5px 15px' }} key={ide}>
+              <Card style={{ width: '30%', margin: '5px 15px' }} key={ide}>
                 <div className="laimagen">
-                  <Card.Img variant="top" src={proyecto.logo} style={{ width: '100px'}} />
+                  <Card.Img variant="top" src={proyecto.logo} style={{ width: '150px'}} />
                 </div>
                 <Card.Body>
                   <Card.Title>{proyecto.nombre}</Card.Title>

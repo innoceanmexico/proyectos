@@ -68,11 +68,11 @@ a.menutop:hover {
 }
 
 .card {
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .card .laimagen {
-  width: 20%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

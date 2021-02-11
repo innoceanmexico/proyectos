@@ -13,7 +13,7 @@ function KiacareersEs() {
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
               <span>
-                <span style={{ color: '#f0582a' }}>[</span> HYUNDAI DISTRIBUIDORES <span style={{ color: '#f0582a' }}>]</span>
+                <span style={{ color: '#f0582a' }}>[</span> HYUNDAI DEALERS <span style={{ color: '#f0582a' }}>]</span>
               </span>
             </h2>
             <hr />
@@ -28,125 +28,126 @@ function KiacareersEs() {
             <Link href="/cotizacion/hyundai-seminuevos-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={10}>
-            <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
+            <h3><span class="lnr lnr-chevron-right"></span> Propuesta Técnica y Económica</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
             <hr/>
-            <p>Desarrollar una plataforma digital dedicada a la comunicación constante con los usuarios finales del HYUNDAI, con el objetivo principal de ayudar a publicar un programa de venta de autos seminuevos mediante dealers.</p>
+            <p>Desarrollar una plataforma digital dedicada a la comunicación constante con los usuarios finales del HYUNDAI, con el objetivo principal de ayudar a publicar un programa de venta de autos usados ​​a través de concesionarios.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Plataforma</h5>
             <hr/>
-            <p>La plataforma tendrá 3 secciones diferentes: Sitio web público, Sistema de vacantes de aplicaciones y Sistema de administrador de superusuarios.</p>
+            <p>La plataforma contará con 3 áreas diferenciadas: Sitio web público, Sistema de solicitud de vacantes y Sistema de administración de superusuarios.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Sitio web público:</h5>
             <hr/>
             <ul>
-              <li><b>Desarrollar un sitio web público dinámico, para mantener a los usuarios finales actualizados con información sobre la empresa y su cultura, y la opción de mostrar la información en diferentes idiomas (español, inglés, coreano)</b>
+              <li><b>Develop a dynamic public website, to keep the end users updated with information about company and their culture, and the option to display the information in different languages (Spanish, English, Korean)</b>
               <hr/>
                 <ul>
-                  <li>Este sitio web podría estar integrado en el sitio web principal de HYUNDAI mediante un IFRAME o podría residir en un dominio externo (recomendado).</li>
-                  <li>Mostrar información como:</li>
+                  <li>This website could be embedded into the HYUNDAI main website by an IFRAME or it could live in an external domain (recommended)</li>
+                  <li>Deploy information like:</li>
                   <ul>
-                    <li>Cultura organizacional</li>
-                    <li>Noticias</li>
+                    <li>Organizational culture</li>
+                    <li>News</li>
                     <li>FAQ´S</li>
                     <li>Videos
                       <ul>
-                        <li>Tours virtuales</li>
+                        <li>Virtual Tours</li>
                       </ul>
                     </li>
-                    <li>Testimoniales</li>
-                    <li>Vacantes</li>
+                    <li>Testimonials</li>
+                    <li>Vacancies</li>
                   </ul>
+                  <li><b>Live chat</b> Component Integration</li>
                 </ul>
               </li>
               <hr/>
-              <li><b>Sistema de solicitud de vacantes</b>
+              <li><b>Application Vacancy System</b>
               <hr/>
                 <ul>
-                  <li>Los usuarios que deseen postularse a alguna vacante mostrada en el sitio web público, podrían crear un nuevo perfil en el Sistema de Solicitud de Vacantes y postularse de inmediato y la opción de postularse en diferentes idiomas (español, inglés, coreano)
+                  <li>The users that want to apply to some vacancy displayed on the public website, could create a new profile into the Application Vacancy System and apply immediately and the option to apply in different languages (Spanish, English, Korean)
                     <ul>
-                      <li>Forma de registro</li>
-                      <li>Usuario / Contraseña</li>
-                      <li>Formulario de datos personales del usuario</li>
-                      <li>Sistema de carga de archivos
+                      <li>Register form</li>
+                      <li>User / Password</li>
+                      <li>Personal user data form</li>
+                      <li>Upload files system
                         <ul>
-                          <li>Fotografía</li>
-                          <li>Documentación</li>
+                          <li>Photography</li>
+                          <li>Documentation</li>
                         </ul>
                       </li>
-                      <li>Panel de control general para mostrar el estado actual de la vacante aplicada por el usuario</li>
-                      <li>Línea de tiempo para mostrar las diferentes fases a cumplir
+                      <li>General dashboard to display the current vacancy user applied status</li>
+                      <li>Timeline to show the different phases to fulfill
                         <ul>
-                          <li>Requisitos necesarios para cumplir cada fase</li>
+                          <li>Necessary requirements to fulfill each phase</li>
                         </ul>
                       </li>
-                      <li>Prueba para aprobar por usuario en función de la vacante
+                      <li>Test to approve per user depending on the vacancy
                         <ul>
-                          <li>Sistema generador de certificados para cada prueba realizada con éxito</li>
+                          <li>Certificate generator system for each test accomplished successfully</li>
                         </ul>
                       </li>
-                      <li>Notificación al administrador a través de la plataforma y correo electrónico</li>
+                      <li>Administrator notification through the platform and email</li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <hr/>
-              <li><b>Superusuarios administradores</b>
+              <li><b>Admin Superusers</b>
               <hr/>
                 <ul>
-                  <li>Los superusuarios / administradores tendrán acceso para gestionar cada área dentro de la plataforma</li>
-                  <li>El sistema tendrá la opción de mostrar la información en 3 idiomas diferentes (inglés, español, coreano)
+                  <li>The superusers/admins will have access to manage each area inside the platform</li>
+                  <li>•	The system will have the option to display the information in 3 different language (English, Spanish, Korean)
                     <ul>
-                      <li>Los superusuarios pueden crear diferentes tipos de usuarios para diferentes propósitos.</li>
-                      <li><b>Cargar y editar información en diferentes idiomas (español, inglés, coreano)</b>
+                      <li>The super users could create different types of users for different proposes</li>
+                      <li><b>Upload and edit info in different languages (Spanish, English, Korean)</b>
                         <ul>
-                          <li>Los sistemas de gestión de contenido forman el sitio web público
+                          <li><b>Content Manager Systems form the public website</b>
                             <ul>
-                              <li>Gestión de subida de vídeo</li>
-                              <li>Gestión de noticias</li>
-                              <li>Gestión de subida e imagen</li>
-                              <li>Gestión de preguntas frecuentes</li>
-                              <li>Gestión de testimonios</li>
+                              <li>Upload and video management</li>
+                              <li>News Management</li>
+                              <li>Upload and Image management</li>
+                              <li>FAQ’S Management</li>
+                              <li>Testimonials Management</li>
                             </ul>
                           </li>
-                          <li>Administrador de usuarios
+                          <li><b>Users Manager</b>
                             <ul>
-                              <li>Dar acceso a diferentes áreas</li>
-                              <li>Crear, actualizar y eliminar usuarios</li>
-                              <li>Crear, actualizar y eliminar administradores</li>
+                              <li>Give access to different areas</li>
+                              <li>Create, update & delete users</li>
+                              <li>Create, update & delete admins</li>
                             </ul>
                           </li>
-                          <li>Vacantes
+                          <li><b>Vacancies</b>
                             <ul>
-                              <li>Crear, actualizar y eliminar información de vacantes</li>
-                              <li>Editora de perfil de vacantes</li>
-                              <li>Sistema creador de fases dinámicas
+                              <li>Create, update & delete vacancy info</li>
+                              <li>Profile vacancy editor</li>
+                              <li>Dynamic phases creator system
                                 <ul>
-                                  <li>Asignación de gerentes para cada fase</li>
-                                  <li>Definir los requisitos necesarios por fase</li>
-                                  <li>Prueba el sistema de creación para cada vacante</li>
+                                  <li>Assignment of managers for each phase</li>
+                                  <li>Define the necessary requirements per phase</li>
+                                  <li>Test creator system for each Vacancy</li>
                                 </ul>
                               </li>
                             </ul>
                           </li>
-                          <li>Sistema de gestión de aplicaciones
+                          <li><b>Application management system</b>
                             <ul>
-                              <li>Recepción</li>
-                              <li>Actualizar</li>
-                              <li>Aprobación
+                              <li>Reception</li>
+                              <li>Update</li>
+                              <li>Approvement
                                 <ul>
-                                  <li>Para la solicitud de vacante</li>
-                                  <li>Para la fase de vacante</li>
+                                  <li>For the vacancy application</li>
+                                  <li>For vacancy phase</li>
                                 </ul>
                               </li>
-                              <li>Aplicaciones rechazadas</li>
+                              <li>Rejected applications</li>
                             </ul>
                           </li>
-                          <li>Notificaciones a través de plataforma o correo electrónico</li>
-                          <li>Notificaciones a través de WHATSAPP</li>
-                          <li>Área de apoyo
+                          <li><b>Notifications via platform or email</b></li>
+                          <li><b>Notifications via WHATSAPP</b></li>
+                          <li><b>Support area</b>
                             <ul>
-                              <li>Sección donde los administradores pueden ayudar a los usuarios finales a resolver sus dudas a través del sistema de tickets</li>
+                              <li>Section where the admins can help the end users to solve their doubts through tickets system</li>
                             </ul>
                           </li>
                         </ul>
@@ -157,34 +158,38 @@ function KiacareersEs() {
               </li>
             </ul>
             <hr/>
-              <h5 className="naranja"><span class="lnr lnr-plus-circle"></span> Tecnología</h5>
+              <h5 className="naranja"><span class="lnr lnr-plus-circle"></span> Technology</h5>
             <hr/>
-            <h6><span class="lnr lnr-arrow-right"></span> Cada área funcionará bajo un entorno desarrollado en AWS (AMAZON WEB SERVICES):</h6>
+            <h6><span class="lnr lnr-arrow-right"></span> Each area will work under an environment developed in AWS (AMAZON WEB SERVICES):</h6>
             <ul>
-              <li>Inicio de sesión de seguridad de administrador y usuarios en AWS COGNITO</li>
-              <li>Gestión de bases de datos en AWS DYNAMODB</li>
-              <li>Acceso a los servicios a través de AWS APIGATEWAY</li>
-              <li>Microservicios desarrollados en AWS LAMBDAS</li>
-              <li><b>Seguridad y cifrado de datos de usuario a través de SSL</b></li>
+              <li>Administrator y users security logins in AWS COGNITO</li>
+              <li>Database management in <b>AWS DYNAMODB</b></li>
+              <li>Access to services through <b>AWS APIGATEWAY</b></li>
+              <li>Developed Microservices in <b>AWS LAMBDAS</b></li>
+              <li><b>Security and user data <b>encryption through SSL</b></b></li>
             </ul>
+            <hr/>
+            <div align="center mt-3 mb-3">
+              <img src="/images/kia/server.jpg" className="img-fluid" alt="" alt="" />
+            </div>
             <hr/>
             <div align="center mt-3 mb-3">
               <img src="/images/kia/ssl.jpg" className="img-fluid" alt="" alt="" />
             </div>
             <hr/>
-            <h6><span class="lnr lnr-arrow-right"></span> Estructura de la plataforma:</h6>
+            <h6><span class="lnr lnr-arrow-right"></span> Platform structure:</h6>
             <ul>
               <li>FRONTEND: HTML, CSS3, JAVASCRIPT
                 <ul>
-                  <li>FRAMEWORK REACT</li>
+                  <li>FRAMEWORK <b>ReactJS</b></li>
                 </ul>
               </li>
-              <li>BACKEND: <b>NODEJS</b></li>
+              <li>BACKEND: <b>NodeJS</b></li>
               <li>3 Dictionaries to develop
                 <ul>
                   <li>Main System Dictionary
                     <ul>
-                      <li>Core System interfaces displayed in 3 different languages</li>
+                      <li><b>Core System interfaces displayed in 3 different languages</b></li>
                     </ul>
                   </li>
                   <li>Apply System Dictionary
@@ -233,86 +238,58 @@ function KiacareersEs() {
               </li>
             </ul>
             <hr/>
-            <h3 className="naranja"><span class="lnr lnr-arrow-right"></span> Total 2 months</h3>
+            <h3 className="naranja"><span class="lnr lnr-arrow-right"></span> Human Resources</h3>
             <hr/>
-            <h4><span class="lnr lnr-arrow-right"></span> COST</h4>
+            <p>we’ll need a Development team that will be very strong in Development, Frontend design, Database architect, Service Connection and Artificial Intelligence.</p>
+            <h6><b><span class="lnr lnr-arrow-right"></span> Team experts:</b></h6>
+            <ul>
+              <li><b>1 Frontend Developer</b>
+                <ul>
+                  <li><b>Characteristics:</b>
+                    <ul>
+                      <li>Simple, clean and semantic HTML.</li>
+                      <li>Responsive, flexible, adaptable, component driven, object oriented CSS</li>
+                      <li>modular, concise, well documented JavaScript code. Someone who knows when it's right (and when it's wrong) to use a library</li>
+                      <li>Command line knowledge and the ability to use a version control system like Git</li>
+                      <li>Uses a build script to optimise their images and CSS, and which concatenates & minifies their JavaScript</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <hr/>
+              <li><b>1 Backend Developer</b>
+                <ul>
+                  <li><b>Characteristics:</b>
+                    <ul>
+                      <li>Creating, integrating, and managing databases. Some examples are MySQL, PostgreSQL and MongoDB
+Building server-side software using backend frameworks like NodeJS</li>
+                      <li>Doing cloud computing integration web server technologies</li>
+                      <li>Implements server-side programming languages, like JavaScript, PHP, and Python</li>
+                      <li>Development, deployment, and maintenance of content management systems</li>
+                      <li>Doing API integration and security settings</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><b>2 Digital Managers</b>
+                <ul>
+                  <li><b>Characteristics:</b>
+                    <ul>
+                      <li>Adaptability and Creative Problem-Solving</li>
+                      <li>Leadership Skills</li>
+                      <li>Business Acumen</li>
+                      <li>Communication Skills</li>
+                      <li>Analytic Skills</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1</b></h5>
-            <hr/>
-            <Table striped bordered hover size="sm">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Core System</td>
-                  <td>(Public Website, Apply System, Admin System).</td>
-                  <td className="text-center">$180,000.00</td>
-                  <td className="text-center">$27,000.00</td>
-                  <td className="text-center">$207,000.00</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Dictionaries to support 3 different Languages</td>
-                  <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
-                  <td className="text-center">$35,000.00</td>
-                  <td className="text-center">$5,250.00</td>
-                  <td className="text-center">$40,250.00</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>WhatsApp notification system</td>
-                  <td></td>
-                  <td className="text-center">$10,000.00</td>
-                  <td className="text-center">$1,500.00</td>
-                  <td className="text-center">$11,500.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$225,000.00</b></td>
-                  <td className="text-center">$33,750.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$258,750.00</td>
-                </tr>
-              </tbody>
-            </Table>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
-            <hr/>
-            <Table striped bordered hover size="sm">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Monthly maintenance<br/><b>(per month )</b></td>
-                  <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
-                  <td className="text-center">$27,500.00</td>
-                  <td className="text-center">$4,125.00</td>
-                  <td className="text-center">$31,625.00</td>
-                </tr>
-              </tbody>
-            </Table>
             
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
-            <p>* 8 Weeks</p>
+            <p>* 5 Weeks</p>
             <hr/>
             <table class="table table-striped">
               <thead>
