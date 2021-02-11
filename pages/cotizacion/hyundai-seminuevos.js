@@ -35,7 +35,7 @@ function HyundaiSeminuevos() {
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
             <hr/>
-            <p>The platform will have <b>3 different areas</b>: Public Website, Application Vacancy System and Super Users Administrator System.</p>
+            <p>The platform will have <b>3 different areas</b>: Public Website, Application Dealer System and Super Users Administrator System.</p>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Public Website:</h5>
             <hr/>
