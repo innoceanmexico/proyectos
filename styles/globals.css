@@ -123,6 +123,16 @@ ul.menuLateral li a:hover {
   margin-right: 5px;
 }
 
+/*
+.cotizacion {
+  background: #111;
+}
+
+.cotizacion h2, .cotizacion h3, .cotizacion h5, .cotizacion p, .cotizacion ul li, .cotizacion table {
+  color: #fff;
+  font-weight: 100;
+}
+*/
 @media all and (max-width: 699px) {
   body {
     display: grid;

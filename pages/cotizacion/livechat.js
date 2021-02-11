@@ -82,7 +82,7 @@ function Livechat() {
 
   return (
     <Layout>
-      <Container className="cotizacion">
+      <Container fluid={true} className="cotizacion">
         <Row>
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
