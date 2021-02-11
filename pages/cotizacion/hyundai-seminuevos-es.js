@@ -13,7 +13,7 @@ function KiacareersEs() {
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
               <span>
-                <span style={{ color: '#f0582a' }}>[</span> KIA MOTORS MÉXICO CAREERS <span style={{ color: '#f0582a' }}>]</span>
+                <span style={{ color: '#f0582a' }}>[</span> HYUNDAI DISTRIBUIDORES <span style={{ color: '#f0582a' }}>]</span>
               </span>
             </h2>
             <hr />
@@ -24,8 +24,8 @@ function KiacareersEs() {
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
-            <Link href="/cotizacion/kiacareers/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
-            <Link href="/cotizacion/kiacareers-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/hyundai-seminuevos/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
+            <Link href="/cotizacion/hyundai-seminuevos-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={10}>
             <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>

@@ -16,7 +16,7 @@ function Kiacareers() {
   }
   return (
     <Layout>
-      <Container className="cotizacion">
+      <Container fluid={true} className="cotizacion">
         <Row>
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
@@ -40,8 +40,13 @@ function Kiacareers() {
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
             <p>Develop a <b>digital platform dedicated for the constant communication with the KIA’s end users</b>, with the main goal to help <b>position the company as the best place to work in Mexico</b> and support the hiring process.</p>
             <hr/>
-            <h5><span class="lnr lnr-chevron-right"></span> Document</h5>
+            <h5><span class="lnr lnr-chevron-right"></span> Presentation</h5>
+            <hr/>
             <iframe id="iframepdf" src="/images/kia/web_presentation_careers_TECH.pdf" style={{width: '100%',height: '590px',border:'0'}}></iframe>
+            <hr/>
+            <h5><span class="lnr lnr-chevron-right"></span> Technical Sheet</h5>
+            <hr/>
+            <iframe id="iframepdf" src="/images/kia/Proyecto_KMM_TECHNICAL_SHEET.pdf" style={{width: '100%',height: '590px',border:'0'}}></iframe>
             <hr/>
             <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
             <hr/>

@@ -13,7 +13,7 @@ function HyundaiSeminuevos() {
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
               <span>
-                <span style={{ color: '#f0582a' }}>[</span> HYUNDAI DISTRIBUIDORES <span style={{ color: '#f0582a' }}>]</span>
+                <span style={{ color: '#f0582a' }}>[</span> HYUNDAI DEALERS <span style={{ color: '#f0582a' }}>]</span>
               </span>
             </h2>
             <hr />
