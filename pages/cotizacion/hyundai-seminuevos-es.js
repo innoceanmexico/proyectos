@@ -40,7 +40,7 @@ function KiacareersEs() {
             <h5><span class="lnr lnr-plus-circle"></span> Sitio web público:</h5>
             <hr/>
             <ul>
-              <li><b>Develop a dynamic public website, to keep the end users updated with information about company and their culture, and the option to display the information in different languages (Spanish, English, Korean)</b>
+              <li><b>Desarrollar un sitio web público dinámico, para mantener a los usuarios finales actualizados con información sobre la empresa y su cultura, y la opción de mostrar la información en diferentes idiomas (español, inglés, coreano).</b>
               <hr/>
                 <ul>
                   <li>This website could be embedded into the HYUNDAI main website by an IFRAME or it could live in an external domain (recommended)</li>
