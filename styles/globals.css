@@ -42,8 +42,8 @@ p {
   width: 100%;
   text-align: center;
   padding: 10px;
-  border-top: 1px solid #f2f2f2;
   background:#F05829;
+  box-shadow: 0 0 10px #000;
 }
 
 h5.tagger {
@@ -168,6 +168,12 @@ ul.menuLateral li a:hover {
 .digital .mascara .menu a {
   color: #fff;
   text-align: center;
+  transition: all 1s;
+}
+
+.digital .mascara .menu a:hover {
+  text-decoration: none;
+  background: #F05829;
 }
 
 .digital .mascara .menu a img {

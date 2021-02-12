@@ -10,13 +10,13 @@ import Button from 'react-bootstrap/Button'
 export default function Proyectos() {
   return (
     <Layout>
-      <NavbarPrincipal />
+      {/*<NavbarPrincipal />*/}
       <div className="digital">
         <Container fluid={true} className="p-0 m-0">
           <div className="mascara">
-            <img src="/images/logo-blanco.png" className="mb-5" alt="" title="" />
+            <img src="/images/logo-blanco.png" className="mb-4" alt="" title="" />
             <h2>DIGITAL DEVELOPMENT</h2>
-            <h3>INNOCEAN MÉXICO</h3>
+            <h3>MÉXICO</h3>
             <hr/>
             <div className="menu">
               <Link href="/">
@@ -34,7 +34,7 @@ export default function Proyectos() {
               <Link href="/">
                 <a>
                   <img src="/images/iconos/development.svg" alt="" title="" />
-                  <p>development</p>
+                  <p>profits</p>
                 </a>
               </Link>
               <Link href="/">
@@ -58,7 +58,7 @@ export default function Proyectos() {
               <Link href="/">
                 <a>
                   <img src="/images/iconos/web-development.svg" alt="" title="" />
-                  <p>team</p>
+                  <p>development</p>
                 </a>
               </Link>
             </div>
