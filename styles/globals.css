@@ -43,7 +43,6 @@ p {
   text-align: center;
   padding: 10px;
   background:#F05829;
-  box-shadow: 0 0 10px #000;
 }
 
 h5.tagger {
@@ -185,6 +184,28 @@ ul.menuLateral li a:hover {
   text-align: center;
   text-transform: uppercase;
   font-weight: 100;
+}
+
+a.regreso {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  transition: all 1s;
+  background: #333;
+}
+
+a.regreso:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+a.regreso .lnr {
+  font-size: 2rem;
 }
 
 @media all and (max-width: 699px) {

@@ -19,6 +19,12 @@ export default function Proyectos() {
             <h3>MÉXICO</h3>
             <hr/>
             <div className="menu">
+            <Link href="/digital/development">
+                <a>
+                  <img src="/images/iconos/web-development.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
+                  <p>development</p>
+                </a>
+              </Link>
               <Link href="/">
                 <a>
                   <img src="/images/iconos/coding.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
@@ -55,12 +61,7 @@ export default function Proyectos() {
                   <p>team</p>
                 </a>
               </Link>
-              <Link href="/">
-                <a>
-                  <img src="/images/iconos/web-development.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>development</p>
-                </a>
-              </Link>
+              
             </div>
           </div>
         </Container>
