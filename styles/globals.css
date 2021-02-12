@@ -208,6 +208,31 @@ a.regreso .lnr {
   font-size: 2rem;
 }
 
+.nav-pills .nav-link {
+  border-radius: 0;
+  border:0;
+  background: #222;
+  font-weight: bold;
+  padding: 20px 10px;
+  font-weight: 100;
+}
+
+.nav-pills .nav-link:hover {
+  background: #fff;
+  color: #111;
+}
+
+.nav-pills .nav-link.active {
+  background: #f05829;
+}
+
+.nav-pills .nav-link.active .lnr {
+  position: absolute;
+  right: 10px;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;

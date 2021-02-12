@@ -23,10 +23,10 @@ export default function Development() {
               </Link>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> WORKFLOW</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> AGILE</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
