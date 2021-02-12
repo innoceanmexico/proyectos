@@ -233,6 +233,15 @@ a.regreso .lnr {
   font-weight: bold;
 }
 
+.contenidoTab {
+  padding: 20px;
+}
+
+.contenidoTab h1 {
+  font-weight: 100;
+  color: #444;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;
