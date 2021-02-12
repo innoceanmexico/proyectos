@@ -14,20 +14,20 @@ export default function Proyectos() {
       <div className="digital">
         <Container fluid={true} className="p-0 m-0">
           <div className="mascara">
-            <img src="/images/logo-blanco.png" className="mb-4" alt="" title="" />
+            <img src="/images/logo-blanco.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
             <h2>DIGITAL DEVELOPMENT</h2>
             <h3>MÉXICO</h3>
             <hr/>
             <div className="menu">
               <Link href="/">
                 <a>
-                  <img src="/images/iconos/coding.svg" alt="" title="" />
+                  <img src="/images/iconos/coding.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                   <p>coding</p>
                 </a>
               </Link>
               <Link href="/">
                 <a>
-                  <img src="/images/iconos/cloud-computing.svg" alt="" title="" />
+                  <img src="/images/iconos/cloud-computing.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                   <p>cloud</p>
                 </a>
               </Link>
@@ -45,19 +45,19 @@ export default function Proyectos() {
               </Link>
               <Link href="/">
                 <a>
-                  <img src="/images/iconos/repair.svg" alt="" title="" />
+                  <img src="/images/iconos/repair.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                   <p>testing</p>
                 </a>
               </Link>
               <Link href="/">
                 <a>
-                  <img src="/images/iconos/development-people.svg" alt="" title="" />
+                  <img src="/images/iconos/development-people.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                   <p>team</p>
                 </a>
               </Link>
               <Link href="/">
                 <a>
-                  <img src="/images/iconos/web-development.svg" alt="" title="" />
+                  <img src="/images/iconos/web-development.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                   <p>development</p>
                 </a>
               </Link>
