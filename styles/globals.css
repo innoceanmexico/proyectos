@@ -241,6 +241,9 @@ a.regreso .lnr {
 
 .contenidoTab {
   padding: 20px;
+  padding: 0;
+    height: 100vh;
+    padding: 10px;
 }
 
 .contenidoTab h1 {

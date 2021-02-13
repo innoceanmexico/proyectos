@@ -1,12 +1,11 @@
 import Tab from 'react-bootstrap/Tab'
 
-export default function Panel({laLlave, laImagen, elTitulo, laIntro}) {
+export default function Panel({laLlave, laImagen = "", elTitulo, laIntro}) {
   return (
     <Tab.Pane eventKey={laLlave} style={{background: `url(${laImagen})`}}>
       <div className="contenidoTab mb-5">
-        <h1><span class="lnr lnr-arrow-right"></span> {elTitulo}</h1>
-        <hr />
-        <p className="text-light">{laIntro}</p>
+        <h1><span className="lnr lnr-arrow-right"></span> {elTitulo}</h1>
+        <p className="text-light" style={{ fontWeight: '100'}}><span className="lnr lnr-chevron-right"></span> {laIntro}</p>
         <hr />
         <div className="flow">
           <div align="center">
