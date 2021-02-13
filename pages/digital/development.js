@@ -1,6 +1,7 @@
 import NavbarPrincipal from '../../components/navbarPrincipal'
 import Link from 'next/link'
 import Layout from '../../components/layout'
+import Panel from './panel/panel'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -32,31 +33,19 @@ export default function Development() {
                 <Nav.Item>
                   <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> OBJECTIVES</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="fourth"><span className="lnr lnr-arrow-right"></span> DESIGNING</Nav.Link>
+                </Nav.Item>
               </Nav>
             </Col>
             <Col xs={10} sm={10} md={10} lg={10} className="p-0">
             <Tab.Content>
-              <Tab.Pane eventKey="first">
-                <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> Digital Development workflow</h1>
-                  <hr/>
-                  <p>INNOCEAN Compañia global de comunicación y marketing con 18 operaciones en el mundo y más de 1,700 empleados.</p>
-                  <hr/>
-                  <div className="flow">
-                    <div align="center">
-                    <img src="/images/digital/web-flow.jpg" className="img-fluid" alt="" title="" />
-                    </div>
-                    <hr/>
-                    <p>The web development process can actually vary in terms of manpower. For example for big businesses, there are hundreds of people working together as a team. On the other hand, it is very much possible that a single person can make the whole website on his own too. Certainly, the outcome of both of these categories will be completely different. In the case of the first approach, <b>Agile Methodologies</b> are very helpful. The content management system is also in use during the process to make content changes easily.</p>
-                    <h3>the web development chain of command includes:</h3>
-                    <ul>
-                      <li>a) Server-side scripting</li>
-                      <li>b) Client-side scripting</li>
-                      <li>c) Database technology</li>
-                    </ul>
-                  </div>
-                </div>
-              </Tab.Pane>
+              <Panel 
+                laLlave={"first"} 
+                laImagen={"/images/innocean-edificio.jpg"}
+                elTitulo={"Digital Development workflow"}
+                laIntro={"INNOCEAN Compañia global de comunicación y marketing con 18 operaciones en el mundo y más de 1,700 empleados."}
+              />
               <Tab.Pane eventKey="second">
                 <div className="contenidoTab mb-5">
                   <h1><span class="lnr lnr-arrow-right"></span> PRE-NEGOTIATION</h1>
@@ -77,6 +66,24 @@ export default function Development() {
                   </div>
                   <hr/>
                   <p>Defining the goals and objectives is very important. Because <b>it will tell the developing team what exactly the client is looking forward to</b>. And after that, many new and important decisions get under consideration between clients and developers. Like the final budget, the tools and techniques, the visual styles and the content structure for the audience.<br/><br/><b>Then the project manager just divides the responsibilities between the team members</b>. That thought process at the start of the project is going to save a lot of days in the end. Here the project managers have to decide the methodology they are going to use. <b>Selection of technique is going to play a very integral role in the timing and budget of the process</b>. Therefore, selecting the right one is very important.</p>
+                  <ul>
+                      <li>a) Scrum</li>
+                      <li>b) Extreme programming</li>
+                      <li>c) Trello</li>
+                      <li>d) Base-camp</li>
+                      <li>e) Asana</li>
+                    </ul>
+                </div>
+              </Tab.Pane>
+              <Tab.Pane eventKey="third">
+                <div className="contenidoTab mb-5">
+                  <h1><span class="lnr lnr-arrow-right"></span> DESIGNING AND PRODUCTION</h1>
+                  <hr/>
+                  <div align="center">
+                    <img src="/images/digital/objectives.jpg" className="img-fluid" alt="" title="" style={{maxWidth: '500px'}} />
+                  </div>
+                  <hr/>
+                  <p>Further, in designing phase, the programmer and designer work together. Now the designer either have to draw the draft on paper or make on the computer. After the client likes the draft, the designers start working on the shape, texture, color scheme and all the little details. Actually, they have to make it just right according to the feel of the site.<br/><br/>Finally, the actual website production is happening. The site is going to the engineering part. All the prototypes, the visuals, graphics, elements, all the content is added up to make the actual website.</p>
                   <ul>
                       <li>a) Scrum</li>
                       <li>b) Extreme programming</li>

@@ -222,6 +222,10 @@ a.regreso .lnr {
   color: #111;
 }
 
+.nav-pills .nav-link:hover .lnr {
+  color: #fff;
+}
+
 .nav-pills .nav-link.active {
   background: #f05829;
 }
@@ -241,7 +245,7 @@ a.regreso .lnr {
 
 .contenidoTab h1 {
   font-weight: 100;
-  color: #444;
+  color: #fff;
 }
 
 @media all and (max-width: 699px) {
