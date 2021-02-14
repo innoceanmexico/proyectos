@@ -1,6 +1,5 @@
-import NavbarPrincipal from '../../components/navbarPrincipal'
 import Link from 'next/link'
-import Layout from '../../components/layout'
+import Layout from '../../../components/layout'
 import Panel from './panel/panel'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -25,7 +24,7 @@ export default function Development() {
               </Link>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> WORKFLOW</Nav.Link>
+                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> PLAN DE TRABAJO</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> PRE-NEGOTIATION</Nav.Link>
@@ -42,9 +41,9 @@ export default function Development() {
             <Tab.Content>
               <Panel 
                 laLlave={"first"} 
-                laImagen={"/images/innocean-edificio.jpg"}
-                elTitulo={"Digital Development workflow"}
-                laIntro={"INNOCEAN Compañia global de comunicación y marketing con 18 operaciones en el mundo y más de 1,700 empleados."}
+                laImagen={"/images/hyundai/camion2.jpg"}
+                elTitulo={"Plan de trabajo"}
+                laIntro={"Estamos seguros que podemos ofrecerle el mejor servicio y la mejor relación calidad/precio. A continuación le detallamos algunas de las ventajas de trabajar juntos:"}
               />
               <Tab.Pane eventKey="second">
                 <div className="contenidoTab mb-5">

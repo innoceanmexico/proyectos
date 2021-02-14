@@ -13,46 +13,28 @@ export default function Proyectos() {
             <h3>CAMIONES Y BUSES</h3>
             <hr/>
             <div className="menu">
-              <Link href="/digital/development">
+              <Link href="/hyundai/camiones/development/">
                 <a>
                   <img src="/images/iconos/web-development.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>development</p>
+                  <p>Descripción</p>
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/hyundai/camiones/">
                 <a>
                   <img src="/images/iconos/coding.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>coding</p>
+                  <p>Características</p>
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/hyundai/camiones/">
                 <a>
                   <img src="/images/iconos/cloud-computing.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>cloud</p>
+                  <p>Equipo</p>
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/hyundai/camiones/">
                 <a>
                   <img src="/images/iconos/development.svg" alt="" title="" />
-                  <p>profits</p>
-                </a>
-              </Link>
-              <Link href="/">
-                <a>
-                  <img src="/images/iconos/web.svg" alt="" title="" />
-                  <p>web</p>
-                </a>
-              </Link>
-              <Link href="/">
-                <a>
-                  <img src="/images/iconos/repair.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>testing</p>
-                </a>
-              </Link>
-              <Link href="/">
-                <a>
-                  <img src="/images/iconos/development-people.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>team</p>
+                  <p>plan</p>
                 </a>
               </Link>
               

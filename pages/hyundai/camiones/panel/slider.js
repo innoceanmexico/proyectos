@@ -9,14 +9,15 @@ export default function Slider() {
         <Row>
           <Col>
           <Carousel.Caption>
-            <h3><span class="lnr lnr-chevron-right"></span> WORKFLOW</h3>
+            <h3><span class="lnr lnr-chevron-right"></span> DESARROLLO</h3>
             <hr/>
-            <p>The web development process can actually vary in terms of manpower. For example for big businesses, there are hundreds of people working together as a team. On the other hand, it is very much possible that a single person can make the whole website on his own too. Certainly, the outcome of both of these categories will be completely different. In the case of the first approach, <b>Agile Methodologies</b> are very helpful. The content management system is also in use during the process to make content changes easily.</p>
-            <h3><span class="lnr lnr-chevron-right"></span> The web development chain of command includes:</h3>
+            <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a la plataforma web <b>HYUNDAI CAMIONES Y BUSES</b>. La plataforma tendrá como objetivo principal la interacción de los visitantes/clientes de la plataforma con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
+            <p><b>INNOCEAN DIGITAL DEVELOPMENT MÉXICO</b> nace con el objetivo de crear una empresa que pudiera brindar servicios de calidad a un precio razonable, con soporte real y personalizado en nuestras oficinas por parte de nuestro equipo humano, compuesto por profesionales altamente capacitados (Ingenieros en informática y redes, programadores, diseñadores Graficos y técnicos especializados).</p>
+            <h3><span class="lnr lnr-chevron-right"></span> Las etapas de desarrollo incluyen:</h3>
             <ul className="list-style-none">
-              <li>a) Server-side scripting</li>
-              <li>b) Client-side scripting</li>
-              <li>c) Database technology</li>
+              <li>a) Desarrollo del Backend</li>
+              <li>b) Desarrollo del Frontend</li>
+              <li>c) Desarrollo y Arquitectura de la base de datos</li>
             </ul>
             <hr/>
             <div className="d-flex badges">
