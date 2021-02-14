@@ -9,14 +9,29 @@ export default function Slider() {
         <Row>
           <Col>
           <Carousel.Caption>
-            <h3>WORKFLOW</h3>
+            <h3><span class="lnr lnr-chevron-right"></span> WORKFLOW</h3>
+            <hr/>
             <p>The web development process can actually vary in terms of manpower. For example for big businesses, there are hundreds of people working together as a team. On the other hand, it is very much possible that a single person can make the whole website on his own too. Certainly, the outcome of both of these categories will be completely different. In the case of the first approach, <b>Agile Methodologies</b> are very helpful. The content management system is also in use during the process to make content changes easily.</p>
-            <h3>the web development chain of command includes:</h3>
+            <h3><span class="lnr lnr-chevron-right"></span> The web development chain of command includes:</h3>
             <ul className="list-style-none">
               <li>a) Server-side scripting</li>
               <li>b) Client-side scripting</li>
               <li>c) Database technology</li>
             </ul>
+            <div className="d-flex badges">
+              <div><p>REQUIREMENT ANALISYS</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>REQUIREMENTS DEFINATION</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>PLANNING & APPROVAL</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>DATABASE DESIGN AND IMPLEMENTATION</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>BACKEND INTEGRATION</p><span class="lnr lnr-arrow-right"></span></div>
+            </div>
+            <div className="d-flex badges">
+              <div><p>SECURITY INTEGRATION</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>DEVELOPMENT AND IMPLEMENTATION</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>QUALITY TESTING</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>APPLICATION DEPLOYMENT</p><span class="lnr lnr-arrow-right"></span></div>
+              <div><p>SUPPORT AND GUIDANCE</p><span class="lnr lnr-arrow-right"></span></div>
+            </div>
             {/* 
             <img
               className="d-block w-100"
