@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <Layout>
-      <div className="container">
+      <div className="container entrada">
         <main className={styles.main}>
           <Link href="/proyectos">
             <h1 className={styles.title}>

@@ -123,7 +123,7 @@ ul.menuLateral li a:hover {
 }
 
 .digital {
-  background: url('/images/innocean-edificio-mexico.jpg') no-repeat center center fixed; 
+  background: url('/images/innocean-edificio.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -132,6 +132,19 @@ ul.menuLateral li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container.entrada {
+  background: url(/images/innocean-edificio.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 
 .digital .mascara {
