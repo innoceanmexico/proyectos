@@ -43,6 +43,7 @@ p {
   text-align: center;
   padding: 10px;
   background:#F05829;
+  z-index: 10000;
 }
 
 h5.tagger {

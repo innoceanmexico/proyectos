@@ -20,20 +20,25 @@ export default function Slider() {
               <li>c) Desarrollo y Arquitectura de la base de datos</li>
             </ul>
             <hr/>
-            <div className="d-flex badges">
-              <div><p>REQUIREMENT ANALISYS</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>REQUIREMENTS DEFINATION</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>PLANNING & APPROVAL</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>DATABASE DESIGN AND IMPLEMENTATION</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>BACKEND INTEGRATION</p><span class="lnr lnr-arrow-right"></span></div>
-            </div>
-            <div className="d-flex badges">
-              <div><p>SECURITY INTEGRATION</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>DEVELOPMENT AND IMPLEMENTATION</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>QUALITY TESTING</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>APPLICATION DEPLOYMENT</p><span class="lnr lnr-arrow-right"></span></div>
-              <div><p>SUPPORT AND GUIDANCE</p><span class="lnr lnr-arrow-right"></span></div>
-            </div>
+            <ul>
+              <li>Para la realización del mismo, estableceremos el siguiente cronograma de trabajo: Contrato.
+                <ul>
+                  <li>Inversión del 50%.</li>
+                  <li>Análisis de sus competencias.</li>
+                  <li>Desarrollo del análisis funcional.</li>
+                  <li>Entrega de información por cliente: textos, imágenes, vídeos, palabras claves, frases de búsqueda, etc. Esta información sera solicitada por medio de un documento ejemplo.</li>
+                </ul>
+              </li>
+              <li>Inversión del 50%.</li>
+              <li>Diseño de propuestas ( 2 a 3 días ).</li>
+              <li>Cambios y correcciones del diseño. ( 3 a 5 días ).</li>
+              <li>Aceptación del diseño.</li>
+              <li>Programación y diseño html/css/Javascript,etc.( 1 a 2 semanas ).</li>
+              <li>Edición de contenidos Web: Desarrollo on-line durante el proceso, Test de usabilidad web, optimización de buscadores ( opcional ).</li>
+              <li>Revisión final y entrega.</li>
+              <li>Capatización y orientación para la administración de su sitio ( este punto se aplica solo cuando el sitio web es autoadministrable ). ( 4 a 6 horas ).</li>
+              <li>Pago final.</li>
+            </ul>
             {/* 
             <img
               className="d-block w-100"
