@@ -123,7 +123,7 @@ ul.menuLateral li a:hover {
 }
 
 .digital {
-  background: url('/images/innocean-edificio.jpg') no-repeat center center fixed; 
+  background: url('/images/innocean-edificio-mexico.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -249,6 +249,18 @@ a.regreso .lnr {
 .contenidoTab h1 {
   font-weight: 100;
   color: #fff;
+}
+
+.development {
+  background: url('/images/innocean-edificio-mexico.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media all and (max-width: 699px) {

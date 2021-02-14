@@ -16,7 +16,7 @@ export default function Development() {
       <div>
         <Container fluid={true} className="p-0 m-0 development">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-          <Row className="p-0 m-0" style={{ height: '100vh' }}>
+          <Row className="p-0 m-0" style={{ height: '100vh', width: '100%' }}>
             <Col className="p-0 m-0" xs={2} sm={2} md={2} lg={2} className="p-0" style={{ background: "#111" }}>
               <Link href="/digital">
                 <a className="regreso">
