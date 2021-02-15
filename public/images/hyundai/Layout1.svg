@@ -1,0 +1,82 @@
+<svg id="Header_1" data-name="Header 1" xmlns="http://www.w3.org/2000/svg" width="1280" height="768" viewBox="0 0 1280 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #777;
+      }
+
+      .cls-2, .cls-3 {
+        fill-opacity: 0;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #777;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        fill: #959595;
+      }
+
+      .cls-5 {
+        fill: #585858;
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        font-size: 38px;
+        font-weight: 300;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #222;
+      }
+
+      .cls-6, .cls-9 {
+        text-anchor: middle;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: "Titillium Web";
+      }
+
+      .cls-8 {
+        font-size: 16px;
+      }
+
+      .cls-8, .cls-9 {
+        text-transform: uppercase;
+      }
+
+      .cls-9 {
+        font-size: 16.517px;
+        font-family: TitilliumWeb;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <rect id="Bg_img" class="cls-1" width="1280" height="768"/>
+  <g id="Navigation">
+    <circle id="Ellipse" class="cls-2" cx="668.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-2" data-name="Ellipse" class="cls-3" cx="649.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-3" data-name="Ellipse" class="cls-2" cx="686.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse_Active" class="cls-4" cx="630.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-4" data-name="Ellipse" class="cls-2" cx="612.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-5" data-name="Ellipse" class="cls-2" cx="593.5" cy="721.5" r="5.5"/>
+  </g>
+  <g id="Arrows">
+    <path id="Arrow_R" class="cls-5" d="M737.867,671l-4.733-4.57a1.13,1.13,0,0,1,0-1.647l0.431-.411a1.256,1.256,0,0,1,1.723,0l5.569,5.37a0.243,0.243,0,0,1,.029.019l0.431,0.412a1.139,1.139,0,0,1,0,1.654l-0.431.413c-0.008.008-.02,0.009-0.029,0.019l-5.569,5.326a1.258,1.258,0,0,1-1.723,0l-0.431-.411a1.132,1.132,0,0,1,0-1.649Z" transform="translate(-80 -184)"/>
+    <path id="Arrow__L" data-name="Arrow_ L" class="cls-5" d="M701.86,671.016l4.783-4.6a1.135,1.135,0,0,0,0-1.658l-0.436-.415a1.277,1.277,0,0,0-1.741,0l-5.628,5.407a0.3,0.3,0,0,0-.029.02l-0.435.414a1.146,1.146,0,0,0,0,1.666l0.435,0.415a0.29,0.29,0,0,1,.029.019l5.628,5.362a1.273,1.273,0,0,0,1.741,0l0.436-.414a1.136,1.136,0,0,0,0-1.659Z" transform="translate(-80 -184)"/>
+  </g>
+  <text id="Fusce_dapibus_tellus_ac_cursus_commodo._Duis_mollis_est_non_co" data-name="Fusce dapibus tellus ac cursus commodo.  Duis mollis est non co" class="cls-6" x="651.5" y="378.875">Fusce dapibus tellus ac cursus commodo. <tspan x="651.5" dy="45.6">Duis mollis est non commodo luctus, nisi erat porttitor.</tspan></text>
+  <g id="Top_menu" data-name="Top menu">
+    <rect id="Line" class="cls-7" x="686" y="54" width="56" height="3"/>
+    <text id="Home_About_WORK_SERVICES_" data-name="Home           About           WORK           SERVICES         " class="cls-8" x="574.156" y="46.508">Home           About           WORK           SERVICES           Blog           Contact</text>
+    <text id="LOGO" class="cls-9" transform="translate(84.559 52.231) scale(1.937)">LOGO</text>
+  </g>
+</svg>

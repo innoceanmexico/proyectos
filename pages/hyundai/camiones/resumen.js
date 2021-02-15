@@ -41,6 +41,9 @@ export default function Resumen() {
                     <Nav.Link eventKey="fifth"><span className="lnr lnr-arrow-right"></span> BACKEND</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
+                    <Nav.Link eventKey="tenth"><span className="lnr lnr-arrow-right"></span> FRONTEND</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
                     <Nav.Link eventKey="sixth"><span className="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
@@ -412,6 +415,26 @@ export default function Resumen() {
                       <Col>
                         <div align="center">
                           <img src="/images/hyundai/equipo.svg" className="img-fluid" alt="" title="" />
+                        </div>
+                      </Col>
+                    </Row>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="tenth" className="pb-5">
+                    <Row>
+                      <Col xs={10}>
+                        <h1><span class="lnr lnr-arrow-right"></span> LAYOUT - DISEÑO DE FRONTEND</h1>
+                        <hr />
+                      </Col>
+                      <Col>
+                        <div align="center">
+                          <img src="/images/hyundai/hyundai-camiones-logo.png" className="img-fluid" alt="" title="" />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <div align="center">
+                          <img src="/images/hyundai/layout1.svg" className="img-fluid" alt="" title="" />
                         </div>
                       </Col>
                     </Row>
