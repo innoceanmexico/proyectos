@@ -229,10 +229,16 @@ export default function Resumen() {
                     </Row>
                     <Row>
                       <Col>
+                        <div align="center">
+                          <img src="/images/hyundai/node-arch.svg" className="img-fluid" alt="" title="" />
+                        </div>
+                        <hr/>
                         <h2><span className="lnr lnr-chevron-right"></span> ESTRUCTURA DE PROYECTO</h2>
                         <p>La correcta organización de la estructura de tu proyecto node.js evitará la duplicación de código, mejorará la estabilidad y, potencialmente, ayudará a escalar los servicios si se hace correctamente.</p>
+                        <hr/>
                         <h2><span className="lnr lnr-chevron-right"></span> Arquitectura de 3 capas</h2>
                         <p>La idea es utilizar el **principio de separación de conceptos** para alejar la lógica empresarial de las Rutas API de node.js.</p>
+                        <hr/>
                         <h2><span className="lnr lnr-chevron-right"></span> Capa de Servicios</h2>
                         <p>Es sólo una colección de clases con propósitos claros, siguiendo los principios SOLID aplicados a node.js.</p>
                       </Col>

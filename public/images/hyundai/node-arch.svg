@@ -1,0 +1,80 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496.53 190.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f15a24;
+      }
+
+      .cls-2 {
+        fill: #c1272d;
+      }
+
+      .cls-3 {
+        fill: #662d91;
+      }
+
+      .cls-4 {
+        fill: #2e3192;
+      }
+
+      .cls-10, .cls-5 {
+        font-size: 12px;
+        font-family: Montserrat;
+      }
+
+      .cls-5 {
+        fill: #f2f2f2;
+      }
+
+      .cls-6 {
+        fill: #42210b;
+      }
+
+      .cls-7 {
+        fill: #603813;
+      }
+
+      .cls-8 {
+        fill: #8c6239;
+      }
+
+      .cls-9 {
+        fill: #c7b299;
+      }
+
+      .cls-11 {
+        fill: #006837;
+      }
+
+      .cls-12 {
+        fill: #8cc63f;
+      }
+
+      .cls-13 {
+        fill: #fbb03b;
+      }
+    </style>
+  </defs>
+  <title>node-arch</title>
+  <rect class="cls-1" width="181.51" height="190.22"/>
+  <rect class="cls-2" x="18.71" y="19.61" width="144.08" height="151"/>
+  <rect class="cls-3" x="36.53" y="38.29" width="108.44" height="113.65"/>
+  <rect class="cls-4" x="56.76" y="59.49" width="67.99" height="71.25"/>
+  <text class="cls-5" transform="translate(60.09 99.22)">W<tspan x="14.29" y="0">EB A</tspan><tspan x="44.92" y="0">P</tspan><tspan x="53.71" y="0">P</tspan></text>
+  <text class="cls-5" transform="translate(43.64 145.78)">RE<tspan x="17.02" y="0">A</tspan><tspan x="26.57" y="0">C</tspan><tspan x="35.44" y="0">T</tspan><tspan x="42.86" y="0">.</tspan><tspan x="47.11" y="0">JS</tspan></text>
+  <text class="cls-5" transform="translate(26.42 166.22)">N<tspan x="9.65" y="0">A</tspan><tspan x="18.84" y="0">V</tspan><tspan x="28.09" y="0">EGADOR</tspan></text>
+  <text class="cls-5" transform="translate(7.2 185.78)">CLIENTE/US<tspan x="76.75" y="0">U</tspan><tspan x="85.98" y="0">ARIO</tspan></text>
+  <rect class="cls-6" x="207.78" y="0.56" width="181.51" height="190.22"/>
+  <rect class="cls-7" x="226.49" y="20.17" width="144.08" height="151"/>
+  <rect class="cls-8" x="243.46" y="38.84" width="110.85" height="113.65"/>
+  <text class="cls-5" transform="translate(234.2 166.78)">NOD<tspan x="29.74" y="0">E</tspan><tspan x="37.93" y="0">.</tspan><tspan x="42.18" y="0">JS</tspan></text>
+  <text class="cls-5" transform="translate(214.98 186.33)">B<tspan x="9.28" y="0">A</tspan><tspan x="18.83" y="0">CKEN</tspan><tspan x="54.66" y="0">D/</tspan><tspan x="69.37" y="0">SER</tspan><tspan x="94.27" y="0">V</tspan><tspan x="103.52" y="0">IDOR</tspan></text>
+  <rect class="cls-9" x="243.64" y="38.84" width="70.67" height="72.38"/>
+  <text class="cls-10" transform="translate(267.2 80.56)">A<tspan x="9.67" y="0">P</tspan><tspan x="18.47" y="0">I</tspan></text>
+  <text class="cls-10" transform="translate(250.2 137.78)">E<tspan x="8.02" y="0">X</tspan><tspan x="16.92" y="0">P</tspan><tspan x="25.72" y="0">RESS</tspan></text>
+  <text class="cls-10" transform="translate(328.97 58.49) rotate(90)">DRI<tspan x="23.05" y="0">V</tspan><tspan x="32.3" y="0">ER DB</tspan></text>
+  <rect class="cls-11" x="423.2" y="63.22" width="73.33" height="73.33"/>
+  <text class="cls-5" transform="translate(443.85 90.44)">BASE<tspan x="8.46" y="14.4">DE</tspan><tspan x="-4.96" y="28.8">D</tspan><tspan x="4.83" y="28.8">A</tspan><tspan x="14.08" y="28.8">T</tspan><tspan x="21.81" y="28.8">OS</tspan></text>
+  <path class="cls-12" d="M362.89,108.36l0.2-.28c0.13-.18.33-0.48,0.58-0.8,0.51-.64,1.25-1.7,2.19-2.77l1.57-1.85c0.57-.68,1.19-1.3,1.84-2l2.1-2.14a0.89,0.89,0,0,1,.56-0.32,1.42,1.42,0,0,1,.57.16,3,3,0,0,0,1.18.12l23.68,0.07L421,98.6a3.58,3.58,0,0,0,1.19-.09,1.08,1.08,0,0,1,.57-0.14,1.1,1.1,0,0,1,.56.4c0.73,0.76,1.43,1.46,2.08,2.16,1.31,1.38,2.45,2.75,3.39,3.85s1.68,2.09,2.18,2.72c0.25,0.31.44,0.6,0.57,0.77l0.2,0.27-0.2.27c-0.13.17-.33,0.46-0.58,0.77-0.51.62-1.25,1.65-2.19,2.7s-2.09,2.46-3.41,3.83c-0.66.7-1.36,1.39-2.1,2.15a1.1,1.1,0,0,1-.56.4,1.08,1.08,0,0,1-.57-0.15,3.58,3.58,0,0,0-1.18-.09l-23.68-.07-23.68-.07a3,3,0,0,0-1.19.11,1.42,1.42,0,0,1-.57.16,0.89,0.89,0,0,1-.56-0.32l-2.08-2.15c-0.65-.73-1.27-1.36-1.83-2l-1.55-1.86c-0.94-1.07-1.68-2.14-2.18-2.78-0.25-.32-0.44-0.62-0.57-0.8Z" transform="translate(-8.58 -8)"/>
+  <path class="cls-13" d="M133.33,107.87l0.34-.28c0.22-.18.55-0.48,1-0.8,0.86-.64,2.13-1.68,3.74-2.8s3.56-2.44,5.81-3.84L147.76,98a2,2,0,0,1,1-.32,3.82,3.82,0,0,1,1,.16,8.5,8.5,0,0,0,2,.12l40.41,0.08,40.41,0.08a10.32,10.32,0,0,0,2-.08,2.92,2.92,0,0,1,1-.14,2.2,2.2,0,0,1,1,.4c1.25,0.76,2.44,1.46,3.56,2.16,2.24,1.41,4.18,2.7,5.79,3.83s2.87,2.11,3.73,2.74c0.43,0.31.76,0.6,1,.77l0.34,0.27-0.34.27c-0.22.17-.55,0.46-1,0.77-0.86.63-2.13,1.63-3.74,2.73s-3.56,2.41-5.81,3.81c-1.12.7-2.31,1.39-3.57,2.15a2.2,2.2,0,0,1-1,.4,2.92,2.92,0,0,1-1-.15,10.32,10.32,0,0,0-2-.09l-40.41-.08-40.41-.08a8.5,8.5,0,0,0-2,.11,3.82,3.82,0,0,1-1,.16,2,2,0,0,1-1-.32l-3.56-2.15c-2.24-1.41-4.18-2.71-5.79-3.87s-2.87-2.16-3.73-2.81c-0.43-.32-0.76-0.62-1-0.8Z" transform="translate(-8.58 -8)"/>
+</svg>
