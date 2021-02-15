@@ -37,6 +37,12 @@ export default function Resumen() {
                 <Nav.Item>
                   <Nav.Link eventKey="fifth"><span className="lnr lnr-arrow-right"></span> BACKEND</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="sixth"><span className="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="seventh"><span className="lnr lnr-arrow-right"></span> COSTOS</Nav.Link>
+                </Nav.Item>
               </Nav>
             </Col>
             <Col xs={10} sm={10} md={10} lg={10} className="p-0" style={{
@@ -165,7 +171,6 @@ export default function Resumen() {
                       <hr/>
                     </Col>
                   </Row>
-                  
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth" className="pb-5">
                   <Row>
@@ -180,13 +185,25 @@ export default function Resumen() {
                     </Col>
                   </Row>
                   <Row>
-                    <Col>
+                    <Col xs={9}>
                     <div align="center">
                       <img src="/images/hyundai/mapa.svg" className="img-fluid" alt="" title="" />
                     </div>
                     </Col>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/hyundai/web.jpg" className="img-fluid" alt="" title="" />
+                    </div>
+                    <hr/>
+                    <div align="center">
+                      <img src="/images/hyundai/web1.jpg" className="img-fluid" alt="" title="" />
+                    </div>
+                    <hr/>
+                    <div align="center">
+                      <img src="/images/hyundai/web2.jpg" className="img-fluid" alt="" title="" />
+                    </div>
+                    </Col>
                   </Row>
-                  
                 </Tab.Pane>
                 <Tab.Pane eventKey="fifth" className="pb-5">
                   <Row>
@@ -204,6 +221,123 @@ export default function Resumen() {
                     <Col>
                     <div align="center">
                       <img src="/images/hyundai/flow-backend.svg" className="img-fluid" alt="" title="" />
+                    </div>
+                    </Col>
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="sixth" className="pb-5">
+                  <Row>
+                    <Col xs={10}>
+                    <h1><span class="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</h1>
+                    <hr/>
+                    </Col>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/hyundai/hyundai-camiones-logo.png" className="img-fluid" alt="" title="" />
+                    </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Plan estimado de trabajo</h5>
+            <p>* 6 Semanas</p>
+            <hr/>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">*Actividades</th>
+                  <th scope="col" colSpan="4">Febrero</th>
+                  <th scope="col" colSpan="4">Marzo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Diseño de Frontend</th>
+                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Backend / Infraestructura e implementación</th>
+                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Creación e integración de Servicios WEB y API's</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Desarrollo de CMS</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Integración con CRM</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ajustes y Tests finales</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                </tr>
+              </tbody>
+            </table>
+                    </Col>
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="seventh" className="pb-5">
+                  <Row>
+                    <Col xs={10}>
+                    <h1><span class="lnr lnr-arrow-right"></span> COSTOS POR DESARROLLO</h1>
+                    <hr/>
+                    </Col>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/hyundai/hyundai-camiones-logo.png" className="img-fluid" alt="" title="" />
+                    </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/hyundai/tabla-costos.svg" className="img-fluid" alt="" title="" />
                     </div>
                     </Col>
                   </Row>
