@@ -16,6 +16,9 @@ export default function Resumen() {
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row className="p-0 m-0" style={{ height: '100vh', width: '100%' }}>
             <Col className="p-0 m-0" xs={2} sm={2} md={2} lg={2} className="p-0" style={{ background: "#111" }}>
+              <div align="center" className="p-3">
+                <img src="/images/logo-blanco.png" alt="innocean méxico" />
+              </div>
               <Link href="/hyundai/camiones/">
                 <a className="regreso">
                   <span class="lnr lnr-chevron-left"></span>
