@@ -107,8 +107,8 @@ export default function Resumen() {
                     </Row>
                     <Row>
                       <Col>
-                        <p>Con los avances en materia de desarrollo, es claro que todo se está dirigiendo a aplicaciones en dispositivos móviles y aplicaciones web. El desarrollo propuesto es una solución para el tipo de software en donde es necesario acceder desde cualquier lugar, a cualquier hora y desde cualquier dispositivo. Todo esto gracias a que la mayoría de los procesos que ahora se llevan en algunas empresas ya se hacen en la nube y se requiere que la información sea asequible en tiempo real.</p>
-                        <p>También existen diversos lenguajes de programación para el entorno web, como Python, php, asp, JavaScript, css, sin olvidar el HTML, entre muchos otros. Pero para el desarrollo de esta aplicación se trabajará con los lenguajes php, HTML, JavaScript y un framework basado en Bootstrap 4 llamado MDB.</p>
+                        <p>Con los avances en materia de desarrollo, es claro que todo se está dirigiendo a aplicaciones en dispositivos móviles y aplicaciones web. <b>El desarrollo propuesto es una solución para el tipo de software en donde es posible acceder desde cualquier lugar, a cualquier hora y desde cualquier dispositivo</b>. Todo esto gracias a que la mayoría de los procesos que ahora se llevan en algunas empresas ya se hacen en la nube y se requiere que la información sea asequible en tiempo real.</p>
+                        <p>También existen diversos lenguajes de programación para el entorno web, como Python, php, asp, JavaScript, css, sin olvidar el HTML, entre muchos otros. Pero para <b>el desarrollo de esta aplicación se trabajará con los lenguajes php, HTML, JavaScript y un framework basado en Bootstrap 4 llamado MDB</b>.</p>
                         <hr />
                         <h2>Backend técnico:</h2>
                         <hr />
@@ -148,7 +148,15 @@ export default function Resumen() {
                     </Row>
                     <Row>
                       <Col>
-                        <h1><b>FRONTEND</b></h1>
+                        <div align="center">
+                          <img src="/images/hyundai/mern.svg" className="img-fluid" alt="" title="" />
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <hr/>
+                        <h1><b><span className="lnr lnr-chevron-right"></span> FRONTEND</b></h1>
                         <hr />
                         <h1>HTML</h1>
                         <p>Es el lenguaje madre y básico de todos los sitios web. Su función principal es dar formato, especialmente a los textos que forman parte de un documento web, todo esto basado en un conjunto de etiquetas con funciones específicas. No tiene la capacidad de interactuar con variables como lo hace un lenguaje de programación.</p>
@@ -164,8 +172,8 @@ export default function Resumen() {
                         <hr />
                       </Col>
                       <Col>
-
-                        <h1><b>BACKEND</b></h1>
+                        <hr/>
+                        <h1><b><span className="lnr lnr-chevron-right"></span> BACKEND</b></h1>
                         <hr />
                         <h1>NodeJS</h1>
                         <p>Utiliza un modelo de entrada y salida sin bloqueo controlado por eventos que lo hace ligero y eficiente (con entrada nos referimos a solicitudes y con salida a respuestas). Puede referirse a cualquier operación, desde leer o escribir archivos de cualquier tipo hasta hacer una solicitud HTTP. </p>
