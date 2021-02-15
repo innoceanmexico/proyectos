@@ -44,6 +44,9 @@ export default function Resumen() {
                   <Nav.Link eventKey="eigth"><span className="lnr lnr-arrow-right"></span> FASES</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
+                  <Nav.Link eventKey="ninth"><span className="lnr lnr-arrow-right"></span> EQUIPO</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
                   <Nav.Link eventKey="seventh"><span className="lnr lnr-arrow-right"></span> COSTOS</Nav.Link>
                 </Nav.Item>
               </Nav>
@@ -361,6 +364,26 @@ export default function Resumen() {
                     <Col>
                     <div align="center">
                       <img src="/images/hyundai/flow-desarrollo.svg" className="img-fluid" alt="" title="" />
+                    </div>
+                    </Col>
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="ninth" className="pb-5">
+                  <Row>
+                    <Col xs={10}>
+                    <h1><span class="lnr lnr-arrow-right"></span> EQUIPO DE DESARROLLO</h1>
+                    <hr/>
+                    </Col>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/hyundai/hyundai-camiones-logo.png" className="img-fluid" alt="" title="" />
+                    </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/hyundai/equipo.svg" className="img-fluid" alt="" title="" />
                     </div>
                     </Col>
                   </Row>
