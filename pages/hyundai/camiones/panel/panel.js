@@ -6,8 +6,10 @@ export default function Panel({laLlave, laImagen = "", elTitulo, laIntro}) {
     <Tab.Pane eventKey={laLlave} style={
       {
         background: `url(${laImagen})`,
+        position: 'fixed',
         backgroundSize: 'cover',
-        height: '100vh'
+        height: '100vh',
+        overflow: 'auto'
       }
     }>
       <div className="contenidoTab mb-5">

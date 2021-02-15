@@ -27,7 +27,7 @@ export default function Development() {
                   <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> PLAN DE TRABAJO</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> PRE-NEGOTIATION</Nav.Link>
+                  <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> OBJECTIVES</Nav.Link>
@@ -45,15 +45,23 @@ export default function Development() {
                 elTitulo={"Plan de trabajo"}
                 laIntro={"Estamos seguros que podemos ofrecerle el mejor servicio y la mejor relación calidad/precio. A continuación le detallamos algunas de las ventajas de trabajar juntos:"}
               />
-              <Tab.Pane eventKey="second">
-                <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> PRE-NEGOTIATION</h1>
+              <Tab.Pane eventKey="second" style={
+                {
+                  background: `url("/images/hyundai/camion2.jpg")`,
+                  position: 'fixed',
+                  backgroundSize: 'cover',
+                  height: '100vh',
+                  overflow: 'auto'
+                }
+              }>
+                <div className="contenidoTab mb-5" style={{background: 'rgba(0,0,0,0.8', padding: '20px'}}>
+                  <h1><span class="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</h1>
                   <hr/>
                   <div align="center">
                     <img src="/images/digital/pre-neg.png" className="img-fluid" alt="" title="" />
                   </div>
                   <hr/>
-                  <p>Firstly, the main thing to take care of is to <b>get all the ideas on the table</b>. It is the <b>initial meeting between INNOCEAN and the client</b>. The client needs to make <b>everything clear about his expectations, his demands, his rough ideas or everything he has in his mind</b>. And the client has to think about the best strategy, which will benefit him, the most.<br/><br/>After that, <b>the team will send him the proposal which will have all the technology, budget, and the time frame updates</b>. If that is what you are looking for, then you have to sign the proposal. And they will let you know the starting date along with the expected finishing date. Finally, <b>good developers will take the client with them in every process</b>. And make them aware of the working process, tools, roles, and responsibilities to help them have a clear image.</p>
+                  <p className="text-white">Firstly, the main thing to take care of is to <b>get all the ideas on the table</b>. It is the <b>initial meeting between INNOCEAN and the client</b>. The client needs to make <b>everything clear about his expectations, his demands, his rough ideas or everything he has in his mind</b>. And the client has to think about the best strategy, which will benefit him, the most.<br/><br/>After that, <b>the team will send him the proposal which will have all the technology, budget, and the time frame updates</b>. If that is what you are looking for, then you have to sign the proposal. And they will let you know the starting date along with the expected finishing date. Finally, <b>good developers will take the client with them in every process</b>. And make them aware of the working process, tools, roles, and responsibilities to help them have a clear image.</p>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
