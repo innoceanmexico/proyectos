@@ -6,8 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -368,6 +367,19 @@ a.regreso .lnr {
 
 .digital.hcamiones .mascara {
   background: rgba(0,0,0,0.8);
+}
+
+.development.hyundai {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.development.hyundai h1 {
+  font-weight: 100;
 }
 
 @media all and (max-width: 699px) {

@@ -13,13 +13,14 @@ export default function Proyectos() {
             <h3>CAMIONES Y BUSES</h3>
             <hr/>
             <div className="menu">
-              <Link href="/hyundai/camiones/development/">
+              <Link href="/hyundai/camiones/resumen/">
                 <a>
                   <img src="/images/iconos/web-development.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>Descripción</p>
+                  <p>PROYECTO</p>
                 </a>
               </Link>
-              <Link href="/hyundai/camiones/">
+              {/* 
+              <Link href="/hyundai/camiones/development/">
                 <a>
                   <img src="/images/iconos/coding.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                   <p>Características</p>
@@ -37,7 +38,7 @@ export default function Proyectos() {
                   <p>plan</p>
                 </a>
               </Link>
-              
+              */}
             </div>
           </div>
         </Container>

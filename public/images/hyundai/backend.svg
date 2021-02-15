@@ -1,0 +1,43 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 483.99 384.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f05829;
+      }
+
+      .cls-2 {
+        fill: #1a1a1a;
+      }
+
+      .cls-3 {
+        font-size: 20.24px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #f2f2f2;
+        font-family: Montserrat;
+      }
+
+      .cls-4 {
+        fill: #7f2e18;
+      }
+
+      .cls-5 {
+        font-size: 11px;
+      }
+    </style>
+  </defs>
+  <title>backend</title>
+  <circle class="cls-1" cx="102.96" cy="113.47" r="97.18" transform="translate(-55.86 89.75) rotate(-45)"/>
+  <polygon class="cls-2" points="152.93 180.78 181.64 180.78 152.93 209.49 152.93 180.78"/>
+  <text class="cls-3" transform="translate(18.94 89.12)">SITIO <tspan x="58.58" y="0">W</tspan><tspan x="80.77" y="0">EB DEL </tspan><tspan x="1.93" y="24.29">DI</tspan><tspan x="24.77" y="24.29">S</tspan><tspan x="37.01" y="24.29">TRIBUIDOR</tspan></text>
+  <circle class="cls-1" cx="245.12" cy="284.95" r="97.18" transform="translate(-135.47 240.5) rotate(-45)"/>
+  <text class="cls-3" transform="translate(215.42 260.61)">A<tspan x="13.79" y="0">W</tspan><tspan x="35.97" y="0">S</tspan><tspan x="-26.35" y="24.29">SER</tspan><tspan x="14.28" y="24.29">V</tspan><tspan x="28.11" y="24.29">ICES</tspan></text>
+  <circle class="cls-1" cx="392.59" cy="113.72" r="97.18" transform="translate(28.79 294.62) rotate(-45)"/>
+  <polygon class="cls-2" points="299.64 182.77 328.35 182.77 328.35 211.48 299.64 182.77"/>
+  <text class="cls-3" transform="translate(300.18 89.66)">SITIO <tspan x="58.58" y="0">W</tspan><tspan x="80.77" y="0">EB DE </tspan><tspan x="150.44" y="0">L</tspan><tspan x="162.4" y="0">A </tspan><tspan x="49.87" y="24.29">MAR</tspan><tspan x="98.35" y="24.29">C</tspan><tspan x="112.54" y="24.29">A</tspan></text>
+  <circle class="cls-4" cx="319.04" cy="362.1" r="37.77" transform="translate(-168.38 315.37) rotate(-45)"/>
+  <text class="cls-5" transform="translate(288.56 345.01)">BASE DE <tspan x="5.48" y="13.2">D</tspan><tspan x="14.45" y="13.2">A</tspan><tspan x="21.96" y="13.2">T</tspan><tspan x="28.16" y="13.2">OS</tspan></text>
+  <circle class="cls-4" cx="178.54" cy="362.54" r="37.77" transform="translate(-209.84 216.14) rotate(-45)"/>
+  <text class="cls-5" transform="translate(137.52 345.45)">ANÁLISIS DE <tspan x="16.01" y="13.2">D</tspan><tspan x="24.99" y="13.2">A</tspan><tspan x="32.49" y="13.2">T</tspan><tspan x="38.69" y="13.2">OS</tspan></text>
+</svg>

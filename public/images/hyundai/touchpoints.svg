@@ -1,0 +1,28 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930.22 263.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f05829;
+      }
+
+      .cls-2 {
+        font-size: 20.24px;
+        fill: #f2f2f2;
+        font-family: Montserrat;
+      }
+
+      .cls-3 {
+        fill: #1a1a1a;
+      }
+    </style>
+  </defs>
+  <title>touchpoints</title>
+  <circle class="cls-1" cx="131.77" cy="131.77" r="131.77"/>
+  <text class="cls-2" transform="translate(53.24 121.47)">SITIO <tspan x="58.58" y="0">W</tspan><tspan x="80.77" y="0">EB DEL </tspan><tspan x="1.93" y="24.29">DI</tspan><tspan x="24.77" y="24.29">S</tspan><tspan x="37.01" y="24.29">TRIBUIDOR</tspan></text>
+  <circle class="cls-1" cx="461.93" cy="131.77" r="131.77"/>
+  <text class="cls-2" transform="translate(373.47 121.47)">SITIO <tspan x="58.58" y="0">W</tspan><tspan x="80.77" y="0">EB DE </tspan><tspan x="150.44" y="0">L</tspan><tspan x="162.4" y="0">A </tspan><tspan x="49.87" y="24.29">MAR</tspan><tspan x="98.35" y="24.29">C</tspan><tspan x="112.54" y="24.29">A</tspan></text>
+  <circle class="cls-1" cx="798.45" cy="131.77" r="131.77"/>
+  <text class="cls-2" transform="translate(685.32 110.31)">ADMINI<tspan x="79.25" y="0">S</tspan><tspan x="91.5" y="0">TR</tspan><tspan x="117.75" y="0">A</tspan><tspan x="132.06" y="0">CIÓN DE </tspan><tspan x="-0.83" y="23.62">D</tspan><tspan x="15.69" y="23.62">A</tspan><tspan x="29.49" y="23.62">T</tspan><tspan x="40.91" y="23.62">OS Y HÁBI</tspan><tspan x="146.15" y="23.62">T</tspan><tspan x="157.57" y="23.62">OS DE </tspan><tspan x="63.84" y="47.23">C</tspan><tspan x="78.1" y="47.23">OM</tspan><tspan x="114.41" y="47.23">P</tspan><tspan x="128.74" y="47.23">RA</tspan></text>
+  <rect class="cls-3" x="296.39" y="128.72" width="38.93" height="38.93" transform="translate(626.2 11.04) rotate(135)"/>
+  <rect class="cls-3" x="626.97" y="128.72" width="38.93" height="38.93" transform="translate(1190.54 -222.71) rotate(135)"/>
+</svg>

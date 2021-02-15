@@ -11,12 +11,25 @@ export default function Slider() {
           <Carousel.Caption>
             <h3><span class="lnr lnr-chevron-right"></span> DESARROLLO</h3>
             <hr/>
-            <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a la plataforma web <b>HYUNDAI CAMIONES Y BUSES</b>. La plataforma tendrá como objetivo principal la interacción de los visitantes/clientes de la plataforma con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
-            <p><b>INNOCEAN DIGITAL DEVELOPMENT MÉXICO</b> nace con el objetivo de crear una empresa que pudiera brindar servicios de calidad a un precio razonable, con soporte real y personalizado en nuestras oficinas por parte de nuestro equipo humano, compuesto por profesionales altamente capacitados (Ingenieros en informática y redes, programadores, diseñadores Graficos y técnicos especializados).</p>
-            <h3><span class="lnr lnr-chevron-right"></span> Las etapas de desarrollo incluyen:</h3>
             <Row>
-              <Col></Col>
+              <Col>
+                <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a la plataforma <b>HYUNDAI CAMIONES Y BUSES</b>. La plataforma tendrá como objetivo principal la interacción de los visitantes/clientes de la plataforma con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
+                <p><b>INNOCEAN DIGITAL DEVELOPMENT</b> busca brindar servicios de calidad, con soporte real y personalizado en nuestras por parte de nuestro equipo humano, compuesto por profesionales altamente capacitados (Ingenieros en informática y redes, programadores, diseñadores Graficos y técnicos especializados).</p>
+                
+              </Col>
+              <Col>
+                <img src="/images/hyundai/web.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" />
+              </Col>
             </Row>
+            <h3><span class="lnr lnr-chevron-right"></span> Las etapas de desarrollo incluyen:</h3>
+            <hr/>
+            <Row>
+              <Col>
+              <img src="/images/hyundai/web1.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" />
+              <hr/>
+              <img src="/images/hyundai/web2.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" />
+              </Col>
+              <Col>
               <ul>
               <li>Para la realización del mismo, estableceremos el siguiente cronograma de trabajo:
                 <ul>
@@ -36,6 +49,11 @@ export default function Slider() {
               <li>Capatización y orientación para la administración de su sitio ( este punto se aplica solo cuando el sitio web es autoadministrable ). ( 4 a 6 horas ).</li>
               <li>Pago final.</li>
             </ul>
+              </Col>
+            </Row>
+            
+            
+              
             {/* 
             <img
               className="d-block w-100"

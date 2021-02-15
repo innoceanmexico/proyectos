@@ -7,17 +7,19 @@ import Col from 'react-bootstrap/Col'
 import Nav from 'react-bootstrap/Nav'
 import Tab from 'react-bootstrap/Tab'
 
+import Roadmap from '../../../components/graficas/roadmap'
+
 
 export default function Development() {
   return (
     <Layout>
       {/*<NavbarPrincipal />*/}
       <div>
-        <Container fluid={true} className="p-0 m-0 development">
+        <Container fluid={true} className="p-0 m-0 development hyundai">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row className="p-0 m-0" style={{ height: '100vh', width: '100%' }}>
             <Col className="p-0 m-0" xs={2} sm={2} md={2} lg={2} className="p-0" style={{ background: "#111" }}>
-              <Link href="/digital">
+              <Link href="/hyundai/camiones/">
                 <a className="regreso">
                   <span class="lnr lnr-chevron-left"></span>
                 </a>
@@ -30,7 +32,7 @@ export default function Development() {
                   <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> OBJECTIVES</Nav.Link>
+                  <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> SECCIONES</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="fourth"><span className="lnr lnr-arrow-right"></span> DESIGNING</Nav.Link>
@@ -45,41 +47,95 @@ export default function Development() {
                 elTitulo={"Plan de trabajo"}
                 laIntro={"Estamos seguros que podemos ofrecerle el mejor servicio y la mejor relación calidad/precio. A continuación le detallamos algunas de las ventajas de trabajar juntos:"}
               />
-              <Tab.Pane eventKey="second" style={
-                {
-                  background: `url("/images/hyundai/camion2.jpg")`,
-                  position: 'fixed',
-                  backgroundSize: 'cover',
-                  height: '100vh',
-                  overflow: 'auto'
-                }
-              }>
-                <div className="contenidoTab mb-5" style={{background: 'rgba(0,0,0,0.8', padding: '20px'}}>
-                  <h1><span class="lnr lnr-arrow-right"></span> LÍNEA DE TIEMPO</h1>
-                  <hr/>
-                  <div align="center">
-                    <img src="/images/digital/pre-neg.png" className="img-fluid" alt="" title="" />
-                  </div>
-                  <hr/>
-                  <p className="text-white">Firstly, the main thing to take care of is to <b>get all the ideas on the table</b>. It is the <b>initial meeting between INNOCEAN and the client</b>. The client needs to make <b>everything clear about his expectations, his demands, his rough ideas or everything he has in his mind</b>. And the client has to think about the best strategy, which will benefit him, the most.<br/><br/>After that, <b>the team will send him the proposal which will have all the technology, budget, and the time frame updates</b>. If that is what you are looking for, then you have to sign the proposal. And they will let you know the starting date along with the expected finishing date. Finally, <b>good developers will take the client with them in every process</b>. And make them aware of the working process, tools, roles, and responsibilities to help them have a clear image.</p>
-                </div>
+              <Tab.Pane eventKey="second" style={{ background: '#fff', height: '100vh', padding: '20px'}}>
+                <h1>Línea de tiempo:</h1>
+              <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">*Activitidades</th>
+                  <th scope="col" colSpan="4">Febrero</th>
+                  <th scope="col" colSpan="4">Marzo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Diseño del Frontend</th>
+                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Backend / Infrastructura de desarrollo e implementación</th>
+                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Creación e integración de Web Services y API's</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Desarrollo CMS</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Integración con CRM</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td>S4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pruebas y ajustes finales</th>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr/>
+            <Roadmap />
               </Tab.Pane>
-              <Tab.Pane eventKey="third">
+              <Tab.Pane eventKey="third" style={{ background: '#fff', height: '100vh', padding: '20px'}}>
                 <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> DEFINING OBJECTIVES</h1>
+                  <h1 className="text-dark"><span className="lnr lnr-arrow-right"></span> MAPA DE SECCIONES</h1>
                   <hr/>
                   <div align="center">
-                    <img src="/images/digital/objectives.jpg" className="img-fluid" alt="" title="" style={{maxWidth: '500px'}} />
+                    <img src="/images/hyundai/mapa.svg" className="img-fluid" alt="" title="" />
                   </div>
-                  <hr/>
-                  <p>Defining the goals and objectives is very important. Because <b>it will tell the developing team what exactly the client is looking forward to</b>. And after that, many new and important decisions get under consideration between clients and developers. Like the final budget, the tools and techniques, the visual styles and the content structure for the audience.<br/><br/><b>Then the project manager just divides the responsibilities between the team members</b>. That thought process at the start of the project is going to save a lot of days in the end. Here the project managers have to decide the methodology they are going to use. <b>Selection of technique is going to play a very integral role in the timing and budget of the process</b>. Therefore, selecting the right one is very important.</p>
-                  <ul>
-                      <li>a) Scrum</li>
-                      <li>b) Extreme programming</li>
-                      <li>c) Trello</li>
-                      <li>d) Base-camp</li>
-                      <li>e) Asana</li>
-                    </ul>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
