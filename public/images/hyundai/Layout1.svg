@@ -1,4 +1,4 @@
-<svg id="Header_1" data-name="Header 1" xmlns="http://www.w3.org/2000/svg" width="1280" height="768" viewBox="0 0 1280 768">
+<svg id="Header_1" data-name="Header 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 768">
   <defs>
     <style>
       .cls-1 {
@@ -16,7 +16,6 @@
       .cls-2, .cls-3, .cls-4 {
         stroke: #777;
         stroke-linejoin: round;
-        stroke-width: 1px;
       }
 
       .cls-3 {
@@ -25,58 +24,61 @@
 
       .cls-5 {
         fill: #585858;
-        fill-rule: evenodd;
       }
 
-      .cls-6 {
+      .cls-10, .cls-12, .cls-6, .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-7 {
         font-size: 38px;
-        font-weight: 300;
       }
 
-      .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-10, .cls-12, .cls-7, .cls-9 {
         fill: #222;
       }
 
-      .cls-6, .cls-9 {
-        text-anchor: middle;
-      }
-
-      .cls-6, .cls-8 {
-        font-family: "Titillium Web";
+      .cls-10, .cls-12, .cls-7 {
+        font-family: Titillium Web;
       }
 
       .cls-8 {
+        letter-spacing: -2px;
+      }
+
+      .cls-10 {
         font-size: 16px;
       }
 
-      .cls-8, .cls-9 {
-        text-transform: uppercase;
+      .cls-11 {
+        white-space: pre;
       }
 
-      .cls-9 {
-        font-size: 16.517px;
-        font-family: TitilliumWeb;
-        font-weight: 600;
+      .cls-12 {
+        font-size: 31.99px;
+        font-weight: 700;
       }
     </style>
   </defs>
-  <rect id="Bg_img" class="cls-1" width="1280" height="768"/>
+  <title>Layout1</title>
+  <rect id="Bg_img" data-name="Bg img" class="cls-1" width="1280" height="768"/>
   <g id="Navigation">
     <circle id="Ellipse" class="cls-2" cx="668.5" cy="721.5" r="5.5"/>
-    <circle id="Ellipse-2" data-name="Ellipse" class="cls-3" cx="649.5" cy="721.5" r="5.5"/>
-    <circle id="Ellipse-3" data-name="Ellipse" class="cls-2" cx="686.5" cy="721.5" r="5.5"/>
-    <circle id="Ellipse_Active" class="cls-4" cx="630.5" cy="721.5" r="5.5"/>
-    <circle id="Ellipse-4" data-name="Ellipse" class="cls-2" cx="612.5" cy="721.5" r="5.5"/>
-    <circle id="Ellipse-5" data-name="Ellipse" class="cls-2" cx="593.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-2" class="cls-3" cx="649.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-3" class="cls-2" cx="686.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse_Active" data-name="Ellipse Active" class="cls-4" cx="630.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-4" class="cls-2" cx="612.5" cy="721.5" r="5.5"/>
+    <circle id="Ellipse-5" class="cls-2" cx="593.5" cy="721.5" r="5.5"/>
   </g>
   <g id="Arrows">
-    <path id="Arrow_R" class="cls-5" d="M737.867,671l-4.733-4.57a1.13,1.13,0,0,1,0-1.647l0.431-.411a1.256,1.256,0,0,1,1.723,0l5.569,5.37a0.243,0.243,0,0,1,.029.019l0.431,0.412a1.139,1.139,0,0,1,0,1.654l-0.431.413c-0.008.008-.02,0.009-0.029,0.019l-5.569,5.326a1.258,1.258,0,0,1-1.723,0l-0.431-.411a1.132,1.132,0,0,1,0-1.649Z" transform="translate(-80 -184)"/>
-    <path id="Arrow__L" data-name="Arrow_ L" class="cls-5" d="M701.86,671.016l4.783-4.6a1.135,1.135,0,0,0,0-1.658l-0.436-.415a1.277,1.277,0,0,0-1.741,0l-5.628,5.407a0.3,0.3,0,0,0-.029.02l-0.435.414a1.146,1.146,0,0,0,0,1.666l0.435,0.415a0.29,0.29,0,0,1,.029.019l5.628,5.362a1.273,1.273,0,0,0,1.741,0l0.436-.414a1.136,1.136,0,0,0,0-1.659Z" transform="translate(-80 -184)"/>
+    <path id="Arrow_R" data-name="Arrow R" class="cls-5" d="M657.87,487l-4.73-4.57a1.13,1.13,0,0,1,0-1.6l0,0,0.43-.41a1.26,1.26,0,0,1,1.72,0l5.57,5.37,0,0,0.43,0.41a1.14,1.14,0,0,1,0,1.61l0,0-0.43.41,0,0-5.57,5.33a1.26,1.26,0,0,1-1.72,0l-0.43-.41a1.13,1.13,0,0,1,0-1.6l0,0Z"/>
+    <path id="Arrow_L" data-name="Arrow  L" class="cls-5" d="M621.86,487l4.78-4.6a1.14,1.14,0,0,0,.05-1.6l-0.05-.05-0.44-.41a1.28,1.28,0,0,0-1.74,0l-5.63,5.41,0,0-0.43.41a1.15,1.15,0,0,0,0,1.62l0,0,0.43,0.41,0,0,5.63,5.36a1.27,1.27,0,0,0,1.74,0l0.44-.41a1.14,1.14,0,0,0,.05-1.61l-0.05-.05Z"/>
   </g>
-  <text id="Fusce_dapibus_tellus_ac_cursus_commodo._Duis_mollis_est_non_co" data-name="Fusce dapibus tellus ac cursus commodo.  Duis mollis est non co" class="cls-6" x="651.5" y="378.875">Fusce dapibus tellus ac cursus commodo. <tspan x="651.5" dy="45.6">Duis mollis est non commodo luctus, nisi erat porttitor.</tspan></text>
-  <g id="Top_menu" data-name="Top menu">
-    <rect id="Line" class="cls-7" x="686" y="54" width="56" height="3"/>
-    <text id="Home_About_WORK_SERVICES_" data-name="Home           About           WORK           SERVICES         " class="cls-8" x="574.156" y="46.508">Home           About           WORK           SERVICES           Blog           Contact</text>
-    <text id="LOGO" class="cls-9" transform="translate(84.559 52.231) scale(1.937)">LOGO</text>
+  <g id="Fusce_dapibus_tellus_ac_cursus_commodo._Duis_mollis_est_non_co" data-name="Fusce dapibus tellus ac cursus commodo. Duis mollis est non co" class="cls-6">
+    <text class="cls-7" transform="translate(321.3 378.88)">F<tspan x="19.23" y="0">us</tspan><tspan x="56.81" y="0">c</tspan><tspan x="73" y="0">e dapibus tellus ac cursus </tspan><tspan x="484.61" y="0">c</tspan><tspan x="500.79" y="0">ommodo. </tspan></text>
+    <text class="cls-7" transform="translate(220.66 424.48)">Duis mollis est non <tspan x="308.14" y="0">c</tspan><tspan x="324.32" y="0">ommodo luctus, nisi erat porttito</tspan><tspan class="cls-8" x="843.09" y="0">r</tspan><tspan x="853.84" y="0">.</tspan></text>
   </g>
+  <rect id="Line" class="cls-9" x="720" y="55" width="69" height="3"/>
+  <text class="cls-10" transform="translate(639.16 47.51)"><tspan class="cls-11">INICIO           MODE</tspan><tspan x="123.77" y="0">L</tspan><tspan class="cls-11" x="131.12" y="0">OS         DISTRIBUIDOR</tspan><tspan x="281.99" y="0">E</tspan><tspan class="cls-11" x="290.79" y="0">S      SE</tspan><tspan x="338.1" y="0">R</tspan><tspan class="cls-11" x="347.8" y="0">VICIO      FINANCIAMIEN</tspan><tspan x="508.1" y="0">T</tspan><tspan class="cls-11" x="516.19" y="0">O      M</tspan><tspan x="561.31" y="0">Á</tspan><tspan x="570.74" y="0">S</tspan></text>
+  <text class="cls-12" transform="translate(46.47 53.23)">L<tspan x="14.91" y="0">OGO</tspan></text>
 </svg>
