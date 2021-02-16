@@ -36,6 +36,15 @@ export default function Team() {
                 <div className="contenidoTab mb-5">
                   <h1><span class="lnr lnr-arrow-right"></span> TEAM</h1>
                   <hr/>
+                  <h2 className="text-white">The goal is not just to manage a project through to completion, but also to ensure that the team is aligned with what needs to be done, who should do it, and when.</h2>
+                  <h2 className="text-white">CONTEXT</h2>
+                  <p className="text-white">It outlines the strategic vision, goals, and objectives and ideally includes a high-level mission statement. This will help align the team in focus and keep these goals in mind during the solution. It will also help define additional work and possible project improvements, as the team has the context in mind.</p>
+                  <h2 className="text-white">PROJECT PARAMETERS</h2>
+                  <p className="text-white">The goal is to allow everyone involved to work together to deliver your project, which is why describing the plan in the project inception document to the team is just as important as outlining the scope.</p>
+                  <h2 className="text-white">PROJECT STRUCTURE</h2>
+                  <p className="text-white">To make sure the team is clear about how the deliverables are created, it is essential to break the work down into smaller pieces and create a project breakdown that includes assignments. It shows how the deliverables come together and who will be working on what with whom.</p>
+                  <h2 className="text-white">DEFINE WHO IS WHO</h2>
+                  <p className="text-white">An important aspect of the project inception document is the overall structure of the project team, both internally and externally. Who is working on the team? Who can approve things before they reach a customer. Who on the client side should be consulted before signing? Establishing this will help avoid misunderstandings and give you an idea of ​​how complex the signatures will be.</p>
                 </div>
               </Tab.Pane>
             </Tab.Content>
