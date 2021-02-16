@@ -27,10 +27,13 @@ export default function Resumen() {
                 </Link>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
+                    <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> RESUMEN</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
                     <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> INTRODUCCIÓN</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> LENGUAJES</Nav.Link>
+                    <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> CÓDIGO</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="fourth"><span className="lnr lnr-arrow-right"></span> ESTRUCTURA</Nav.Link>
@@ -65,19 +68,31 @@ export default function Resumen() {
                       </Col>
                       <Col>
                         <div align="center">
-                          <img src="/images/hyundai/logo-seminuevos.jpg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/logo-seminuevos.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                         </div>
                       </Col>
                     </Row>
                     <Row>
                       <Col>
-                        <p>La plataforma <b>HYUNDAI CAMIONES Y BUSES</b> que se desarrollará tiene como objetivo gestionar el tráfico, intenciones, flujos e intercambios de cada visita, <b>optimizando la búsqueda de información de manera ágil y rápida</b>, también busca gestionar los flujos de procesos en las tomas de decisiones al momento de lanzar una campaña comercial o cuando se tenga que contratar a un proveedor en la construcción del proyecto, puesto que los informes llevan a que se puedan prever situaciones de acuerdo al histórico que se puede manejar. </p>
+                        <div align="center">
+                          <img src="/images/hyundai/seminuevos/home.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
+                        </div>
+                        <hr/>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <p>La plataforma <b>HYUNDAI DISTRIBUIDORES</b> que se desarrollará tiene como objetivo gestionar el tráfico, intenciones, flujos e intercambios de cada visita, <b>optimizando la búsqueda de información de manera ágil y rápida</b>.<br/><br/>También busca gestionar los flujos de procesos en las <b>tomas de decisiones al momento de lanzar una campaña comercial</b> o cuando se tenga que contratar a un proveedor en la construcción del proyecto, puesto que los informes llevan a que se puedan prever situaciones de acuerdo al histórico que se puede manejar. </p>
 
-                        <p>Por esto se desarrollará e implementará una base de datos y una interfaz web que permite la administración y gestión de la información de una manera ágil y sistematizada, aprovechando cada uno de los recursos con los que se cuenta y sacando el máximo provecho. </p>
+                        <p><b>Por esto se desarrollará e implementará una base de datos y una interfaz web que permite la administración y gestión de la información de una manera ágil y sistematizada</b>, aprovechando cada uno de los recursos con los que se cuenta y sacando el máximo provecho. </p>
                       </Col>
                       <Col>
                         <div align="center">
-                          <img src="/images/hyundai/camion1.jpg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/seminuevos/home1.jpg" className="img-fluid" alt="" title="" />
+                        </div>
+                        <hr/>
+                        <div align="center">
+                          <img src="/images/hyundai/seminuevos/home2.jpg" className="img-fluid" alt="" title="" />
                         </div>
                       </Col>
                     </Row>
@@ -105,17 +120,24 @@ export default function Resumen() {
                       </Col>
                     </Row>
                     <Row>
-                      <Col>
+                      <Col xs={8}>
                         <p>Con los avances en materia de desarrollo, es claro que todo se está dirigiendo a aplicaciones en dispositivos móviles y aplicaciones web. <b>El desarrollo propuesto es una solución para el tipo de software en donde es posible acceder desde cualquier lugar, a cualquier hora y desde cualquier dispositivo</b>. Todo esto gracias a que la mayoría de los procesos que ahora se llevan en algunas empresas ya se hacen en la nube y se requiere que la información sea asequible en tiempo real.</p>
                         <p>También existen diversos lenguajes de programación para el entorno web, como Python, php, asp, JavaScript, css, sin olvidar el HTML, entre muchos otros.</p>
-                        <hr />
-                        
                       </Col>
                       <Col>
                         <div align="center">
                           <img src="/images/hyundai/backend.svg" className="img-fluid" alt="" title="" />
                         </div>
-                        <hr />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <hr/>
+                        <h2>Estructura del Backend</h2>
+                        <hr/>
+                        <div align="center">
+                          <img src="/images/hyundai/seminuevos/node.png" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
+                        </div>
                       </Col>
                     </Row>
                   </Tab.Pane>
@@ -183,27 +205,27 @@ export default function Resumen() {
                       </Col>
                       <Col>
                         <div align="center">
-                          <img src="/images/hyundai/logo-seminuevos.jpg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/logo-seminuevos.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                         </div>
                       </Col>
                     </Row>
                     <Row>
-                      <Col xs={9}>
+                      <Col xs={7}>
                         <div align="center">
-                          <img src="/images/hyundai/mapa.svg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/mapa.svg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                         </div>
                       </Col>
                       <Col>
                         <div align="center">
-                          <img src="/images/hyundai/web.jpg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/seminuevos/home.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                         </div>
                         <hr />
                         <div align="center">
-                          <img src="/images/hyundai/web1.jpg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/seminuevos/home1.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                         </div>
                         <hr />
                         <div align="center">
-                          <img src="/images/hyundai/web2.jpg" className="img-fluid" alt="" title="" />
+                          <img src="/images/hyundai/seminuevos/home2.jpg" className="img-fluid" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
                         </div>
                       </Col>
                     </Row>
