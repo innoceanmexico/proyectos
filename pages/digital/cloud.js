@@ -21,7 +21,7 @@ export default function Cloud() {
               </Link>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> CODING</Nav.Link>
+                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> DEV DOCUMENT</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
