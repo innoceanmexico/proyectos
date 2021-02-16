@@ -1,0 +1,165 @@
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 634.03 340.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaeaea;
+      }
+
+      .cls-2 {
+        fill: #ffe33e;
+      }
+
+      .cls-3 {
+        font-size: 6.02px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-family: Montserrat;
+      }
+
+      .cls-4 {
+        font-size: 10.96px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-size: 16.19px;
+      }
+
+      .cls-6 {
+        font-size: 34.6px;
+      }
+
+      .cls-7 {
+        font-size: 12px;
+      }
+
+      .cls-8 {
+        font-size: 18px;
+      }
+
+      .cls-9 {
+        white-space: pre;
+      }
+    </style>
+  </defs>
+  <title>g1</title>
+  <g>
+    <polygon class="cls-1" points="68.06 134 46.65 96.92 68.06 59.83 110.88 59.83 132.29 96.92 110.88 134 68.06 134"/>
+    <polygon class="cls-1" points="518.92 125.99 497.51 88.91 518.92 51.82 561.73 51.82 583.14 88.91 561.73 125.99 518.92 125.99"/>
+    <polygon class="cls-1" points="588.14 79.01 575.81 57.65 588.14 36.28 612.81 36.28 625.14 57.65 612.81 79.01 588.14 79.01"/>
+    <polygon class="cls-1" points="89.47 324.97 77.14 303.61 89.47 282.25 114.14 282.25 126.47 303.61 114.14 324.97 89.47 324.97"/>
+    <g>
+      <polygon class="cls-2" points="37.68 273.15 0 207.89 37.68 142.62 113.04 142.62 150.72 207.89 113.04 273.15 37.68 273.15"/>
+      <g>
+        <g>
+          <text class="cls-3" transform="translate(53.64 234.33)">Client Meeting<tspan x="-8.74" y="7.96">Client Requi</tspan><tspan x="27.34" y="7.96">r</tspan><tspan x="29.55" y="7.96">ements</tspan><tspan x="10.11" y="15.92">Anal</tspan><tspan x="23.24" y="15.92">y</tspan><tspan x="26.26" y="15.92">sis</tspan><tspan x="4.33" y="23.87">C</tspan><tspan x="8.46" y="23.87">olle</tspan><tspan x="18.68" y="23.87">c</tspan><tspan x="21.99" y="23.87">t data</tspan></text>
+          <text class="cls-4" transform="translate(44.55 223.44)">P<tspan x="7.92" y="0">L</tspan><tspan x="14.6" y="0">ANNING</tspan></text>
+        </g>
+        <g>
+          <path d="M94.67,163.67l-4.16,2.08-0.93-1.86,4.16-2.08Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M93.73,180.32l-4.16-2.08,0.93-1.86,4.16,2.08Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M91.08,170h4.23v2.08H91.08V170Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M61.37,161.81l4.16,2.08-0.93,1.86-4.16-2.08Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M61.37,180.32l-0.93-1.86,4.16-2.08,0.93,1.86Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M59.8,170H64v2.08H59.8V170Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M74.43,193.05h6.24v2.08H74.43v-2.08Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M89,171.07a11.44,11.44,0,1,0-16.65,10.18v3.35H70.27v2.08h2.08V191h10.4v-4.3h2.08v-2.08H82.76v-3.35A11.45,11.45,0,0,0,89,171.07Zm-8.32,17.83H74.43v-2.22h6.24v2.22Zm-4.16-15.74a1,1,0,1,1,1,1A1,1,0,0,1,76.51,173.15Zm2.08,11.44v-8.5a3.12,3.12,0,1,0-2.08,0v8.5H74.43v-4.68l-0.62-.27a9.36,9.36,0,1,1,7.49,0l-0.62.27v4.68H78.59Z" transform="translate(-2.65 -6.83)"/>
+        </g>
+        <text class="cls-5" transform="translate(36.43 209.3)">0<tspan x="10.89" y="0">1.</tspan></text>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-2" points="157.48 201.39 119.8 136.12 157.48 70.86 232.84 70.86 270.52 136.12 232.84 201.39 157.48 201.39"/>
+      <g>
+        <g>
+          <text class="cls-3" transform="translate(167.97 162.57)">W<tspan x="6.35" y="0">i</tspan><tspan x="7.86" y="0">r</tspan><tspan x="10.07" y="0">e</tspan><tspan x="13.61" y="0">Fr</tspan><tspan x="19.58" y="0">ame L</tspan><tspan x="38" y="0">a</tspan><tspan x="41.4" y="0">y</tspan><tspan x="44.36" y="0">out</tspan><tspan x="0.43" y="7.96">P</tspan><tspan x="4.53" y="7.96">r</tspan><tspan x="6.74" y="7.96">o</tspan><tspan x="10.42" y="7.96">t</tspan><tspan x="12.63" y="7.96">o </tspan><tspan x="17.81" y="7.96">T</tspan><tspan x="20.9" y="7.96">ype Design</tspan><tspan x="5.66" y="15.91">Design Signoff</tspan></text>
+          <text class="cls-4" transform="translate(173 151.68)">DESIGN</text>
+        </g>
+        <g>
+          <path d="M198.81,99.93a5.33,5.33,0,1,0,5.33,5.33A5.34,5.34,0,0,0,198.81,99.93Zm0,8.53a3.2,3.2,0,1,1,3.2-3.2A3.2,3.2,0,0,1,198.81,108.46Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M198.81,106.77l-1.51-1.51,1.51-1.51,1.51,1.51Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M208.34,112.15a30.85,30.85,0,0,0-.3-6.4,33.41,33.41,0,0,0-6.52-15.1L198.81,87l-2.72,3.62a33.41,33.41,0,0,0-6.52,15.1,30.83,30.83,0,0,0-.3,6.4,10.42,10.42,0,0,0-4.33,8.46v2.86l2.21-1.62a9.53,9.53,0,0,1,3.67-1.45c0.4,1.26.7,2,1.11,3.08a10.46,10.46,0,0,1,5.8-3v3h2.13v-3a10.43,10.43,0,0,1,5.8,3c0.41-1.11.7-1.82,1.11-3.08a9.53,9.53,0,0,1,3.67,1.45l2.21,1.62V120.6A10.43,10.43,0,0,0,208.34,112.15Zm-21.17,7.23a8.22,8.22,0,0,1,2.36-4.66,33.06,33.06,0,0,0,.71,3.61A11.68,11.68,0,0,0,187.17,119.37ZM204.67,120a11,11,0,0,0-4.8-1.63v-5.56h-2.13v5.56a11,11,0,0,0-4.8,1.63c-3.18-9.7-1.48-19.61,4.86-28.06l1-1.35,1,1.35C206.15,100.37,207.85,110.29,204.67,120Zm2.7-1.65a33.11,33.11,0,0,0,.71-3.61,8.22,8.22,0,0,1,2.36,4.66A11.68,11.68,0,0,0,207.38,118.33Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M180.61,95.66h6.47v2.13h-6.47V95.66Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M210.54,95.66H217v2.13h-6.47V95.66Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M182.83,88.1l5.8,2.7-0.9,1.93-5.8-2.7Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M214.78,105.35l-5.8-2.7,0.9-1.93,5.8,2.7Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M181.93,103.42l5.8-2.7,0.9,1.93-5.8,2.7Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M214.78,88.1l0.9,1.93-5.8,2.7L209,90.8Z" transform="translate(-2.65 -6.83)"/>
+        </g>
+        <text class="cls-5" transform="translate(156.64 138.34)">0<tspan x="10.89" y="0">2</tspan><tspan x="20.61" y="0">.</tspan></text>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-2" points="279.35 270.36 241.67 205.09 279.35 139.82 354.71 139.82 392.39 205.09 354.71 270.36 279.35 270.36"/>
+      <g>
+        <g>
+          <text class="cls-3" transform="translate(306.31 231.53)">C<tspan x="4.13" y="0">oding</tspan><tspan x="-20.48" y="7.96">L</tspan><tspan x="-16.99" y="7.96">a</tspan><tspan x="-13.59" y="7.96">y</tspan><tspan x="-10.62" y="7.96">out Main Se</tspan><tspan x="24.29" y="7.96">c</tspan><tspan x="27.6" y="7.96">tions</tspan><tspan x="-13.08" y="15.92">Client </tspan><tspan x="5.61" y="15.92">F</tspan><tspan x="9.27" y="15.92">eedba</tspan><tspan x="27.88" y="15.92">c</tspan><tspan x="31.1" y="15.92">k</tspan></text>
+          <text class="cls-4" transform="translate(272.63 220.64)">D<tspan x="9.06" y="0">E</tspan><tspan x="16.3" y="0">V</tspan><tspan x="24.32" y="0">E</tspan><tspan x="31.68" y="0">L</tspan><tspan x="38.17" y="0">O</tspan><tspan x="47.42" y="0">P</tspan><tspan x="55.34" y="0">MENT</tspan></text>
+        </g>
+        <path d="M337.45,192.8h-2.08V177.55l2.08,2.08V167.75H325.57l3.73,3.73-3.6,3.6-8.06-6L304,178.79V159.36h-2.08v35.53h35.53V192.8Zm-20.89-15.27V192.8h-6.25V182Zm2.08,0.1,6.32,4.7V192.8h-6.32V177.63Zm8.4,4.95,6.25-6.25V192.8H327V182.58Zm-9.42-10.91,8.29,6.16,6.34-6.34-1.65-1.65h4.77v4.77L333.71,173l-7.62,7.62-8.51-6.33L304,183.91v-2.56ZM304,186.46l4.23-3v9.35H304v-6.34Z" transform="translate(-2.65 -6.83)"/>
+        <text class="cls-5" transform="translate(278.43 208.7)">0<tspan x="10.83" y="0">3.</tspan></text>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-2" points="399.26 198.1 361.58 132.83 399.26 67.57 474.62 67.57 512.3 132.83 474.62 198.1 399.26 198.1"/>
+      <g>
+        <g>
+          <text class="cls-3" transform="translate(415.32 159.28)">Design Quali<tspan x="37.9" y="0">t</tspan><tspan x="40.18" y="0">y</tspan><tspan x="11" y="7.96">T</tspan><tspan x="13.97" y="7.96">esting</tspan><tspan x="8.64" y="15.92">App</tspan><tspan x="20.87" y="15.92">rov</tspan><tspan x="29.63" y="15.92">al</tspan></text>
+          <text class="cls-4" transform="translate(412.28 148.39)">L<tspan x="6.69" y="0">A</tspan><tspan x="14.92" y="0">UNCH</tspan></text>
+        </g>
+        <g>
+          <path d="M451.57,94.08l1.82-1.82L455,93.9l1.64-1.64-4.93-4.93L450.1,89l1.64,1.64-2,2a17.23,17.23,0,0,0-6.69-2.93V86.91h2.32V84.58H433.78v2.32h2.32v2.75a17.23,17.23,0,0,0-6.7,2.93l-2-2L429.08,89l-1.64-1.64-4.93,4.93,1.64,1.64,1.64-1.64,1.82,1.82A17.43,17.43,0,1,0,451.57,94.08Zm-13.14-7.17h2.32v2.44c-0.39,0-.77,0-1.16,0s-0.78,0-1.16,0V86.91Zm1.16,35a15.14,15.14,0,1,1,15.1-15.18A15.16,15.16,0,0,1,439.59,121.92Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M440.75,103.45V94h-2.32v9.49A3.49,3.49,0,1,0,440.75,103.45Zm-1.16,4.45a1.16,1.16,0,1,1,1.16-1.16A1.16,1.16,0,0,1,439.59,107.9Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M438.43,117.19h2.32v2.32h-2.32v-2.32Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M426.81,105.57h2.32v2.32h-2.32v-2.32Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M450,105.57h2.32v2.32H450v-2.32Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M431.38,116.59L429.73,115l1.64-1.64L433,115Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M447.81,100.16l-1.64-1.64,1.64-1.64,1.64,1.64Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M447.81,116.59L446.16,115l1.64-1.64,1.64,1.64Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M431.38,100.16l-1.64-1.64,1.64-1.64L433,98.52Z" transform="translate(-2.65 -6.83)"/>
+        </g>
+        <text class="cls-5" transform="translate(396.95 135.05)">0<tspan x="10.99" y="0">4</tspan><tspan x="22.47" y="0">.</tspan></text>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-2" points="520.99 265.58 483.31 200.32 520.99 135.05 596.35 135.05 634.03 200.32 596.35 265.58 520.99 265.58"/>
+      <g>
+        <g>
+          <text class="cls-3" transform="translate(546.62 226.76)">Suppo<tspan x="19.37" y="0">r</tspan><tspan x="21.77" y="0">t</tspan><tspan x="-21.09" y="7.96">N</tspan><tspan x="-16.17" y="7.96">e</tspan><tspan x="-12.7" y="7.96">w Implementations</tspan><tspan x="-0.32" y="15.92">Modular</tspan></text>
+          <text class="cls-4" transform="translate(515.19 215.87)">MAINTENANCE</text>
+        </g>
+        <g>
+          <path d="M559.15,165.59a3.22,3.22,0,0,0-.68-5.19l2.34-4.83h-12l2.34,4.83a3.22,3.22,0,0,0-.68,5.19c-5.8,4.44-7.47,11.48-7.47,18.78v5.74h19.35v2.15h17.34v-21.5h-16A17,17,0,0,0,559.15,165.59Zm-6.5-1.27a1.07,1.07,0,1,1,0-2.15h4.3a1.07,1.07,0,0,1,0,2.15h-4.3Zm4.74-6.59L556.28,160h-3l-1.11-2.29h5.17ZM545.13,188v-3.59c0-8.76,2.56-14.62,7.83-17.91h3.69a14.8,14.8,0,0,1,5.68,6.42V188h-17.2Zm32.39,2.15h-13v-4.3h13v4.3Zm-13-6.45v-4.3h13v4.3h-13Zm13-10.75v4.3h-13v-4.3h13Z" transform="translate(-2.65 -6.83)"/>
+          <path d="M554.8,176.14a1.08,1.08,0,0,1,1.07,1.08H558a3.23,3.23,0,0,0-2.15-3v-1.26h-2.15v1.26a3.22,3.22,0,0,0,1.07,6.26,1.07,1.07,0,1,1-1.07,1.07h-2.15a3.23,3.23,0,0,0,2.15,3v1.26h2.15v-1.26a3.22,3.22,0,0,0-1.07-6.26A1.07,1.07,0,0,1,554.8,176.14Z" transform="translate(-2.65 -6.83)"/>
+        </g>
+        <text class="cls-5" transform="translate(519.66 203.6)">05.</text>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-1" points="277.27 130.53 239.59 65.27 277.27 0 352.63 0 390.32 65.27 352.63 130.53 277.27 130.53"/>
+      <text class="cls-6" transform="translate(280.61 65.27)">35<tspan x="40.38" y="0">%</tspan></text>
+      <text class="cls-7" transform="translate(286.23 82.29)">INHOUSE<tspan x="5.99" y="11">P</tspan><tspan x="14.66" y="11">ROFIT</tspan><tspan x="-5.29" y="22">INNOCEAN</tspan></text>
+    </g>
+    <g>
+      <polygon class="cls-1" points="401.6 337.97 363.92 272.71 401.6 207.44 476.96 207.44 514.64 272.71 476.96 337.97 401.6 337.97"/>
+      <g>
+        <text class="cls-4" transform="translate(396.84 246.74)">SOCIAL MEDIA</text>
+        <g>
+          <text class="cls-3" transform="translate(418.24 267.48)">Manage <tspan x="25.81" y="0">L</tspan><tspan x="29.24" y="0">e</tspan><tspan x="32.68" y="0">ads</tspan><tspan x="-10.55" y="15.92">Manage User Jou</tspan><tspan x="40.71" y="15.92">r</tspan><tspan x="42.96" y="15.92">n</tspan><tspan x="46.98" y="15.92">e</tspan><tspan x="50.46" y="15.92">y</tspan><tspan x="-7.66" y="31.83">Manage </tspan><tspan x="18.15" y="31.83">t</tspan><tspan x="20.36" y="31.83">endencies</tspan></text>
+          <circle cx="406.24" cy="265.57" r="1.15"/>
+          <circle cx="406.24" cy="281.24" r="1.15"/>
+          <circle cx="406.24" cy="296.91" r="1.15"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-1" points="158.47 340.93 120.79 275.67 158.47 210.4 233.84 210.4 271.52 275.67 233.84 340.93 158.47 340.93"/>
+      <text class="cls-8" transform="translate(173.38 245.6)">K<tspan x="13.32" y="0">E</tspan><tspan x="25.27" y="0">Y </tspan><tspan x="-22.99" y="17">F</tspan><tspan x="-12.01" y="17">A</tspan><tspan x="1.6" y="17">C</tspan><tspan x="14.67" y="17">T</tspan><tspan x="25.61" y="17">ORS</tspan></text>
+      <text class="cls-3" transform="translate(178.22 273.57)"><tspan class="cls-9">    </tspan><tspan x="6.02" y="0">C</tspan><tspan x="10.15" y="0">osts</tspan><tspan class="cls-9" x="-2.98" y="7.96">    S</tspan><tspan x="6.66" y="7.96">k</tspan><tspan x="10.03" y="7.96">ill set</tspan><tspan class="cls-9" x="-5.08" y="15.92">    </tspan><tspan x="0.95" y="15.92">T</tspan><tspan x="4.15" y="15.92">u</tspan><tspan x="8.15" y="15.92">r</tspan><tspan x="10.4" y="15.92">n</tspan><tspan x="14.42" y="15.92">ov</tspan><tspan x="20.97" y="15.92">er</tspan><tspan class="cls-9" x="-16.37" y="23.87">    </tspan><tspan x="-10.35" y="23.87">C</tspan><tspan x="-6.22" y="23.87">ommunication</tspan></text>
+    </g>
+  </g>
+</svg>

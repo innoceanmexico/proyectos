@@ -28,10 +28,10 @@ export default function Development() {
                   <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> WORKFLOW</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> PRE-NEGOTIATION</Nav.Link>
+                  <Nav.Link eventKey="second"><span className="lnr lnr-arrow-right"></span> TIMELINE</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> OBJECTIVES</Nav.Link>
+                  <Nav.Link eventKey="third"><span className="lnr lnr-arrow-right"></span> PLANNING</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="fourth"><span className="lnr lnr-arrow-right"></span> DESIGNING</Nav.Link>
@@ -46,33 +46,38 @@ export default function Development() {
                 elTitulo={"Digital Development workflow"}
                 laIntro={"INNOCEAN Compañia global de comunicación y marketing con 18 operaciones en el mundo y más de 1,700 empleados."}
               />
-              <Tab.Pane eventKey="second">
+              <Tab.Pane eventKey="second" style={{ background: "rgba(0,0,0,0.8)"}} className="p-3">
                 <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> PRE-NEGOTIATION</h1>
+                  <h1><span class="lnr lnr-arrow-right"></span> TIMELINE NEW CLIENTS</h1>
                   <hr/>
                   <div align="center">
-                    <img src="/images/digital/pre-neg.png" className="img-fluid" alt="" title="" />
+                    <img src="/images/kuak/g1.svg" className="img-fluid" alt="innocean méxico" title="innocean méxico" />
                   </div>
-                  <hr/>
-                  <p>Firstly, the main thing to take care of is to <b>get all the ideas on the table</b>. It is the <b>initial meeting between INNOCEAN and the client</b>. The client needs to make <b>everything clear about his expectations, his demands, his rough ideas or everything he has in his mind</b>. And the client has to think about the best strategy, which will benefit him, the most.<br/><br/>After that, <b>the team will send him the proposal which will have all the technology, budget, and the time frame updates</b>. If that is what you are looking for, then you have to sign the proposal. And they will let you know the starting date along with the expected finishing date. Finally, <b>good developers will take the client with them in every process</b>. And make them aware of the working process, tools, roles, and responsibilities to help them have a clear image.</p>
                 </div>
               </Tab.Pane>
-              <Tab.Pane eventKey="third">
-                <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> DEFINING OBJECTIVES</h1>
+              <Tab.Pane eventKey="third" style={{ background: "rgba(0,0,0,0.8)"}} className="p-3">
+              <div className="contenidoTab mb-5">
+                  <h1><span class="lnr lnr-arrow-right"></span> PLANNING</h1>
                   <hr/>
-                  <div align="center">
-                    <img src="/images/digital/objectives.jpg" className="img-fluid" alt="" title="" style={{maxWidth: '500px'}} />
-                  </div>
-                  <hr/>
-                  <p>Defining the goals and objectives is very important. Because <b>it will tell the developing team what exactly the client is looking forward to</b>. And after that, many new and important decisions get under consideration between clients and developers. Like the final budget, the tools and techniques, the visual styles and the content structure for the audience.<br/><br/><b>Then the project manager just divides the responsibilities between the team members</b>. That thought process at the start of the project is going to save a lot of days in the end. Here the project managers have to decide the methodology they are going to use. <b>Selection of technique is going to play a very integral role in the timing and budget of the process</b>. Therefore, selecting the right one is very important.</p>
-                  <ul>
-                      <li>a) Scrum</li>
-                      <li>b) Extreme programming</li>
-                      <li>c) Trello</li>
-                      <li>d) Base-camp</li>
-                      <li>e) Asana</li>
+                  <Row>
+                    <Col>
+                    <h2 className="text-white">Key Factors to consider</h2>
+                    <hr/>
+                    <p className="text-white">Although, you need to consider and compare many factors but focusing on the right factors would enable you to make your decision easily. So, we are organizing our comparison upon the following factors:</p>
+                    <ul className="text-white">
+                      <li>Costs</li>
+                      <li>Skill set</li>
+                      <li>Turnover</li>
+                      <li>Communication</li>
                     </ul>
+                    </Col>
+                    <Col>
+                    <div align="center">
+                      <img src="/images/kuak/g2-planning.svg" className="img-fluid" alt="innocean méxico" title="innocean méxico" style={{maxHeight: '70vh'}} />
+                    </div>
+                    </Col>
+                  </Row>
+                  
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
