@@ -6,7 +6,7 @@ export default function Proyectos() {
   return (
     <Layout>
       {/*<NavbarPrincipal />*/}
-      <div className="digital hcamiones">
+      <div className="digital distribuidores">
         <Container fluid={true} className="p-0 m-0">
           <div className="mascara">
             <h2>HYUNDAY</h2>
