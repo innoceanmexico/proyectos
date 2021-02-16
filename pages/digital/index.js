@@ -40,7 +40,7 @@ export default function Proyectos() {
               <Link href="/digital/profits">
                 <a>
                   <img src="/images/iconos/development.svg" alt="" title="" />
-                  <p>profits</p>
+                  <p>data</p>
                 </a>
               </Link>
               <Link href="/digital/web">

@@ -21,7 +21,7 @@ export default function Profits() {
               </Link>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> PROFITS</Nav.Link>
+                  <Nav.Link eventKey="first"><span className="lnr lnr-arrow-right"></span> DMP</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
@@ -34,9 +34,27 @@ export default function Profits() {
                 }
               } className="p-3">
                 <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> PROFITS</h1>
+                  <h1><span class="lnr lnr-arrow-right"></span> DATA MANAGEMENT PLATFORM</h1>
                   <hr/>
-                  
+                  <p className="text-white">Tracking data helps companies to better understand consumer behavior and to customize their services. Moreover, it allows them to better target potential customers. Similar words and slides are usually used to convince advertisers to join the pack, invest in their technology stack and buy a Data Management Platform (DMP).</p>
+                  <hr/>
+                  <h2 className="text-white">DMP data integration</h2>
+                  <hr/>
+                  <p className="text-white">User behavior on websites and platforms is mostly captured via tracking pixels (cookies). A “pixel” or “TAG” is a small piece of software that is loaded in the background of a website to collect information (undetected), about users and their behavior on the website. Providers whose pixels/TAGs are implemented on multiple websites can track user behavior across the diﬀerent websites to create detailed user proﬁles.</p>
+                  <p className="text-white">These proﬁle segments are very useful from the advertiser’s perspective because they enable them to address members of their target group in a favorable environment. The key challenge with current cookie-based tracking is at least twofold. First, walled gardens such as facebook, youtube, amazon do not allow marketers to track their advertising.</p>
+                  <p className="text-white">Most use cases focus on three areas:</p>
+                  <hr/>
+                  <Row>
+                    <Col>
+                      <h3 className="text-center bkgnaranja p-3">Targeting Costs</h3>
+                    </Col>
+                    <Col>
+                      <h3 className="text-center bkgnaranja p-3">Frequency Management</h3>
+                    </Col>
+                    <Col>
+                      <h3 className="text-center bkgnaranja p-3">Personalization</h3>
+                    </Col>
+                  </Row>
                 </div>
               </Tab.Pane>
             </Tab.Content>
