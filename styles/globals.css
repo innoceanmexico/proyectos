@@ -389,6 +389,11 @@ a.regreso .lnr {
   font-weight: 100;
 }
 
+.estatico {
+  position: fixed;
+  top: 0;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;
