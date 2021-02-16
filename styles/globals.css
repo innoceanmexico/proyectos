@@ -392,6 +392,7 @@ a.regreso .lnr {
 .estatico {
   position: fixed;
   top: 0;
+  display: contents;
 }
 
 @media all and (max-width: 699px) {
