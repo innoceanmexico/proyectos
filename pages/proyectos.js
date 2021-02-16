@@ -19,18 +19,6 @@ const proyectos = [
     'logo': 'images/logo-hyundai.jpg',
     'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
     'link': 'hyundai'
-  },
-  {
-    'nombre': 'CINSA',
-    'logo': 'images/logo-cinsa.jpg',
-    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
-    'link': 'cinsa'
-  },
-  {
-    'nombre': 'SANTA ANITA',
-    'logo': 'images/logo-santaanita_negro.png',
-    'links': ['www.kia.com', 'www.apartatukia.com', 'www.kia.com.mx'],
-    'link': 'santaanita'
   }
 ]
 
@@ -49,7 +37,7 @@ export default function Proyectos() {
           </Row>
           <Row>
             {proyectos.map((proyecto, ide) => (
-              <Card style={{ width: '30%', margin: '5px 15px' }} key={ide}>
+              <Card style={{ width: '50%', margin: '5px 15px' }} key={ide}>
                 <div className="laimagen">
                   <Card.Img variant="top" src={proyecto.logo} style={{ width: '150px'}} />
                 </div>
