@@ -36,7 +36,6 @@ export default function Testing() {
                 <div className="contenidoTab mb-5">
                   <h1><span class="lnr lnr-arrow-right"></span> TESTING</h1>
                   <hr/>
-                  
                 </div>
               </Tab.Pane>
             </Tab.Content>

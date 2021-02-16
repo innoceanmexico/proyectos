@@ -34,7 +34,7 @@ export default function Proyectos() {
               <Link href="/digital/cloud">
                 <a>
                   <img src="/images/iconos/cloud-computing.svg" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
-                  <p>cloud</p>
+                  <p>document</p>
                 </a>
               </Link>
               <Link href="/digital/profits">

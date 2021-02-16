@@ -40,12 +40,23 @@ export default function Development() {
             </Col>
             <Col xs={10} sm={10} md={10} lg={10} className="p-0">
             <Tab.Content>
+              {/* 
               <Panel 
                 laLlave={"first"} 
                 laImagen={"/images/innocean-edificio.jpg"}
                 elTitulo={"Digital Development workflow"}
                 laIntro={"INNOCEAN Compañia global de comunicación y marketing con 18 operaciones en el mundo y más de 1,700 empleados."}
               />
+              */}
+              <Tab.Pane eventKey="first" style={{ background: "rgba(0,0,0,0.8)"}} className="p-3">
+                <div className="contenidoTab mb-5">
+                  <h1><span class="lnr lnr-arrow-right"></span> WORKFLOW</h1>
+                  <hr/>
+                  <div align="center">
+                    <img src="/images/kuak/workflow.svg" className="img-fluid" alt="innocean méxico" title="innocean méxico" />
+                  </div>
+                </div>
+              </Tab.Pane>
               <Tab.Pane eventKey="second" style={{ background: "rgba(0,0,0,0.8)"}} className="p-3">
                 <div className="contenidoTab mb-5">
                   <h1><span class="lnr lnr-arrow-right"></span> TIMELINE NEW CLIENTS</h1>

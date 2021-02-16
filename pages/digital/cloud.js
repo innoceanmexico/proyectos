@@ -34,11 +34,9 @@ export default function Cloud() {
                 }
               } className="p-3">
                 <div className="contenidoTab mb-5">
-                  <h1><span class="lnr lnr-arrow-right"></span> CODING</h1>
+                  <h1><span class="lnr lnr-arrow-right"></span> DEV DOCUMENT</h1>
                   <hr/>
-                  <div align="center">
-                    <img src="/images/kuak/cloud.svg" className="img-fluid" alt="innocean méxico" title="innocean méxico" />
-                  </div>
+                  <iframe id="iframepdf" src="/images/kuak/webdev-INNOCEAN.pdf" style={{width: '100%',height: '950px',border:'0'}}></iframe>
                 </div>
               </Tab.Pane>
             </Tab.Content>
