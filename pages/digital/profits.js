@@ -55,6 +55,16 @@ export default function Profits() {
                       <h3 className="text-center bkgnaranja p-3">Personalization</h3>
                     </Col>
                   </Row>
+                  <hr/>
+                  <h2 className="text-white">On intent data</h2>
+                  <hr/>
+                  <Row>
+                    <Col>
+                      <div align="center">
+                        <img src="/images/hyundai/intentData.png" className="img-fluid" alt="innocean méxico" title="innocean méxico" style={{width: '450px'}} />
+                      </div>
+                    </Col>
+                  </Row>
                 </div>
               </Tab.Pane>
             </Tab.Content>
