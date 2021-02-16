@@ -21,6 +21,7 @@ function Desarrollo() {
           <div className="submenu">
             <Link href="/desarrollo/product-roadmap">PRODUCT ROADMAP</Link>
             <Link href="/desarrollo/agile-rituals">AGILE RITUALS</Link>
+            <Link href="/digital">DIGITAL</Link>
           </div>
           <hr/>
           <h3>INNOCEAN MÉXICO Development workflow</h3>

@@ -34,6 +34,12 @@ p {
   color:  #F05829;
 }
 
+.bkgnaranja {
+  background: #F05829;
+  color: #fff;
+  border: none;
+}
+
 .footer {
   position: fixed;
   bottom: 0;

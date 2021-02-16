@@ -12,6 +12,7 @@ export default function Home() {
               PROYECTOS <span className="naranja">DIGITAL WEB</span>
             </h1>
           </Link>
+          <h2 className="text-white pt-4">INNOCEAN MÉXICO</h2>
           <Link href="/proyectos">
             <button className="btn btn-default">INGRESAR</button>
           </Link>

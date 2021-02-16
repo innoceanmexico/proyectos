@@ -59,7 +59,7 @@ export default function Proyectos() {
                     Desarrollo de propuesta digital INNOCEAN MÉXICO.
                   </Card.Text>
                   <Link href={proyecto.link}>
-                    <Button variant="primary" className="btn btn-secondary">DESARROLLO</Button>
+                    <Button variant="primary" className="btn btn-secondary w-100 bkgnaranja">DESARROLLO</Button>
                   </Link>
                 </Card.Body>
               </Card>

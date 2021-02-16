@@ -36,9 +36,7 @@ export default function Profits() {
                 <div className="contenidoTab mb-5">
                   <h1><span class="lnr lnr-arrow-right"></span> PROFITS</h1>
                   <hr/>
-                  <div align="center">
-                    <img src="/images/kuak/profits.svg" className="img-fluid" alt="innocean méxico" title="innocean méxico" />
-                  </div>
+                  
                 </div>
               </Tab.Pane>
             </Tab.Content>

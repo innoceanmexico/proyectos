@@ -80,7 +80,7 @@ export default function Development() {
                   
                 </div>
               </Tab.Pane>
-              <Tab.Pane eventKey="third">
+              <Tab.Pane eventKey="fourth" style={{ background: "rgba(0,0,0,0.8)"}} className="p-3">
                 <div className="contenidoTab mb-5">
                   <h1><span class="lnr lnr-arrow-right"></span> DESIGNING AND PRODUCTION</h1>
                   <hr/>
