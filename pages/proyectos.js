@@ -37,20 +37,19 @@ export default function Proyectos() {
           </Row>
           <Row>
             {proyectos.map((proyecto, ide) => (
-              <Card style={{ width: '50%', margin: '5px 15px' }} key={ide}>
-                <div className="laimagen">
-                  <Card.Img variant="top" src={proyecto.logo} style={{ width: '150px'}} />
-                </div>
-                <Card.Body>
-                  <Card.Title>{proyecto.nombre}</Card.Title>
-                  <Card.Text>
-                    Desarrollo de propuesta digital INNOCEAN MÉXICO.
-                  </Card.Text>
-                  <Link href={proyecto.link}>
-                    <Button variant="primary" className="btn btn-secondary w-100 bkgnaranja">DESARROLLO</Button>
-                  </Link>
-                </Card.Body>
-              </Card>
+              <Col>
+                <Card key={ide}>
+                  <div className="laimagen">
+                    <Card.Img variant="top" src={proyecto.logo} style={{ width: '150px'}} />
+                  </div>
+                  <Card.Body>
+                    <Card.Title>{proyecto.nombre}</Card.Title>
+                    <Link href={proyecto.link}>
+                      <Button variant="primary" className="btn btn-secondary w-100 bkgnaranja">DEVELOPMENTS</Button>
+                    </Link>
+                  </Card.Body>
+                </Card>
+              </Col>
             ))}
           </Row>
         </Container>

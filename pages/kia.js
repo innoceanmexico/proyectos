@@ -50,11 +50,6 @@ function Kia() {
               </li>
             </ul>
           </Col>
-          <Col xs={9}>
-            <h5><span class="lnr lnr-arrow-right"></span> INTRODUCCIÓN</h5>
-            <hr/>
-            <p>Desarrollo de propuesta de diseño de esrategía digital.</p>
-          </Col>
         </Row>
       </Container>
     </Layout>
