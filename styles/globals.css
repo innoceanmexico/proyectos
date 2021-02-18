@@ -403,6 +403,13 @@ a.regreso .lnr {
   background-size: cover;
 }
 
+.cubo canvas {
+  width: 100% !important;
+  height: 200px !important;
+  background-color: #fff !important;
+  background: #fff !important;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;
