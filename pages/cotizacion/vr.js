@@ -26,6 +26,7 @@ function Vr() {
             </div>
             <Link href="/cotizacion/vr/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
             <Link href="/cotizacion/vr-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            <hr/>
           </Col>
           <Col xs={12} md={9}>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
