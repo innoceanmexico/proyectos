@@ -181,6 +181,14 @@ function Livechat() {
                   {calcularCosto(50000)}
                 </tr>
                 <tr>
+                  <td>5</td>
+                  <td>SAP/OTHER Integration</td>
+                  <td>System Analysis Program Development. Each business function storing its own operational data in a separate database</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
