@@ -395,6 +395,14 @@ a.regreso .lnr {
   display: contents;
 }
 
+.cotizacion.ar {
+  background: url('/images/kia/ar/bkg_.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;

@@ -51,7 +51,7 @@ function Kia() {
           <Col xs={6}>
             <ul className="menuLateral">
               <li>
-                <Link href="/cotizacion/livechat">
+                <Link href="/cotizacion/kiacom">
                   <a>
                   <span class="lnr lnr-arrow-right"></span> KIA.COM
                   </a>
@@ -60,7 +60,7 @@ function Kia() {
               <li>
                 <Link href="/cotizacion/vr">
                   <a>
-                  <span class="lnr lnr-arrow-right"></span> VIRTUAL REALITY
+                  <span class="lnr lnr-arrow-right"></span> AUGMENTED REALITY
                   </a>
                 </Link>
               </li>
