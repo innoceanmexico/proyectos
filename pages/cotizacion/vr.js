@@ -226,50 +226,7 @@ function Vr() {
             </div>
             <hr/>
             
-            <h6><b><span class="lnr lnr-arrow-right"></span> Team experts:</b></h6>
-            <ul>
-              <li><b>1 Frontend Developer</b>
-                <ul>
-                  <li><b>Characteristics:</b>
-                    <ul>
-                      <li>Simple, clean and semantic HTML.</li>
-                      <li>Responsive, flexible, adaptable, component driven, object oriented CSS</li>
-                      <li>modular, concise, well documented JavaScript code. Someone who knows when it's right (and when it's wrong) to use a library</li>
-                      <li>Command line knowledge and the ability to use a version control system like Git</li>
-                      <li>Uses a build script to optimise their images and CSS, and which concatenates & minifies their JavaScript</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <hr/>
-              <li><b>1 Backend Developer</b>
-                <ul>
-                  <li><b>Characteristics:</b>
-                    <ul>
-                      <li>Creating, integrating, and managing databases. Some examples are MySQL, PostgreSQL and MongoDB
-Building server-side software using backend frameworks like NodeJS</li>
-                      <li>Doing cloud computing integration web server technologies</li>
-                      <li>Implements server-side programming languages, like JavaScript, PHP, and Python</li>
-                      <li>Development, deployment, and maintenance of content management systems</li>
-                      <li>Doing API integration and security settings</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li><b>2 Digital Managers</b>
-                <ul>
-                  <li><b>Characteristics:</b>
-                    <ul>
-                      <li>Adaptability and Creative Problem-Solving</li>
-                      <li>Leadership Skills</li>
-                      <li>Business Acumen</li>
-                      <li>Communication Skills</li>
-                      <li>Analytic Skills</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            
             <hr/>
               <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Total Time: <b>12 weeks</b></h4>
             <hr/>
