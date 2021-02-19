@@ -231,7 +231,7 @@ function Vr() {
             
             
             <hr/>
-              <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Total Time: <b>12 weeks</b></h4>
+              <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Total Development Time: <b>12 weeks</b></h4>
             <hr/>
             <hr/>
               <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span><b> Price</b></h4>
