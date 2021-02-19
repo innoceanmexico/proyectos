@@ -309,7 +309,7 @@ function Vr() {
                 <tr>
                   <td>1</td>
                   <td>Monthly maintenance<br/><b>(per month)</b></td>
-                  <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
+                  <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure)</small></td>
                   <td className="text-center">$27,500.00</td>
                   <td className="text-center">$4,125.00</td>
                   <td className="text-center">$31,625.00</td>
