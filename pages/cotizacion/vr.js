@@ -476,6 +476,7 @@ function Vr() {
             <hr/>
             <ul>
               <li><b>Any development that is external to the delivered system or exceeds 36hrs a month, will have to be quoted separately.<br/>It is not considered a connection to other systems.</b></li>
+              <li><b>Development Software Licenses ARE NOT INCLUDED IN THE FINAL PRICE.</b></li>
               <li>No other development is included that is not within what is described above.</li>
               <li>It does not include new developments or improvements to the platform that are outside of the 36 hours of monthly development,  if any new component is required, it will be priced separately.</li>
               <li>Does not include connections to other systems, if any connection is required, it will be priced separately.</li>
