@@ -252,36 +252,30 @@ function Vr() {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Core System</td>
-                  <td>(Public Website, Apply System, Admin System).</td>
+                  <td>Development</td>
+                  <td>Development of Apps for iOS and Android + Web AR for browsers considering the new KIA Stinger 2021</td>
                   <td className="text-center">$180,000.00</td>
                   <td className="text-center">$27,000.00</td>
                   <td className="text-center">$207,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Dictionaries to support 3 different Languages</td>
-                  <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
+                  <td>Modelado 3D</td>
+                  <td>1 modelado</td>
                   <td className="text-center">$35,000.00</td>
                   <td className="text-center">$5,250.00</td>
                   <td className="text-center">$40,250.00</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>WhatsApp notification system</td>
-                  <td></td>
-                  <td className="text-center">$10,000.00</td>
-                  <td className="text-center">$1,500.00</td>
-                  <td className="text-center">$11,500.00</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Human resources</td>
                   <td>
                     <ul>
-                      <li>1 Frontend Developer</li>
-                      <li>1 Backend Developer</li>
-                      <li>2 Digital Managers</li>
+                    <li>3D Artist</li>
+                    <li>AR Developer / Unity Specialist</li>
+                    <li>Backend Developer</li>
+                    <li>Mobile IOs Developer</li>
+                    <li>Mobile Android Developer </li>
                     </ul>
                   </td>
                   <td className="text-center">$45,000.00</td>
