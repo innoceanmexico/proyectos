@@ -384,7 +384,7 @@ function Vr() {
                 <tr>
                   <th>#</th>
                   <th>CONCEPT</th>
-
+                  <th>TYPE</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost</th>
                 </tr>
               </thead>
@@ -392,32 +392,38 @@ function Vr() {
                 <tr>
                   <td>1</td>
                   <td><b>Unity Plus License</b></td>
-                  <td>$7,980.00 /yr MXN per seat</td>
+                  <td>/yr MXN per seat</td>
+                  <td className="text-right">$7,980.00</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Adobe Creative Cloud</b></td>
-                  <td>$1,699.00 /mes</td>
+                  <td>/mes</td>
+                  <td className="text-right">$1,699.00</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Autodesk Maya</b></td>
-                  <td>$21,698.00 /por año</td>
+                  <td>/per year</td>
+                  <td className="text-right">$21,698.00</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Apple Developer</b></td>
-                  <td>$5,980.00 MX</td>
+                  <td>/per year</td>
+                  <td className="text-right">$5,980.00</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Google Developer</b></td>
-                  <td>$0.00</td>
+                  <td></td>
+                  <td className="text-right">$0.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td className="text-center"></td>
-                  <td style={{background: '#F05829', color: '#fff'}}>$37,357.00</td>
+                  <td></td>
+                  <td className="text-right" style={{background: '#F05829', color: '#fff'}}>$37,357.00</td>
                 </tr>
             
               </tbody>
