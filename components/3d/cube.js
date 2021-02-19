@@ -12,7 +12,7 @@ class Cube extends Component {
     // use ref as a mount point of the Three.js scene instead of the document.body
     this.mount.appendChild( renderer.domElement );
     var geometry = new THREE.BoxGeometry( 3, 3, 3 );
-    var material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
+    var material = new THREE.MeshBasicMaterial( { color: 0xF05829 } );
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
     camera.position.z = 5;
