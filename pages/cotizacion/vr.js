@@ -205,9 +205,6 @@ function Vr() {
             <h5 className="font-weight-bold">Exterior details</h5>
             <hr/>
             <p>The color of the car must be available to change by the clients’ selection. Its important to be able to see details on the wheels, door handles, mirrors and other details. The car must be able to be turned around, open, closed and scalated according to the clients’ interaction.</p>
-
-
-
             <hr/>
               <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Development Environment</h4>
             <hr/>
@@ -256,39 +253,63 @@ function Vr() {
                   <td>Development of Apps for iOS and Android + Web AR for browsers considering the new KIA Stinger 2021</td>
                   <td className="text-center">$180,000.00</td>
                   <td className="text-center">$27,000.00</td>
-                  <td className="text-center">$207,000.00</td>
+                  <td className="text-center">$255,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Modelado 3D</td>
                   <td>1 modelado</td>
-                  <td className="text-center">$35,000.00</td>
-                  <td className="text-center">$5,250.00</td>
-                  <td className="text-center">$40,250.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$35,000.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$5,250.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$40,250.00</td>
                 </tr>
                 <tr>
-                  <td>4</td>
+                  <td>2.1</td>
+                  <td>Modelado 3D</td>
+                  <td>4 modelados</td>
+                  <td className="text-center">$140,500.00</td>
+                  <td className="text-center">$21,000.00</td>
+                  <td className="text-center">$161,500.00</td>
+                </tr>
+                <tr>
+                  <td>2.2</td>
+                  <td>Modelado 3D</td>
+                  <td>6 modelados</td>
+                  <td className="text-center">$221,730.00</td>
+                  <td className="text-center">$33,259.50</td>
+                  <td className="text-center">$254,989.50</td>
+                </tr>
+                <tr>
+                  <td>2.3</td>
+                  <td>3D Modeling</td>
+                  <td>12 models</td>
+                  <td className="text-center">$410,000.00</td>
+                  <td className="text-center">$61,500.00</td>
+                  <td className="text-center">$471,500.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
                   <td>Human resources</td>
                   <td>
                     <ul>
-                    <li>3D Artist</li>
-                    <li>AR Developer / Unity Specialist</li>
+                    <li>2 3D Artist</li>
+                    <li>2 AR Developer / Unity Specialist</li>
                     <li>Backend Developer</li>
                     <li>Mobile IOs Developer</li>
                     <li>Mobile Android Developer </li>
                     </ul>
                   </td>
-                  <td className="text-center">$45,000.00</td>
-                  <td className="text-center">$6,750.00</td>
-                  <td className="text-center">$51,750.00</td>
+                  <td className="text-center">$90,000.00</td>
+                  <td className="text-center">$13,500.00</td>
+                  <td className="text-center">$93,500.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  <td className="text-center"><b>$270,000.00</b></td>
-                  <td className="text-center">$40,500.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$310,500.00</td>
+                  <td className="text-center"><b>$305,000.00</b></td>
+                  <td className="text-center">$83,750.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$388,750.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -341,7 +362,7 @@ function Vr() {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Frontend Design</th>
+                  <th scope="row">Development</th>
                   <td>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
@@ -356,7 +377,7 @@ function Vr() {
                   <td>S4</td>
                 </tr>
                 <tr>
-                  <th scope="row">Backend / Infrastructure development and implementation</th>
+                  <th scope="row">3D Modeling</th>
                   <td>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
