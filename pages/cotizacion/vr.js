@@ -242,7 +242,7 @@ function Vr() {
                   <th>CONCEPT</th>
                   <th>DESCRIPTION</th>
                   <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
+                  <th className="text-center">IWN Profit MXN (15%)</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
                 </tr>
               </thead>
@@ -308,32 +308,32 @@ function Vr() {
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   <td className="text-center"><b>$305,000.00</b></td>
-                  <td className="text-center">$83,750.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$388,750.00</td>
+                  <td className="text-center">$45,750.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$350,750.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   <td className="text-center"><b>$410,500.00</b></td>
-                  <td className="text-center">$83,750.00</td>
-                  <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$388,750.00</td>
+                  <td className="text-center">$61,575.00</td>
+                  <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$472,075.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   <td className="text-center"><b>$491,730.00</b></td>
-                  <td className="text-center">$83,750.00</td>
-                  <td className="text-center" style={{background: '#ac001e', color: '#fff'}}>$388,750.00</td>
+                  <td className="text-center">$73,759.50</td>
+                  <td className="text-center" style={{background: '#ac001e', color: '#fff'}}>$565,489.50</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   <td className="text-center"><b>$680,000.00</b></td>
-                  <td className="text-center">$83,750.00</td>
-                  <td className="text-center" style={{background: '#5d0200', color: '#fff'}}>$388,750.00</td>
+                  <td className="text-center">$102,000.00</td>
+                  <td className="text-center" style={{background: '#5d0200', color: '#fff'}}>$782,000.00</td>
                 </tr>
               </tbody>
             </Table>
