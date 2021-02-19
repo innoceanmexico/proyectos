@@ -217,23 +217,12 @@ function Vr() {
               <li><b>Security and user data <b>encryption through SSL</b></b></li>
             </ul>
             <hr/>
-            <div align="center mt-3 mb-3">
-              <img src="/images/kia/server.jpg" className="img-fluid" alt="" alt="" />
-            </div>
-            <hr/>
-            <div align="center mt-3 mb-3">
-              <img src="/images/kia/ssl.jpg" className="img-fluid" alt="" alt="" />
-            </div>
-            <hr/>
-            
-            
-            <hr/>
               <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Total Development Time: <b>12 weeks</b></h4>
             <hr/>
             <hr/>
               <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span><b> Price</b></h4>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1</b></h5>
+            <h5><span class="lnr lnr-plus-circle"></span> Economic proposal</h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
@@ -258,15 +247,23 @@ function Vr() {
                 <tr>
                   <td>2</td>
                   <td>3D Modeling</td>
-                  <td>1 model</td>
+                  <td>1 model - 1 version</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$35,000.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$5,250.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$40,250.00</td>
                 </tr>
                 <tr>
+                  <td>2</td>
+                  <td>3D Modeling</td>
+                  <td>2 models - 2 Versions for each</td>
+                  <td className="text-center" style={{background: '#e04616', color: '#fff'}}>$70,000.00</td>
+                  <td className="text-center" style={{background: '#e04616', color: '#fff'}}>$10,500.00</td>
+                  <td className="text-center" style={{background: '#e04616', color: '#fff'}}>$80,500.00</td>
+                </tr>
+                <tr>
                   <td>2.1</td>
                   <td>3D Modeling</td>
-                  <td>4 models</td>
+                  <td>4 models - versions for each</td>
                   <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$140,500.00</td>
                   <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$21,000.00</td>
                   <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$161,500.00</td>
@@ -274,7 +271,7 @@ function Vr() {
                 <tr>
                   <td>2.2</td>
                   <td>3D Modeling</td>
-                  <td>6 models</td>
+                  <td>6 models - 2 versions for each</td>
                   <td className="text-center" style={{background: '#AC001E', color: '#fff'}}>$221,730.00</td>
                   <td className="text-center" style={{background: '#AC001E', color: '#fff'}}>$33,259.50</td>
                   <td className="text-center" style={{background: '#AC001E', color: '#fff'}}>$254,989.50</td>
@@ -282,7 +279,7 @@ function Vr() {
                 <tr>
                   <td>2.3</td>
                   <td>3D Modeling</td>
-                  <td>12 models</td>
+                  <td>12 models - 2 versions for each</td>
                   <td className="text-center" style={{background: '#5D0200', color: '#fff'}}>$410,000.00</td>
                   <td className="text-center" style={{background: '#5D0200', color: '#fff'}}>$61,500.00</td>
                   <td className="text-center" style={{background: '#5D0200', color: '#fff'}}>$471,500.00</td>
@@ -291,12 +288,12 @@ function Vr() {
                   <td>3</td>
                   <td>Human resources</td>
                   <td>
-                    <ul>
-                    <li>2 3D Artist</li>
-                    <li>2 AR Developer / Unity Specialist</li>
-                    <li>Backend Developer</li>
-                    <li>Mobile IOs Developer</li>
-                    <li>Mobile Android Developer </li>
+                    <ul className="mb-0">
+                      <li>2 3D Artist</li>
+                      <li>2 AR Developer / Unity Specialist</li>
+                      <li>Backend Developer</li>
+                      <li>Mobile IOs Developer</li>
+                      <li>Mobile Android Developer</li>
                     </ul>
                   </td>
                   <td className="text-center">$90,000.00</td>
@@ -310,6 +307,14 @@ function Vr() {
                   <td className="text-center"><b>$305,000.00</b></td>
                   <td className="text-center">$45,750.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$350,750.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td className="text-center"><b>$340,000.00</b></td>
+                  <td className="text-center">$52,000.00</td>
+                  <td className="text-center" style={{background: '#e04616', color: '#fff'}}>$392,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -337,7 +342,8 @@ function Vr() {
                 </tr>
               </tbody>
             </Table>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
+            <hr/>
+              <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h4>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
@@ -354,18 +360,64 @@ function Vr() {
                 <tr>
                   <td>1</td>
                   <td>Monthly maintenance<br/><b>(per month)</b></td>
-                  <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure)</small></td>
-                  <td className="text-center">$27,500.00</td>
-                  <td className="text-center">$4,125.00</td>
-                  <td className="text-center">$31,625.00</td>
+                  <td>It includes 15hrs of monthly development for  changes or adjustments attached to the delivered system.<br/><small>(cloud infrastructure)</small></td>
+                  <td className="text-center">$17,500.00</td>
+                  <td className="text-center">$2,625.00</td>
+                  <td className="text-center">$20,125.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL COST PER YEAR</b></td>
-                  <td className="text-center"><b>$330,000.00</b></td>
-                  <td className="text-center">$49,500.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$379,500.00</td>
+                  <td className="text-center"><b>$210,000.00</b></td>
+                  <td className="text-center">$31,500.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$241,500.00</td>
+                </tr>
+            
+              </tbody>
+            </Table>
+            <hr/>
+              <h4 className="font-weight-bold"><span class="lnr lnr-plus-circle"></span> Software Licenses Cost</h4>
+            <hr/>
+            <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>CONCEPT</th>
+
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td><b>Unity Plus License</b></td>
+                  <td className="text-center">$7,980.00 /yr MXN per seat</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td><b>Adobe Creative Cloud</b></td>
+                  <td className="text-center">$1,699.00 /mes</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td><b>Autodesk Maya</b></td>
+                  <td className="text-center">$21,698.00 /por año</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td><b>Apple Developer</b></td>
+                  <td className="text-center">$5,980.00 USD</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td><b>Google Developer</b></td>
+                  <td className="text-center">$0.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td className="text-center"></td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$37,357.00</td>
                 </tr>
             
               </tbody>
