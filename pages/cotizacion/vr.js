@@ -257,35 +257,35 @@ function Vr() {
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Modelado 3D</td>
-                  <td>1 modelado</td>
+                  <td>3D Modeling</td>
+                  <td>1 model</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$35,000.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$5,250.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$40,250.00</td>
                 </tr>
                 <tr>
                   <td>2.1</td>
-                  <td>Modelado 3D</td>
-                  <td>4 modelados</td>
-                  <td className="text-center">$140,500.00</td>
-                  <td className="text-center">$21,000.00</td>
-                  <td className="text-center">$161,500.00</td>
+                  <td>3D Modeling</td>
+                  <td>4 models</td>
+                  <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$140,500.00</td>
+                  <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$21,000.00</td>
+                  <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$161,500.00</td>
                 </tr>
                 <tr>
                   <td>2.2</td>
-                  <td>Modelado 3D</td>
-                  <td>6 modelados</td>
-                  <td className="text-center">$221,730.00</td>
-                  <td className="text-center">$33,259.50</td>
-                  <td className="text-center">$254,989.50</td>
+                  <td>3D Modeling</td>
+                  <td>6 models</td>
+                  <td className="text-center" style={{background: '#AC001E', color: '#fff'}}>$221,730.00</td>
+                  <td className="text-center" style={{background: '#AC001E', color: '#fff'}}>$33,259.50</td>
+                  <td className="text-center" style={{background: '#AC001E', color: '#fff'}}>$254,989.50</td>
                 </tr>
                 <tr>
                   <td>2.3</td>
                   <td>3D Modeling</td>
                   <td>12 models</td>
-                  <td className="text-center">$410,000.00</td>
-                  <td className="text-center">$61,500.00</td>
-                  <td className="text-center">$471,500.00</td>
+                  <td className="text-center" style={{background: '#5D0200', color: '#fff'}}>$410,000.00</td>
+                  <td className="text-center" style={{background: '#5D0200', color: '#fff'}}>$61,500.00</td>
+                  <td className="text-center" style={{background: '#5D0200', color: '#fff'}}>$471,500.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -310,6 +310,30 @@ function Vr() {
                   <td className="text-center"><b>$305,000.00</b></td>
                   <td className="text-center">$83,750.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$388,750.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td className="text-center"><b>$410,500.00</b></td>
+                  <td className="text-center">$83,750.00</td>
+                  <td className="text-center" style={{background: '#FF2D00', color: '#fff'}}>$388,750.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td className="text-center"><b>$491,730.00</b></td>
+                  <td className="text-center">$83,750.00</td>
+                  <td className="text-center" style={{background: '#ac001e', color: '#fff'}}>$388,750.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td className="text-center"><b>$680,000.00</b></td>
+                  <td className="text-center">$83,750.00</td>
+                  <td className="text-center" style={{background: '#5d0200', color: '#fff'}}>$388,750.00</td>
                 </tr>
               </tbody>
             </Table>
