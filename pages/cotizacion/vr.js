@@ -406,13 +406,13 @@ function Vr() {
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td>S4</td>
                 </tr>
                 <tr>
@@ -422,40 +422,10 @@ function Vr() {
                   <td>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                </tr>
-                <tr>
-                  <th scope="row">CMS development</th>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                </tr>
-                <tr>
-                  <th scope="row">Integration with CRM</th>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
-                  <td>S4</td>
-                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td>S2</td>
                   <td>S3</td>
                   <td>S4</td>
@@ -472,8 +442,8 @@ function Vr() {
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
                 </tr>
               </tbody>
             </table>
