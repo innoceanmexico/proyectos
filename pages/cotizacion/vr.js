@@ -392,32 +392,32 @@ function Vr() {
                 <tr>
                   <td>1</td>
                   <td><b>Unity Plus License</b></td>
-                  <td className="text-center">$7,980.00 /yr MXN per seat</td>
+                  <td>$7,980.00 /yr MXN per seat</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Adobe Creative Cloud</b></td>
-                  <td className="text-center">$1,699.00 /mes</td>
+                  <td>$1,699.00 /mes</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Autodesk Maya</b></td>
-                  <td className="text-center">$21,698.00 /por año</td>
+                  <td>$21,698.00 /por año</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Apple Developer</b></td>
-                  <td className="text-center">$5,980.00 USD</td>
+                  <td>$5,980.00 MX</td>
                 </tr>
                 <tr>
                   <td>1</td>
                   <td><b>Google Developer</b></td>
-                  <td className="text-center">$0.00</td>
+                  <td>$0.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td className="text-center"></td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$37,357.00</td>
+                  <td style={{background: '#F05829', color: '#fff'}}>$37,357.00</td>
                 </tr>
             
               </tbody>
