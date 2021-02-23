@@ -24,8 +24,9 @@ function HyundaiSeminuevos() {
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
-            <Link href="/cotizacion/hyundai-seminuevos/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
-            <Link href="/cotizacion/hyundai-seminuevos-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/hyundai-seminuevos/"><a className="btn btn-default m-0 mt-3 w-100">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/hyundai-seminuevos/"><a className="btn btn-default m-0 mt-1 w-100 mb-0">ENGLISH</a></Link>
+            
           </Col>
           <Col xs={12} md={10}>
             <h3><b><span class="lnr lnr-chevron-right"></span> SITIO DISTRIBUIDORES</b></h3>
@@ -253,7 +254,6 @@ function HyundaiSeminuevos() {
             <ul>
               <li><b>Cualquier desarrollo que sea externo al sistema entregado o que supere las 36 horas al mes, deberá cotizarse por separado</b>.</li>
               <li>No se incluye ningún otro desarrollo que no esté dentro de lo descrito anteriormente.</li>
-              <li>.</li>
               <li>No incluye nuevos desarrollos o mejoras a la plataforma que estén fuera de las 36 horas de desarrollo mensual, si se requiere algún componente nuevo, se cotizará por separado.</li>
               <li>El tiempo de desarrollo comenzará a contar a partir de la aprobación del presupuesto.</li>
               <li>The time described only covers business days.</li>
