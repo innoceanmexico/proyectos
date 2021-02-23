@@ -241,7 +241,7 @@ function HyundaiSeminuevos() {
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>PROFIT</b></td>
-                  <td colSpan="3" className="text-center"><b>15 %</b></td>
+                  <td colSpan="3" className="text-center" style={{background:'#111',color:'#fff'}}><b>15 %</b></td>
                 </tr>
               </tbody>
             </Table>
