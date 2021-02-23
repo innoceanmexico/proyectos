@@ -112,6 +112,42 @@ function HyundaiSeminuevos() {
               </li>
             </ul>
             <hr/>
+            <hr/>
+            <h5><b><span class="lnr lnr-plus-circle"></span> RECURSOS HUMANOS</b></h5>
+            <hr/>
+            <p>Necesitaremos un equipo de desarrollo que sea muy sólido en desarrollo, diseño de frontend, arquitecto de base de datos y conexión de servicio.</p>
+            <h6><b><span class="lnr lnr-arrow-right"></span> Equipo:</b></h6>
+            <ul>
+              <li><b>1 Desarrollador Frontend</b>
+                <ul>
+                  <li><b>Características:</b>
+                    <ul>
+                      <li>HTML simple, limpio y semántico.</li>
+                      <li>CSS receptivo, flexible, adaptable, impulsado por componentes y orientado a objetos</li>
+                      <li>Código JavaScript modular, conciso y bien documentado. Alguien que sepa cuándo está bien (y cuándo está mal) usar una biblioteca</li>
+                      <li>Conocimiento de la línea de comandos y la capacidad de usar un sistema de control de versiones como Git</li>
+                      <li>Utiliza un script de compilación para optimizar sus imágenes y CSS, y que concatena y minimiza su JavaScript</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <hr/>
+              <li><b>1 Desarrollador Backend</b>
+                <ul>
+                  <li><b>Características:</b>
+                    <ul>
+                      <li>Creación, integración y gestión de bases de datos. Algunos ejemplos son MySQL, PostgreSQL y MongoDB</li>
+                      <li>Creación de software del lado del servidor utilizando marcos de backend como NodeJS</li>
+                      <li>Haciendo tecnologías de servidor web de integración de computación en la nube</li>
+                      <li>Implementa lenguajes de programación del lado del servidor, como JavaScript, PHP y Python</li>
+                      <li>Desarrollo, implementación y mantenimiento de sistemas de gestión de contenido</li>
+                      <li>Realización de la configuración de seguridad e integración de API</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr/>
             <h5><b><span class="lnr lnr-plus-circle"></span> PLAN DE TRABAJO</b></h5>
             <hr/>
             <p>* 4 semanas</p>
@@ -154,6 +190,62 @@ function HyundaiSeminuevos() {
                 </tr>
               </tbody>
             </table>
+            <hr/>
+            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>COSTOS</b></h5>
+            <hr/>
+            <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>CONCEPT</th>
+                  <th>DESCRIPTION</th>
+                  <th className="text-center">Costo Original MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluido IWN y Ganancia MXN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>SITIO PÚBLICO</td>
+                  <td>Landing o sección de seminuevos certificados con las siguientes características.</td>
+                  <td>$20,000.00</td>
+                  <td>$3,000.00</td>
+                  <td>$23,000.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>SITIO DISTRIBUIDORES</td>
+                  <td>Sitio homologado de distribuidores (Sitio Público) en la que el distribuidor solo podrá consultar los seminuevos del distribuidor registrado.</td>
+                  <td>$35,000.00</td>
+                  <td>$5,250.00</td>
+                  <td>$40,250.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>PANEL DE CONTROL</td>
+                  <td>ADMINISTRADORES | DISTRIBUIDORES</td>
+                  <td>$40,000.00</td>
+                  <td>$6,000.00</td>
+                  <td>$46,000.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL</b></td>
+                  <td>$95,000.00</td>
+                  <td>$14,250.00</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>$109,250.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>PROFIT</b></td>
+                  <td colSpan="3" className="text-center"><b>15 %</b></td>
+                </tr>
+              </tbody>
+            </Table>
+            <hr/>
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>NOTAS IMPORTANTES</b></h5>
             <hr/>
