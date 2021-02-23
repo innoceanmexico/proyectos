@@ -33,7 +33,8 @@ function HyundaiSeminuevos() {
             <h3><span class="lnr lnr-chevron-right"></span> OBJETIVO</h3>
             <hr/>
             <p>Hyundai publicará un programa de seminuevos con venta para cada dealer.</p>
-            <h5 className="pt-3"><b><span class="lnr lnr-plus-circle"></span> SITIO PÚBLICO</b></h5>
+            <hr/>
+            <h5><b><span class="lnr lnr-plus-circle"></span> SITIO PÚBLICO</b></h5>
             <hr/>
             <p>Landing o sección de seminuevos certificados con las siguientes características:</p>
             <ul>
@@ -232,7 +233,7 @@ function HyundaiSeminuevos() {
                 <tr>
                   <td></td>
                   <td></td>
-                  <td className="text-right"><b>TOTAL</b></td>
+                  <td className="text-right"><b>TOTAL:</b></td>
                   <td>$95,000.00</td>
                   <td>$14,250.00</td>
                   <td style={{background:'#F05829',color:'#fff'}}>$109,250.00</td>
@@ -240,7 +241,7 @@ function HyundaiSeminuevos() {
                 <tr>
                   <td></td>
                   <td></td>
-                  <td className="text-right"><b>PROFIT</b></td>
+                  <td className="text-right"><b>PROFIT IWN:</b></td>
                   <td colSpan="3" className="text-center" style={{background:'#111',color:'#fff'}}><b>15 %</b></td>
                 </tr>
               </tbody>
