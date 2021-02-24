@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button'
 
 export default function Proyectos() {
 
-  const [fade, setFade] = useState(true);
+  const [fade, setFade] = useState(false);
 
   const kia = (e) => {
     e.preventDefault();
@@ -33,8 +33,6 @@ export default function Proyectos() {
             <img src="/images/logo-blanco.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
           </div>
           <h2>PRESENTACIÓN PROYECTOS</h2>
-          <h3 className={fade?'fadeIn':'fadeOut'}>DIGITAL DEVELOPMENT</h3>
-          <hr/>
           <div className="logos">
             <div align="center">
               <img src="/images/logo-kia-blanco.svg" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={kia} />
@@ -43,6 +41,8 @@ export default function Proyectos() {
               <img src="/images/logo-hyundai.svg" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={hyundai} />
             </div>
           </div>
+          <h3 className={fade?'fadeIn':'fadeOut'}>DIGITAL DEVELOPMENT</h3>
+          <hr/>
         </Container>
       </div>
     </Layout>
