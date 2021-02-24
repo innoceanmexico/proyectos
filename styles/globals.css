@@ -434,6 +434,23 @@ a.regreso .lnr {
   font-size: 2.5rem;
 }
 
+.presentacion .intro .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.presentacion .intro .logos img {
+  width: 140px;
+  padding: 15px;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.presentacion .intro .logos img:hover {
+  background: rgba(0,0,0,0.5);
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;
