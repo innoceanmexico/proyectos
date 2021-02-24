@@ -431,7 +431,7 @@ a.regreso .lnr {
 .presentacion .intro h3 {
   color: #fff;
   font-weight: 100;
-  font-size: 2.5rem;
+  font-size: 2.9rem;
 }
 
 .presentacion .intro .logos {
@@ -453,18 +453,14 @@ a.regreso .lnr {
 
 .fadeOut{
   opacity:0;
-  width:0;
   height:0;
-  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
-
+  transition: width 0.5s 0.5s, height 0.5s, opacity 0.5s;
 }
 
 .fadeIn{
   opacity:1;
-  width:100px;
-  height:100px;
+  height: auto;
   transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
-
 }
 
 @media all and (max-width: 699px) {

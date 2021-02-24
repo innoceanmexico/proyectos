@@ -10,18 +10,18 @@ import Button from 'react-bootstrap/Button'
 
 export default function Proyectos() {
 
-  const [count, setCount] = useState(0);
+  const [fade, setFade] = useState(true);
 
   const kia = (e) => {
     e.preventDefault();
     console.log("kia");
-    setCount(count + 1)
+    setFade(!fade);
   }
 
   const hyundai = (e) => {
     e.preventDefault();
     console.log("hyundai");
-    setCount(count + 1)
+    setFade(!fade);
   }
 
   return (
@@ -32,8 +32,8 @@ export default function Proyectos() {
           <div align="center">
             <img src="/images/logo-blanco.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
           </div>
-          <h2>PRESENTACIÓN</h2>
-          <h3>DIGITAL DEVELOPMENT {count}</h3>
+          <h2>PRESENTACIÓN PROYECTOS</h2>
+          <h3 className={fade?'fadeIn':'fadeOut'}>DIGITAL DEVELOPMENT</h3>
           <hr/>
           <div className="logos">
             <div align="center">
