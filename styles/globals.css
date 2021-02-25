@@ -461,6 +461,7 @@ a.regreso .lnr {
   list-style: none;
   margin: 0;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .presentacion ul.proyectos li {
@@ -470,10 +471,11 @@ a.regreso .lnr {
 }
 
 .presentacion ul.proyectos li a {
-  padding: 5px 10px;
-  margin: 5px;
-  background: rgba(0,0,0,0.8);
-  transition: all 1s;
+  padding: 15px 20px;
+    margin: 5px;
+    background: rgba(0,0,0,0.8);
+    transition: all 1s;
+    font-weight: bold;
 }
 
 .presentacion ul.proyectos li a:hover {
