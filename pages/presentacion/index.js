@@ -69,7 +69,7 @@ export default function Proyectos() {
             :
               (
                 <ul className="proyectos">
-                  <li><Link href="/cotizacion/livechat">LIVE CHAT</Link></li>
+                  <li><Link href="/cotizacion/vinte">LIVE CHAT</Link></li>
                 </ul>
               )
             }
