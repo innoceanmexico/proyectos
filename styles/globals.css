@@ -462,6 +462,9 @@ a.regreso .lnr {
   margin: 0;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .presentacion ul.proyectos li {
@@ -496,6 +499,24 @@ a.regreso .lnr {
   opacity:1;
   height: auto;
   transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+.btn-workflow {
+  margin-top: 30px;
+}
+
+.btn-workflow a {
+  background: #F05829;
+  color: #111 !important;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 20px;
+  transition: all 1s;
+}
+
+.btn-workflow a:hover {
+  background: #fff;
+  text-decoration: none;
 }
 
 @media all and (max-width: 699px) {

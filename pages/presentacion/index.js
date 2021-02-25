@@ -73,6 +73,11 @@ export default function Proyectos() {
                 </ul>
               )
             }
+            <hr/>
+            <div align="center" className="btn-workflow">
+              <Link href="/desarrollo">2021 INNOCEAN DIGITAL DEVELOPMENT WORKFLOW</Link>
+            </div>
+            
           </div>
           <hr/>
         </Container>
