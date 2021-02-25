@@ -43,7 +43,7 @@ export default function Proyectos() {
               <img src="/images/logo-hyundai.svg" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={hyundai} />
             </div>
             <div align="center">
-              <img src="/images/vinte-logo.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={vinte} />
+              <img src="/images/vinte-logo.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={vinte} style={{padding: '10px'}} />
             </div>
           </div>
           <h4 className={fade?'fadeIn':'fadeOut'}>DIGITAL DEVELOPMENT <b>{marca}</b></h4>
