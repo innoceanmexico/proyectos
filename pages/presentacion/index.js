@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import Layout from '../../components/layout';
 import Container from 'react-bootstrap/Container';
 import Link from 'next/link';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button'
 
 export default function Proyectos() {
 
   const [fade, setFade] = useState(false);
   const [marca, setMarca] = useState("INNOCEAN");
+  const [acceso, setAcceso] = useState(false);
+
+  const elusuario = "innocean";
 
   const kia = (e) => {
     e.preventDefault();
@@ -26,6 +31,19 @@ export default function Proyectos() {
     setMarca("GRUPO VINTE")
   }
 
+  const usuario = (e) => {
+    e.preventDefault();
+    const password = e.target.password.value;
+    if(password === elusuario){
+      console.log(password);
+      setAcceso(true);
+    } else {
+      console.log("No es usuario");
+      setAcceso(false);
+    }
+    
+  }
+
   return (
     <Layout>
       {/*<NavbarPrincipal />*/}
@@ -35,7 +53,17 @@ export default function Proyectos() {
             <img src="/images/logo-blanco.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
           </div>
           <h2>PRESENTACIÓN PROYECTOS</h2>
-          <div className="logos">
+          <div className={acceso ? "usuario noensenar" : "usuario ensenar"}>
+            <Form onSubmit={usuario}>
+              <Form.Group controlId="formBasicPassword">
+                <Form.Control type="password" placeholder="Password" name="password" />
+              </Form.Group>
+              <Button variant="primary" type="submit">
+                INGRESAR
+              </Button>
+            </Form>
+          </div>
+          <div className={acceso ? "logos ensenar" : "logos noensenar"}>
             <div align="center">
               <img src="/images/logo-kia-blanco.svg" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={kia} />
             </div>

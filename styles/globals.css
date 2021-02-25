@@ -519,6 +519,33 @@ a.regreso .lnr {
   text-decoration: none;
 }
 
+.usuario form {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.usuario form input {
+  border-radius: 0;
+  border: none;
+}
+
+.usuario form .form-group {
+  margin-bottom: 0;
+}
+
+.usuario form button.btn {
+  padding: 0px 20px !important;
+}
+
+.presentacion .intro .logos.noensenar {
+  display: none;
+}
+
+.presentacion .intro .logos.ensenar {
+  display: flex;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;
