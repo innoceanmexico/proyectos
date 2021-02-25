@@ -20,6 +20,12 @@ export default function Proyectos() {
     setMarca("HYUNDAI")
   }
 
+  const vinte = (e) => {
+    e.preventDefault();
+    setFade(true);
+    setMarca("GRUPO VINTE")
+  }
+
   return (
     <Layout>
       {/*<NavbarPrincipal />*/}
@@ -36,8 +42,11 @@ export default function Proyectos() {
             <div align="center">
               <img src="/images/logo-hyundai.svg" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={hyundai} />
             </div>
+            <div align="center">
+              <img src="/images/vinte-logo.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" onClick={vinte} />
+            </div>
           </div>
-          <h4 className={fade?'fadeIn':'fadeOut'}>DIGITAL DEVELOPMENT {marca}</h4>
+          <h4 className={fade?'fadeIn':'fadeOut'}>DIGITAL DEVELOPMENT <b>{marca}</b></h4>
           <div className={fade?'fadeIn':'fadeOut'}>
             {marca==="KIA MOTORS"?
               (
@@ -49,12 +58,18 @@ export default function Proyectos() {
                   <li><Link href="/cotizacion/kiapet">KIA PET</Link></li>
                 </ul>
               )
-            :
+            : marca==="HYUNDAI"?
               (
                 <ul className="proyectos">
                   <li><Link href="/cotizacion/hyundai-distribuidores">DISTRIBUIDORES</Link></li>
                   <li><Link href="/cotizacion/hyundai-seminuevos">SEMINUEVOS</Link></li>
                   <li><Link href="/hyundai/camiones">CAMIONES Y BUSES</Link></li>
+                </ul>
+              )
+            :
+              (
+                <ul className="proyectos">
+                  <li><Link href="/cotizacion/livechat">LIVE CHAT</Link></li>
                 </ul>
               )
             }
