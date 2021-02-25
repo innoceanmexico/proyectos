@@ -434,6 +434,12 @@ a.regreso .lnr {
   font-size: 2.9rem;
 }
 
+.presentacion .intro h4 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
 .presentacion .intro .logos {
   display: flex;
   flex-direction: row;
@@ -449,6 +455,31 @@ a.regreso .lnr {
 
 .presentacion .intro .logos img:hover {
   background: rgba(0,0,0,0.5);
+}
+
+.presentacion ul.proyectos {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.presentacion ul.proyectos li {
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.presentacion ul.proyectos li a {
+  padding: 5px 10px;
+  margin: 5px;
+  background: rgba(0,0,0,0.8);
+  transition: all 1s;
+}
+
+.presentacion ul.proyectos li a:hover {
+  background: #F05829;
+  color: #000;
+  text-decoration: none;
 }
 
 .fadeOut{

@@ -152,13 +152,14 @@ function HyundaiSeminuevos() {
             <hr/>
             <h5><b><span class="lnr lnr-plus-circle"></span> PLAN DE TRABAJO</b></h5>
             <hr/>
-            <p>* 4 semanas</p>
+            <p>* 8 semanas</p>
             <hr/>
             <table class="table table-striped">
               <thead>
                 <tr>
                   <th scope="col">*Actividades</th>
                   <th scope="col" colSpan="4">Marzo</th>
+                  <th scope="col" colSpan="4">Abril</th>
                 </tr>
               </thead>
               <tbody>
@@ -166,19 +167,31 @@ function HyundaiSeminuevos() {
                   <th scope="row">Diseño Frontend</th>
                   <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
                   <td>S3</td>
                   <td>S4</td>
                 </tr>
                 <tr>
                   <th scope="row">Backend / Infrastructura desarrollo e implementación</th>
-                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
+                  <td>S3</td>
                   <td>S4</td>
                 </tr>
                 <tr>
                   <th scope="row">Integración de CRM y Base de datos</th>
                   <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td>S4</td>
@@ -187,6 +200,10 @@ function HyundaiSeminuevos() {
                   <th scope="row">Pruebas e implementación final</th>
                   <td>S1</td>
                   <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
                 </tr>
