@@ -41,6 +41,7 @@ function Livechat() {
       <td className="text-center"><b>${eltotalL}.00</b></td>
       <td className="text-center">${eltotalProfitL}.00</td>
       <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
+      <td style={{background: '#FF0000', color: '#fff', fontWeight: 'bold', textAlign: 'center'}}>$250,000.00</td>
       </>
     )
   }
@@ -217,8 +218,13 @@ function Livechat() {
                 <tr>
                   <td></td>
                   <td></td>
-                  <td className="text-right"><b>TOTAL</b></td>
+                  <td className="text-right"><b>TOTAL:</b></td>
                   {total1(250000, 130000, 70000, 50000, 125000)}
+                </tr>
+                <tr>
+                  <td colSpan="4"></td>
+                  <td className="text-right" colSpan="2"><b>TOTAL PROFIT DD:</b></td>
+                  <td style={{background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center'}}>$325,000.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -264,6 +270,7 @@ function Livechat() {
                   <td className="text-center"><b>${totalYear(24500)}.00</b></td>
                   <td className="text-center">${totalYear(3675)}.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${profitSuma(294000, 44100)}.00</td>
+                  <td></td>
                 </tr>
               </tbody>
             </Table>
