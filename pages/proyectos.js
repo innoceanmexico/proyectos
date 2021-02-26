@@ -53,6 +53,7 @@ export default function Proyectos() {
             <img src="/images/logo-blanco.png" className="mb-4" alt="INNOCEAN MÉXICO" title="INNOCEAN MÉXICO" />
           </div>
           <h2>DIGITAL DEVELOPMENT</h2>
+          <hr/>
           <div className={acceso ? "usuario noensenar" : "usuario ensenar"}>
             <Form method="POST" onSubmit={usuario}>
               <Form.Group controlId="formBasicPassword">
