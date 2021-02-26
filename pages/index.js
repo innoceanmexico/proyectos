@@ -7,17 +7,16 @@ export default function Home() {
     <Layout>
       <div className="container entrada">
         <main className={styles.main}>
-          <Link href="/">
+          <Link href="/proyectos">
             <h1 className={styles.title}>
               PROYECTOS <span className="naranja">DIGITAL WEB</span>
             </h1>
           </Link>
-          <h2 className="text-white pt-4 font-weight-light">INNOCEAN MÉXICO</h2>
-          {/* 
+          <h2 className="text-white pt-4">INNOCEAN MÉXICO</h2>
+          
           <Link href="/proyectos">
             <button className="btn btn-default">INGRESAR</button>
           </Link>
-          */}
         </main>
       </div>
     </Layout>
