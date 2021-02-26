@@ -557,7 +557,6 @@ a.regreso .lnr {
   display: flex;
 }
 
-
 @media all and (max-width: 699px) {
   body {
     display: grid;
@@ -586,6 +585,8 @@ a.regreso .lnr {
   .presentacion .intro h4 {
     font-size: 0.8rem;
   }
+
+  .presentacion ul.proyectos {}
 
   .presentacion ul.proyectos li a {
     font-size: 0.5rem;
