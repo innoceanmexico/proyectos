@@ -549,6 +549,15 @@ a.regreso .lnr {
   display: flex;
 }
 
+.presentacion .intro .usuario.noensenar {
+  display: none;
+}
+
+.presentacion .intro .usuario.ensenar {
+  display: flex;
+}
+
+
 @media all and (max-width: 699px) {
   body {
     display: grid;

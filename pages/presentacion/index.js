@@ -54,7 +54,7 @@ export default function Proyectos() {
           </div>
           <h2>PRESENTACIÓN PROYECTOS</h2>
           <div className={acceso ? "usuario noensenar" : "usuario ensenar"}>
-            <Form onSubmit={usuario}>
+            <Form method="POST" onSubmit={usuario}>
               <Form.Group controlId="formBasicPassword">
                 <Form.Control type="password" placeholder="Password" name="password" />
               </Form.Group>
