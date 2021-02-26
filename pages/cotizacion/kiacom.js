@@ -17,16 +17,19 @@ function Livechat() {
     const phase1Oc1ProfitTotal = (phase1Oc1 + phase1Oc1Profit).toLocaleString();
     const phase1Oc1ProfitTotalL = phase1Oc1ProfitTotal.toLocaleString();
 
+    const agencia = (precio / 2).toLocaleString();
+
     return (
       <>
         <td className="text-center">${phase1Oc1L}.00</td>
         <td className="text-center">${phase1Oc1ProfitL}.00</td>
         <td className="text-center">${phase1Oc1ProfitTotalL}.00</td>
+        <td className="text-center">${agencia}.00</td>
       </>
     )
   }
 
-  const total1 = function(valor1, valor2, valor3, valor4){
+  const total1 = function(valor1, valor2, valor3, valor4, valor5){
     const eltotal = valor1 + valor2 + valor3 + valor4;
     const eltotalL = eltotal.toLocaleString();
     const eltotalProfit = eltotal * .15.toLocaleString();
@@ -94,14 +97,14 @@ function Livechat() {
           </Col>
         </Row>
         <Row style={{ marginBottom: '90px'}}>
-          <Col className="mt-2">
+          <Col className="mt-2 mb-4">
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
             <Link href="/cotizacion/livechat/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
             <Link href="/cotizacion/livechat-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
-          <Col xs={12} md={10}>
+          <Col xs={10}>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><b><span class="lnr lnr-plus-circle"></span> Description</b></h5>
             <hr/>
@@ -167,6 +170,7 @@ function Livechat() {
                   <th className="text-center">Original Cost MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -208,12 +212,13 @@ function Livechat() {
                   <td></td>
                   <td></td>
                   <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  {total1(250000, 130000, 70000, 50000)}
+                  {total1(250000, 130000, 70000, 50000, 125000)}
                 </tr>
               </tbody>
             </Table>
@@ -229,8 +234,8 @@ function Livechat() {
                   <th>CONCEPT</th>
                   <th>DESCRIPTION</th>
                   <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center">DD TEAM Profit MXN</th>
                 </tr>
               </thead>
               <tbody>
