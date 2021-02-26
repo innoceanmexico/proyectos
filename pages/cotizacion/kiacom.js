@@ -97,14 +97,14 @@ function Livechat() {
           </Col>
         </Row>
         <Row style={{ marginBottom: '90px'}}>
-          <Col className="mt-2 mb-4">
+          <Col sm={3} className="mt-2 mb-4">
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
             <Link href="/cotizacion/livechat/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
             <Link href="/cotizacion/livechat-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
-          <Col xs={10}>
+          <Col>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><b><span class="lnr lnr-plus-circle"></span> Description</b></h5>
             <hr/>

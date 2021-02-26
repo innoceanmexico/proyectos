@@ -474,7 +474,7 @@ a.regreso .lnr {
 }
 
 .presentacion ul.proyectos li a {
-  padding: 15px 30px;
+  padding: 5px 30px;
     margin: 5px;
     background: rgba(0,0,0,0.8);
     transition: all 1s;
@@ -509,7 +509,7 @@ a.regreso .lnr {
   background: #F05829;
   color: #111 !important;
   font-weight: bold;
-  padding: 15px 30px;
+  padding: 10px 30px;
   border-radius: 20px;
   transition: all 1s;
 }
