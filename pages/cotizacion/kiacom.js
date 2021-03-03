@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '../../components/layout'
 import Pie from '../../components/graficas/pie'
+import Stacked from '../../components/graficas/stacked'
 import Roadmap from '../../components/graficas/roadmap'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -10,6 +11,26 @@ import Table from 'react-bootstrap/Table'
 function Livechat() {
 
   const calcularCosto = function(precio){
+    const phase1Oc1 = precio;
+    const phase1Oc1L = phase1Oc1.toLocaleString();
+    const phase1Oc1Profit = precio * .15.toLocaleString();
+    const phase1Oc1ProfitL = phase1Oc1Profit.toLocaleString();
+    const phase1Oc1ProfitTotal = (phase1Oc1 + phase1Oc1Profit).toLocaleString();
+    const phase1Oc1ProfitTotalL = phase1Oc1ProfitTotal.toLocaleString();
+
+    const agencia = (precio / 2).toLocaleString();
+
+    return (
+      <>
+        <td className="text-center">${phase1Oc1L}.00</td>
+        <td className="text-center">${phase1Oc1ProfitL}.00</td>
+        <td className="text-center">${phase1Oc1ProfitTotalL}.00</td>
+        <td className="text-center">${agencia}.00</td>
+      </>
+    )
+  }
+
+  const calcularCosto2 = function(precio){
     const phase1Oc1 = precio;
     const phase1Oc1L = phase1Oc1.toLocaleString();
     const phase1Oc1Profit = precio * .15.toLocaleString();
@@ -53,6 +74,7 @@ function Livechat() {
     const eltotalProfitL = eltotalProfit.toLocaleString();
     const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
     const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
+    const eltotalProfitTotalI = eltotalProfitTotal.toLocaleString();
     return(
       <>
       <td className="text-center"><b>${eltotalL}.00</b></td>
@@ -229,7 +251,7 @@ function Livechat() {
               </tbody>
             </Table>
             <hr/>
-            <Pie id="1" />
+            <Stacked id="1" />
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
             <hr/>
@@ -240,8 +262,9 @@ function Livechat() {
                   <th>CONCEPT</th>
                   <th>DESCRIPTION</th>
                   <th className="text-center">Original Cost MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
-                  <th className="text-center">DD TEAM Profit MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th className="text-center" style={{background: '#F05829', color: '#fff'}}>Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{background: '#FF0000', color: '#fff'}}>DD TEAM IWN Profit MXN</th>
                 </tr>
               </thead>
               <tbody>
@@ -249,19 +272,20 @@ function Livechat() {
                   <td>1</td>
                   <td>Infrastructure for hosting the platform</td>
                   <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
-                  {calcularCosto(18000)}
+                  {calcularCosto2(18000)}
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Operation and support</td>
                   <td>Support and operation activities to keep the platform in optimal operations.</td>
-                  {calcularCosto(6500)}
+                  {calcularCosto2(6500)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   {total2(18000, 6500)}
+                  <td style={{background: '#FF0000', color: '#fff'}}>$12,250.00</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -270,7 +294,7 @@ function Livechat() {
                   <td className="text-center"><b>${totalYear(24500)}.00</b></td>
                   <td className="text-center">${totalYear(3675)}.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${profitSuma(294000, 44100)}.00</td>
-                  <td></td>
+                  <td style={{background: '#FF0000', color: '#fff'}}>$147,000.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -300,7 +324,6 @@ function Livechat() {
                 </tr>
               </tbody>
             </Table>
-            <Pie id="2" />
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
             <p>* 6 Weeks</p>
             <hr/>
@@ -382,7 +405,6 @@ function Livechat() {
                 </tr>
               </tbody>
             </table>
-            <Roadmap />
             <hr/>
             <hr/>
             <h4><span class="lnr lnr-arrow-right"></span> PHASE 2 - VIDEO CHAT</h4>
