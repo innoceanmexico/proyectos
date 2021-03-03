@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Nav from 'react-bootstrap/Nav'
 import Tab from 'react-bootstrap/Tab'
+import Table from 'react-bootstrap/Table'
 
 export default function Resumen() {
   return (
@@ -278,13 +279,13 @@ export default function Resumen() {
                     <Row>
                       <Col>
                         <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Plan estimado de trabajo</h5>
-                        <p>* 6 Semanas</p>
+                        <p>* 3 Semanas</p>
                         <table class="table table-striped">
                           <thead>
                             <tr>
                               <th scope="col">*Actividades</th>
-                              <th scope="col" colSpan="4">Febrero</th>
                               <th scope="col" colSpan="4">Marzo</th>
+                              <th scope="col" colSpan="4">Abril</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -366,16 +367,67 @@ export default function Resumen() {
                         <hr />
                       </Col>
                       <Col>
-                        <div align="center">
-                          <img src="/images/hyundai/hyundai-camiones-logo.png" className="img-fluid" alt="" title="" />
-                        </div>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col>
-                        <div align="center">
-                          <img src="/images/hyundai/tabla-costos.svg" className="img-fluid" alt="" title="" />
-                        </div>
+                      <Table striped bordered hover size="sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>CONCEPT</th>
+                  <th>DESCRIPTION</th>
+                  <th className="text-center">Costo Original MXN</th>
+                  <th className="text-center">IWN Profit MXN</th>
+                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluido IWN y Ganancia MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>SITIO PÚBLICO</td>
+                  <td>Landing o sección de seminuevos certificados con las siguientes características.</td>
+                  <td>$50,000.00</td>
+                  <td>$3,000.00</td>
+                  <td>$23,000.00</td>
+                  <td>$30,000.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>SITIO DISTRIBUIDORES</td>
+                  <td>Sitio homologado de distribuidores (Sitio Público) en la que el distribuidor solo podrá consultar los seminuevos del distribuidor registrado.</td>
+                  <td>$35,000.00</td>
+                  <td>$5,250.00</td>
+                  <td>$40,250.00</td>
+                  <td>$17,000.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>PANEL DE CONTROL</td>
+                  <td>ADMINISTRADORES | DISTRIBUIDORES</td>
+                  <td>$40,000.00</td>
+                  <td>$6,000.00</td>
+                  <td>$46,000.00</td>
+                  <td>$18,000.00</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>TOTAL:</b></td>
+                  <td>$95,000.00</td>
+                  <td>$14,250.00</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>$109,250.00</td>
+                  <td className="text-center" style={{background: '#FF0000', color: '#fff'}}><b>$65,000.00</b></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td className="text-right"><b>PROFIT IWN:</b></td>
+                  <td colSpan="4" className="text-center" style={{background:'#111',color:'#fff'}}><b>15 %</b></td>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$44,250.00</th>
+                </tr>
+              </tbody>
+            </Table>
                       </Col>
                     </Row>
                   </Tab.Pane>

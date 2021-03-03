@@ -221,6 +221,7 @@ function HyundaiSeminuevos() {
                   <th className="text-center">Costo Original MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluido IWN y Ganancia MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,9 +229,10 @@ function HyundaiSeminuevos() {
                   <td>1</td>
                   <td>SITIO PÚBLICO</td>
                   <td>Landing o sección de seminuevos certificados con las siguientes características.</td>
-                  <td>$20,000.00</td>
+                  <td>$50,000.00</td>
                   <td>$3,000.00</td>
                   <td>$23,000.00</td>
+                  <td>$30,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -239,6 +241,7 @@ function HyundaiSeminuevos() {
                   <td>$35,000.00</td>
                   <td>$5,250.00</td>
                   <td>$40,250.00</td>
+                  <td>$17,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -247,6 +250,7 @@ function HyundaiSeminuevos() {
                   <td>$40,000.00</td>
                   <td>$6,000.00</td>
                   <td>$46,000.00</td>
+                  <td>$18,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -255,12 +259,17 @@ function HyundaiSeminuevos() {
                   <td>$95,000.00</td>
                   <td>$14,250.00</td>
                   <td style={{background:'#F05829',color:'#fff'}}>$109,250.00</td>
+                  <td className="text-center" style={{background: '#FF0000', color: '#fff'}}><b>$65,000.00</b></td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>PROFIT IWN:</b></td>
-                  <td colSpan="3" className="text-center" style={{background:'#111',color:'#fff'}}><b>15 %</b></td>
+                  <td colSpan="4" className="text-center" style={{background:'#111',color:'#fff'}}><b>15 %</b></td>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$44,250.00</th>
                 </tr>
               </tbody>
             </Table>

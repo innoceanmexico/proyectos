@@ -219,6 +219,7 @@ function Livechat() {
                   <th className="text-center">Original Cost MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -227,18 +228,21 @@ function Livechat() {
                   <td>Infrastructure for hosting the platform</td>
                   <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
                   {calcularCosto(18000)}
+                  <td>$9,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Operation and support</td>
                   <td>Support and operation activities to keep the platform in optimal operations.</td>
                   {calcularCosto(6500)}
+                  <td>$3,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   {total2(18000, 6500)}
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$12,000.00</th>
                 </tr>
                 <tr>
                   <td></td>
@@ -247,6 +251,11 @@ function Livechat() {
                   <td className="text-center"><b>${totalYear(24500)}.00</b></td>
                   <td className="text-center">${totalYear(3675)}.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${profitSuma(294000, 44100)}.00</td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$144,000.00</th>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$194,100.00</th>
                 </tr>
               </tbody>
             </Table>
@@ -276,7 +285,6 @@ function Livechat() {
                 </tr>
               </tbody>
             </Table>
-            <Pie id="2" />
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
             <p>* 6 Weeks</p>
             <hr/>
@@ -358,8 +366,6 @@ function Livechat() {
                 </tr>
               </tbody>
             </table>
-            <Roadmap />
-            <hr/>
             <hr/>
             <h4><span class="lnr lnr-arrow-right"></span> PHASE 2 - VIDEO CHAT</h4>
             <hr/>
@@ -374,6 +380,7 @@ function Livechat() {
                   <th className="text-center">Original Cost MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -382,6 +389,7 @@ function Livechat() {
                   <td>Live chat video</td>
                   <td>Implementation of the ability to transmit live-streaming video.</td>
                   {calcularCosto(200000)}
+                  <td>$90,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -395,18 +403,25 @@ function Livechat() {
                     </ul>
                   </td>
                   {calcularCosto(80000)}
+                  <td>$40,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
                   {calcularCosto(90000)}
+                  <td>$35,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   {total1(90000, 130000, 70000, 50000)}
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$165,000.00</th>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$226,000.00</th>
                 </tr>
               </tbody>
             </Table>
