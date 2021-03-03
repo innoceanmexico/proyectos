@@ -251,8 +251,6 @@ function Livechat() {
               </tbody>
             </Table>
             <hr/>
-            <Stacked id="1" />
-            <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
             <hr/>
             <Table striped bordered hover size="sm">
@@ -420,6 +418,7 @@ function Livechat() {
                   <th className="text-center">Original Cost MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{background: '#FF0000', color: '#fff'}}>DD TEAM IWN Profit MXN</th>
                 </tr>
               </thead>
               <tbody>
