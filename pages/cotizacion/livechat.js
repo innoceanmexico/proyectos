@@ -146,6 +146,7 @@ function Livechat() {
                   <th className="text-center">Original Cost MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -154,12 +155,14 @@ function Livechat() {
                   <td>Live chat</td>
                   <td>Online service software for customers and visitors of the different KMM web platforms.</td>
                   {calcularCosto(250000)}
+                  <td>$120,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Administration module</td>
                   <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
                   {calcularCosto(130000)}
+                  <td>$50,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -173,17 +176,20 @@ function Livechat() {
                     </ul>
                   </td>
                   {calcularCosto(70000)}
+                  <td>$30,000.00</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
                   {calcularCosto(50000)}
+                  <td>$20,000.00</td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>SAP/OTHER Integration</td>
                   <td>System Analysis Program Development. Each business function storing its own operational data in a separate database</td>
+                  <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -193,11 +199,14 @@ function Livechat() {
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   {total1(250000, 130000, 70000, 50000)}
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$220,000.00</th>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$355,000.00</th>
                 </tr>
               </tbody>
             </Table>
-            <hr/>
-            <Pie id="1" />
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
             <hr/>

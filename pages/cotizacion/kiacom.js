@@ -212,13 +212,7 @@ function Livechat() {
                 <tr>
                   <td>3</td>
                   <td>Integrations</td>
-                  <td>Integrations with the following platforms:
-                    <ul>
-                      <li>kia.com/mx</li>
-                      <li>apartatukia.com</li>
-                      <li>Dealer portal</li>
-                      <li>Sistemas CRM</li>
-                    </ul>
+                  <td>Integrations with all of KIA's platforms
                   </td>
                   {calcularCosto(70000)}
                 </tr>
@@ -431,14 +425,7 @@ function Livechat() {
                 <tr>
                   <td>2</td>
                   <td>Integraciones</td>
-                  <td>Integrations with the following platforms:
-                    <ul>
-                      <li>kia.com/mx</li>
-                      <li>apartatukia.com</li>
-                      <li>Dealer portal</li>
-                      <li>Sistemas CRM</li>
-                    </ul>
-                  </td>
+                  <td>Integrations with all of KIA's developments</td>
                   {calcularCosto(80000)}
                 </tr>
                 <tr>
