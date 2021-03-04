@@ -445,7 +445,7 @@ function Vinte() {
                   <th scope="row">Diseño de Frontend</th>
                   <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td>S4</td>
                 </tr>
                 <tr>
