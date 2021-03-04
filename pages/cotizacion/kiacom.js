@@ -177,12 +177,11 @@ function Livechat() {
               <li><b>BACKEND DEVELOPER SR.</b>: Development in Node / React.</li>
               <li><b>DevOps</b>: Infrastructure survey (servers, DB, IP, Domain and Licenses).</li>
               <li><b>QA Tester:</b>: Quality testing in testing environment.</li>
-              <li><b>2 Operators:</b>: Backend and frontend platform operators.</li>
             </ul>
             <hr/>
-            <h4><span class="lnr lnr-arrow-right"></span> PHASE 1 - CHAT TEXT</h4>
+            <h4><span class="lnr lnr-arrow-right"></span> PHASE 1 - WEB DEVELOPMENT</h4>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1 - CHAT TEXT</b></h5>
+            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1 - DEVELOPMENT</b></h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>

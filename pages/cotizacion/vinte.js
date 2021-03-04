@@ -87,7 +87,7 @@ function Vinte() {
           <Col className="d-flex flex-just">
             <h2 className="mt-3 mb-3">
               <span>
-                <span style={{ color: '#f0582a' }}>[</span> QUOTATION LIVE CHAT GRUPO VINTE <span style={{ color: '#f0582a' }}>]</span>
+                <span style={{ color: '#f0582a' }}>[</span> COTIZACIÓN INMOBILIARIA VINTE <span style={{ color: '#f0582a' }}>]</span>
               </span>
             </h2>
             <hr />
@@ -105,14 +105,13 @@ function Vinte() {
           <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Descripción</h5>
             <hr/>
-            <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a un chat en vivo (live chat) para KMM integrado con sus diferentes plataformas web (www.kia.com y www.apartatukia.com) u operativas (DP o CRM Siebel). El live chat tendrá como objetivo principal la interacción de los visitantes de KMM con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
+            <p>Diseñar, desarrollar, desplegar, dar soporte, mantenimiento y hospedaje a un chat en vivo (live chat) para KMM integrado con sus diferentes plataformas web (www.vinte.com.mx) u operativas (DP o CRM Siebel). El live chat tendrá como objetivo principal la interacción de los visitantes de <b>INMOBILIARIA VINTE</b> con un pool de agentes del corporativo o de la red de dealers mediante mensajes de texto y video conferencias en vivo.</p>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Características generales del componente</h5>
             <hr/>
             <ul>
               <li><b>PLATAFORMA</b>: Componente para implementar en plataforma web</li>
               <li><b>DISEÑO</b>: De acuerdo con identidad corporativa de la marca.</li>
-              <li><b>INTEGRACIONES</b>: con CRM, DP, Kia.com/mx y apartatukia.com</li>
-              <li><b>IDIOMAS</b>: Español / Inglés / koreano</li>
+              <li><b>IDIOMAS</b>: Español</li>
               <li><b>LENGUAJES DE DESARROLLO</b>:
                 <ul>
                   <li><b>FRONTEND</b>: HTML5, CSS3, Javascript, ReactJS/NextJS</li>
@@ -147,16 +146,18 @@ function Vinte() {
                   <th className="text-center">Costo Original MXN</th>
                   <th className="text-center">IWN Ganancia MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluyendo IWN Ganancia MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
                   <td>Live chat</td>
-                  <td>Online service software for customers and visitors of the different KMM web platforms.</td>
+                  <td>Online service software for customers and visitors of the different <b>VINTE</b> web platforms.</td>
                   <td className="text-center">$310,000.00</td>
                   <td className="text-center">$37,200.00</td>
                   <td className="text-center">$347,200.00</td>
+                  <td className="text-center">$120,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -165,21 +166,20 @@ function Vinte() {
                   <td className="text-center">$150,000.00</td>
                   <td className="text-center">$18,000.00</td>
                   <td className="text-center">$168,000.00</td>
+                  <td className="text-center">$70,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Integrations</td>
                   <td>Integrations with the following platforms:
                     <ul>
-                      <li>kia.com/mx</li>
-                      <li>apartatukia.com</li>
-                      <li>Dealer portal</li>
-                      <li>Sistemas CRM</li>
+                      <li>vinte.com.mx</li>
                     </ul>
                   </td>
                   <td className="text-center">$90,000.00</td>
                   <td className="text-center">$10,800.00</td>
                   <td className="text-center">$100,800.00</td>
+                  <td className="text-center">$40,000.00</td>
                 </tr>
                 <tr>
                   <td>4</td>
@@ -188,6 +188,7 @@ function Vinte() {
                   <td className="text-center">$100,000.00</td>
                   <td className="text-center">$12,000.00</td>
                   <td className="text-center">$112,000.00</td>
+                  <td className="text-center">$30,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -196,6 +197,11 @@ function Vinte() {
                   <td className="text-center"><b>$650,000.00</b></td>
                   <td className="text-center">$78,000.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$728,000.00</td>
+                  <td style={{background: '#FF0000', color: '#fff'}}><b>$260,000.00</b></td>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$468,000.00</th>
                 </tr>
               </tbody>
             </Table>
@@ -210,6 +216,7 @@ function Vinte() {
                   <th className="text-center">Costo Original MXN</th>
                   <th className="text-center">IWN Ganancia MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluyendo IWN Ganancia MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -220,6 +227,7 @@ function Vinte() {
                   <td className="text-center">$20,000.00</td>
                   <td className="text-center">$2,400.00</td>
                   <td className="text-center">$22,400.00</td>
+                  <td className="text-center">$10,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -228,6 +236,7 @@ function Vinte() {
                   <td className="text-center">$7,500.00</td>
                   <td className="text-center">$900.00</td>
                   <td className="text-center">$8,400.00</td>
+                  <td className="text-center">$3,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -236,6 +245,7 @@ function Vinte() {
                   <td className="text-center"><b>$27,500.00</b></td>
                   <td className="text-center">$3,300.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$30,800.00</td>
+                  <td style={{background: '#FF0000', color: '#fff'}}><b>$13,000.00</b></td>
                 </tr>
                 <tr>
                   <td></td>
@@ -244,6 +254,11 @@ function Vinte() {
                   <td className="text-center"><b>$330,000.00</b></td>
                   <td className="text-center">$39,600.00</td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$369,600.00</td>
+                  <td style={{background: '#FF0000', color: '#fff'}}><b>$156,000.00</b></td>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$213,600.00</th>
                 </tr>
               </tbody>
             </Table>
@@ -257,17 +272,17 @@ function Vinte() {
               </thead>
               <tbody>
                 <tr>
-                  <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
+                  <td>Total cost of the project (development and 1 year maintenance with no IWM gain) </td>
                   <td className="text-center">$980,000.00</td>
                   <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>$1,097,600.00</td>
                 </tr>
                 <tr>
-                  <td>Total IWWM gain (development and 1 year maintenance)</td>
+                  <td>Total IWM gain (development and 1 year maintenance)</td>
                   <td className="text-center"></td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>$117,600.00</td>
                 </tr>
                 <tr>
-                  <td>Total IWWM gain (percentage, total project) </td>
+                  <td>Total IWM gain (percentage, total project) </td>
                   <td className="text-center"></td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff', fontWeight: 'bold'}}>12%</td>
                 </tr>
@@ -368,6 +383,7 @@ function Vinte() {
                   <th className="text-center">Costo Original MXN</th>
                   <th className="text-center">IWN Ganancia MXN</th>
                   <th style={{background: '#F05829', color: '#fff'}} className="text-center">Costo incluyendo IWN Ganancia MXN</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -375,32 +391,29 @@ function Vinte() {
                   <td>1</td>
                   <td>Live chat video</td>
                   <td>Implementation of the ability to transmit live-streaming video.</td>
-                  <td>$250,000.00</td>
+                  <td className="text-center">$250,000.00</td>
                   <td className="text-center">$30,000.00</td>
                   <td className="text-center">$280,000.00</td>
+                  <td className="text-center">$100,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Integraciones</td>
-                  <td>Integrations with the following platforms:
-                    <ul>
-                      <li>kia.com/mx</li>
-                      <li>apartatukia.com</li>
-                      <li>Dealer portal</li>
-                      <li>Sistemas CRM</li>
-                    </ul>
+                  <td>Integrations with platforms
                   </td>
-                  <td>$90,000.00</td>
+                  <td className="text-center">$90,000.00</td>
                   <td className="text-center">$10,800.00</td>
                   <td className="text-center">$100,800.00</td>
+                  <td className="text-center">$30,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  <td>$100,000.00</td>
+                  <td className="text-center">$100,000.00</td>
                   <td className="text-center">$1,200.00</td>
                   <td className="text-center">$101,200.00</td>
+                  <td className="text-center">$50,000.00</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -409,6 +422,11 @@ function Vinte() {
                   <td className="text-center"><b>$440,000.00</b></td>
                   <td className="text-center"><b>$42,000.00</b></td>
                   <td className="text-center" style={{background: '#F05829', color: '#fff'}}><b>$482,000.00</b></td>
+                  <td className="text-center" style={{background: '#FF0000', color: '#fff'}}><b>$180,000.00</b></td>
+                </tr>
+                <tr>
+                  <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$302,000.00</th>
                 </tr>
               </tbody>
             </Table>
