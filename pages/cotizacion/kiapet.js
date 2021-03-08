@@ -9,7 +9,7 @@ import Table from 'react-bootstrap/Table'
 
 function KiaPet() {
 
-  const calcularCosto = function(precio){
+  const calcularCosto = function (precio) {
     const phase1Oc1 = precio;
     const phase1Oc1L = phase1Oc1.toLocaleString();
     const phase1Oc1Profit = precio * .15.toLocaleString();
@@ -26,56 +26,56 @@ function KiaPet() {
     )
   }
 
-  const total1 = function(valor1, valor2, valor3, valor4){
+  const total1 = function (valor1, valor2, valor3, valor4) {
     const eltotal = valor1 + valor2 + valor3 + valor4;
     const eltotalL = eltotal.toLocaleString();
     const eltotalProfit = eltotal * .15.toLocaleString();
     const eltotalProfitL = eltotalProfit.toLocaleString();
     const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
     const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
-    return(
+    return (
       <>
-      <td className="text-center"><b>${eltotalL}.00</b></td>
-      <td className="text-center">${eltotalProfitL}.00</td>
-      <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
+        <td className="text-center"><b>${eltotalL}.00</b></td>
+        <td className="text-center">${eltotalProfitL}.00</td>
+        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>${eltotalProfitTotalL}.00</td>
       </>
     )
   }
 
-  const total2 = function(valor1, valor2){
+  const total2 = function (valor1, valor2) {
     const eltotal = valor1 + valor2;
     const eltotalL = eltotal.toLocaleString();
     const eltotalProfit = eltotal * .15.toLocaleString();
     const eltotalProfitL = eltotalProfit.toLocaleString();
     const eltotalProfitTotal = (eltotal + eltotalProfit).toLocaleString();
     const eltotalProfitTotalL = eltotalProfitTotal.toLocaleString();
-    return(
+    return (
       <>
-      <td className="text-center"><b>${eltotalL}.00</b></td>
-      <td className="text-center">${eltotalProfitL}.00</td>
-      <td className="text-center" style={{background: '#F05829', color: '#fff'}}>${eltotalProfitTotalL}.00</td>
+        <td className="text-center"><b>${eltotalL}.00</b></td>
+        <td className="text-center">${eltotalProfitL}.00</td>
+        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>${eltotalProfitTotalL}.00</td>
       </>
     )
   }
 
-  const totalYear = function(valor1){
+  const totalYear = function (valor1) {
     const eltotal = valor1 * 12;
     const eltotalL = eltotal.toLocaleString();
-    return(
+    return (
       eltotalL
     )
   }
-  const profitSuma = function(valor1, valor2){
+  const profitSuma = function (valor1, valor2) {
     const eltotal = valor1 + valor2;
     const eltotalL = eltotal.toLocaleString();
-    return(
+    return (
       eltotalL
     )
   }
-  const profit = function(valor1, valor2){
+  const profit = function (valor1, valor2) {
     const eltotal = valor1 - valor2;
     const eltotalL = eltotal.toLocaleString();
-    return(
+    return (
       eltotalL
     )
   }
@@ -93,7 +93,7 @@ function KiaPet() {
             <hr />
           </Col>
         </Row>
-        <Row style={{ marginBottom: '90px'}}>
+        <Row style={{ marginBottom: '90px' }}>
           <Col className="mt-2">
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
@@ -104,11 +104,11 @@ function KiaPet() {
           <Col xs={12} md={10}>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><b><span class="lnr lnr-plus-circle"></span> Description</b></h5>
-            <hr/>
+            <hr />
             <p><b></b>Design, develop, deploy, support, maintain and host <b>KIA Pet's platform</b>.</p>
-            <hr/>
+            <hr />
             <h5><b><span class="lnr lnr-plus-circle"></span> Requirements</b></h5>
-            <hr/>
+            <hr />
             <ul>
               <li>Redesign of the <b>KIA Pets</b>, taking on account the preference of being able to get information from our existing platform</li>
               <li>Redesign of the Corporate microsites with two different quotes: With KIA dealers  & Without KIA dealers</li>
@@ -123,9 +123,9 @@ function KiaPet() {
               <li>Integration of our Virtual Showroom "KIA Virtual experience"</li>
             </ul>
             <p>The Google Tag Manager implementation on all our sites is very important for campaign purposes, so it is of high importance to have the tagging system in mind for the platform development.</p>
-            <hr/>
+            <hr />
             <h5><b><span class="lnr lnr-plus-circle"></span> Integration</b></h5>
-            <hr/>
+            <hr />
 
 
 
@@ -142,19 +142,19 @@ function KiaPet() {
                 </ul>
               </li>
             </ul>
-            <hr/>
+            <hr />
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Equipo de desarrollo</h5>
-            <hr/>
+            <hr />
             <ul>
               <li><b>DESIGNER</b>: User Experience (UX), User Interface (UI).</li>
               <li><b>FRONTEND DEVELOPER SR.</b>: Development in HTML5 / Node / React.</li>
               <li><b>BACKEND DEVELOPER SR.</b>: Development in Node / React.</li>
             </ul>
-            <hr/>
+            <hr />
             <h4><span class="lnr lnr-arrow-right"></span> KIA PETS SITE</h4>
-            <hr/>
+            <hr />
             <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal</h5>
-            <hr/>
+            <hr />
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>
@@ -163,8 +163,8 @@ function KiaPet() {
                   <th>DESCRIPTION</th>
                   <th className="text-center">Original Cost MXN</th>
                   <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
-                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>DD TEAM PROFIT AGENCIA</th>
+                  <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                  <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
                 </tr>
               </thead>
               <tbody>
@@ -187,22 +187,22 @@ function KiaPet() {
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
                   {total1(150000, 130000, 70000, 50000)}
-                  <td className="text-center" style={{background: '#FF0000', color: '#fff'}}>$55,000.00</td>
+                  <td className="text-center" style={{ background: '#FF0000', color: '#fff' }}>$55,000.00</td>
                 </tr>
                 <tr>
                   <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$235,000.00</th>
+                  <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$235,000.00</th>
                 </tr>
               </tbody>
             </Table>
-            <hr/>
+            <hr />
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Monthly maintenance</h5>
-            <hr/>
-            
+            <hr />
+
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
             <p>* 2 Weeks</p>
-            <hr/>
-            
+            <hr />
+
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -214,22 +214,22 @@ function KiaPet() {
                 <tr>
                   <th scope="row">Frontend Design</th>
                   <td>S1</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{ background: '#F05829', color: '#fff' }}>S2</td>
+                  <td style={{ background: '#F05829', color: '#fff' }}>S3</td>
                 </tr>
                 <tr>
                   <th scope="row">Backend / Infrastructure development and implementation</th>
                   <td>S1</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{ background: '#F05829', color: '#fff' }}>S2</td>
+                  <td style={{ background: '#F05829', color: '#fff' }}>S3</td>
                 </tr>
               </tbody>
             </table>
-            <hr/>
+            <hr />
             <h4><span class="lnr lnr-arrow-right"></span> PHASE 2 - VIDEO CHAT</h4>
-            <hr/>
+            <hr />
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
-            <hr/>
+            <hr />
             <ul>
               <li><b>No other development is included that is not within what is described above</b>.</li>
               <li>The development and release time of the components in this proposal from 4 months from the formal acceptance thereof.</li>
@@ -241,7 +241,7 @@ function KiaPet() {
 
       </Container>
     </Layout>
-    
+
   )
 }
 
