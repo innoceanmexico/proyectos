@@ -557,6 +557,10 @@ a.regreso .lnr {
   display: flex;
 }
 
+.nav-tabs .nav-link {
+  font-weight: bold;
+}
+
 @media all and (max-width: 699px) {
   body {
     display: grid;

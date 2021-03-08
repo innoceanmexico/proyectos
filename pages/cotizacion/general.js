@@ -600,18 +600,360 @@ function General() {
                                             <h2><b>HYUNDAI<br/>DISTRIBUIDORES</b></h2>
                                             <h3>COST</h3>
                                             <hr />
+                                            <Table striped bordered hover size="sm" style={{
+                                                fontSize: '8px'
+                                            }}>
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>CONCEPT</th>
+                                                        <th>DESCRIPTION</th>
+                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Core System</td>
+                                                        <td>(Public Website, Apply System, Admin System).</td>
+                                                        <td className="text-center">$180,000.00</td>
+                                                        <td className="text-center">$27,000.00</td>
+                                                        <td className="text-center">$207,000.00</td>
+                                                        <td className="text-center">$80,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Dictionaries to support 3 different Languages</td>
+                                                        <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
+                                                        <td className="text-center">$35,000.00</td>
+                                                        <td className="text-center">$5,250.00</td>
+                                                        <td className="text-center">$40,250.00</td>
+                                                        <td className="text-center">$15,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>WhatsApp notification system</td>
+                                                        <td></td>
+                                                        <td className="text-center">$10,000.00</td>
+                                                        <td className="text-center">$1,500.00</td>
+                                                        <td className="text-center">$11,500.00</td>
+                                                        <td className="text-center">$10,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Human resources</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>1 Frontend Developer</li>
+                                                                <li>1 Backend Developer</li>
+                                                                <li>2 Digital Managers</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td className="text-center">$45,000.00</td>
+                                                        <td className="text-center">$6,750.00</td>
+                                                        <td className="text-center">$51,750.00</td>
+                                                        <td className="text-center">$20,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL:</b></td>
+                                                        <td className="text-center"><b>$270,000.00</b></td>
+                                                        <td className="text-center">$40,500.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$310,500.00</td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$125,000.00</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$185,500.00</th>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
+                                            <hr />
+                                            <h3>MAINTENANCE</h3>
+                                            <hr />
+                                            <Table striped bordered hover size="sm" style={{
+                                                fontSize: '8px'
+                                            }}>
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>CONCEPT</th>
+                                                        <th>DESCRIPTION</th>
+                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Monthly maintenance<br /><b>(per month)</b></td>
+                                                        <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br /><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
+                                                        <td className="text-center">$27,500.00</td>
+                                                        <td className="text-center">$4,125.00</td>
+                                                        <td className="text-center">$31,625.00</td>
+                                                        <td className="text-center">$12,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL COST PER YEAR</b></td>
+                                                        <td className="text-center"><b>$330,000.00</b></td>
+                                                        <td className="text-center">$49,500.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$379,500.00</td>
+                                                        <td className="text-center" style={{ background: '#FF0000', color: '#fff' }}>$144,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$235,000.00</th>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
                                         </Col>
                                         <Col>
                                             <hr />
                                             <h2><b>HYUNDAI<br/>SEMINUEVOS</b></h2>
                                             <h3>COST</h3>
                                             <hr />
+                                            <Table striped bordered hover size="sm" style={{
+                                                fontSize: '8px'
+                                            }}>
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>CONCEPT</th>
+                                                        <th>DESCRIPTION</th>
+                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Core System</td>
+                                                        <td>(Public Website, Apply System, Admin System).</td>
+                                                        <td className="text-center">$180,000.00</td>
+                                                        <td className="text-center">$27,000.00</td>
+                                                        <td className="text-center">$207,000.00</td>
+                                                        <td className="text-center">$80,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Dictionaries to support 3 different Languages</td>
+                                                        <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
+                                                        <td className="text-center">$35,000.00</td>
+                                                        <td className="text-center">$5,250.00</td>
+                                                        <td className="text-center">$40,250.00</td>
+                                                        <td className="text-center">$15,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>WhatsApp notification system</td>
+                                                        <td></td>
+                                                        <td className="text-center">$10,000.00</td>
+                                                        <td className="text-center">$1,500.00</td>
+                                                        <td className="text-center">$11,500.00</td>
+                                                        <td className="text-center">$10,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Human resources</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>1 Frontend Developer</li>
+                                                                <li>1 Backend Developer</li>
+                                                                <li>2 Digital Managers</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td className="text-center">$45,000.00</td>
+                                                        <td className="text-center">$6,750.00</td>
+                                                        <td className="text-center">$51,750.00</td>
+                                                        <td className="text-center">$20,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL:</b></td>
+                                                        <td className="text-center"><b>$270,000.00</b></td>
+                                                        <td className="text-center">$40,500.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$310,500.00</td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$125,000.00</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$185,500.00</th>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
+                                            <hr />
+                                            <h3>MAINTENANCE</h3>
+                                            <hr />
+                                            <Table striped bordered hover size="sm" style={{
+                                                fontSize: '8px'
+                                            }}>
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>CONCEPT</th>
+                                                        <th>DESCRIPTION</th>
+                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Monthly maintenance<br /><b>(per month)</b></td>
+                                                        <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br /><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
+                                                        <td className="text-center">$27,500.00</td>
+                                                        <td className="text-center">$4,125.00</td>
+                                                        <td className="text-center">$31,625.00</td>
+                                                        <td className="text-center">$12,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL COST PER YEAR</b></td>
+                                                        <td className="text-center"><b>$330,000.00</b></td>
+                                                        <td className="text-center">$49,500.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$379,500.00</td>
+                                                        <td className="text-center" style={{ background: '#FF0000', color: '#fff' }}>$144,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$235,000.00</th>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
                                         </Col>
                                         <Col>
                                             <hr />
-                                            <h2><b>HYUNDAI<br/>CAMIONES</b></h2>
+                                            <h2><b>HYUNDAI<br/>CAMIONES Y BUSES</b></h2>
                                             <h3>COST</h3>
                                             <hr />
+                                            <Table striped bordered hover size="sm" style={{
+                                                fontSize: '8px'
+                                            }}>
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>CONCEPT</th>
+                                                        <th>DESCRIPTION</th>
+                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Core System</td>
+                                                        <td>(Public Website, Apply System, Admin System).</td>
+                                                        <td className="text-center">$180,000.00</td>
+                                                        <td className="text-center">$27,000.00</td>
+                                                        <td className="text-center">$207,000.00</td>
+                                                        <td className="text-center">$80,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Dictionaries to support 3 different Languages</td>
+                                                        <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
+                                                        <td className="text-center">$35,000.00</td>
+                                                        <td className="text-center">$5,250.00</td>
+                                                        <td className="text-center">$40,250.00</td>
+                                                        <td className="text-center">$15,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>WhatsApp notification system</td>
+                                                        <td></td>
+                                                        <td className="text-center">$10,000.00</td>
+                                                        <td className="text-center">$1,500.00</td>
+                                                        <td className="text-center">$11,500.00</td>
+                                                        <td className="text-center">$10,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Human resources</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>1 Frontend Developer</li>
+                                                                <li>1 Backend Developer</li>
+                                                                <li>2 Digital Managers</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td className="text-center">$45,000.00</td>
+                                                        <td className="text-center">$6,750.00</td>
+                                                        <td className="text-center">$51,750.00</td>
+                                                        <td className="text-center">$20,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL:</b></td>
+                                                        <td className="text-center"><b>$270,000.00</b></td>
+                                                        <td className="text-center">$40,500.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$310,500.00</td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$125,000.00</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$185,500.00</th>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
+                                            <hr />
+                                            <h3>MAINTENANCE</h3>
+                                            <hr />
+                                            <Table striped bordered hover size="sm" style={{
+                                                fontSize: '8px'
+                                            }}>
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>CONCEPT</th>
+                                                        <th>DESCRIPTION</th>
+                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Monthly maintenance<br /><b>(per month)</b></td>
+                                                        <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br /><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
+                                                        <td className="text-center">$27,500.00</td>
+                                                        <td className="text-center">$4,125.00</td>
+                                                        <td className="text-center">$31,625.00</td>
+                                                        <td className="text-center">$12,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL COST PER YEAR</b></td>
+                                                        <td className="text-center"><b>$330,000.00</b></td>
+                                                        <td className="text-center">$49,500.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$379,500.00</td>
+                                                        <td className="text-center" style={{ background: '#FF0000', color: '#fff' }}>$144,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
+                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$235,000.00</th>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
                                         </Col>
                                     </Row>
                                 </Col>
