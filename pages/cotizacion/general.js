@@ -963,11 +963,46 @@ function General() {
                                     <Row>
                                         <Col>
                                             <hr/>
-                                            <h2>Arquitectura de la plataforma</h2>
+                                            <h2><b><span class="lnr lnr-chevron-right"></span> Backend (API):</b> Arquitectura de la plataforma </h2>
                                             <hr/>
                                         </Col>
                                     </Row>
                                     <Row>
+                                        <Col md={4}>
+                                            <ul style={{
+                                                listStyle: 'decimal'
+                                                }}>
+                                                <li>
+                                                    <p className="text-left"><b>Compilar archivos estáticos</b><br/>
+                                                    (html, css, javascript, config.js/webpack).
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Autenticación de usuarios</b><br/>
+                                                    Cognito AWS Servicio.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Tokens de autorización</b><br/>
+                                                    El servidor regresa token de autorización y seguimiento por visita.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Request a la base de datos</b><br/>
+                                                    Mediante el token de autorización se hace un request/petición a la base de datos con los datos requeridos.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Request de autorización mediante un token único</b><br/>
+                                                    Se procesa el request a la base de datos.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Procesamiento del request</b><br/>
+                                                    Consulta a la base de datos.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Respuesta con los datos solicitados</b><br/>
+                                                    Respuesta con los datos en formato JSON.</p>
+                                                </li>
+                                            </ul>
+                                        </Col>
                                         <Col>
                                             
                                             <img src="/images/AWS/serverless-react-web-s3.png" title="INNOCEAN MÉXICO" alt="INNOCEAN MÉXICO" className="img-fluid" />
@@ -975,19 +1010,52 @@ function General() {
                                     </Row>
                                     <Row>
                                         <Col>
+                                            <hr/>
+                                            <h2><b><span class="lnr lnr-chevron-right"></span> Frontend (UI/UX):</b> Arquitectura de la plataforma </h2>
+                                            <hr/>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                    <Col md={4}>
+                                            <ul style={{
+                                                listStyle: 'decimal'
+                                                }}>
+                                                <li>
+                                                    <p className="text-left"><b>Render layout inicial</b><br/>
+                                                    (html, css, javascript, config.js/webpack).
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Layout datos de UI</b><br/>
+                                                    Persistencia del state en la APP.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Actualización de datos/state</b><br/>
+                                                    DOM render con datos actualizados.</p>
+                                                </li>
+                                                <li>
+                                                    <p className="text-left"><b>Re-render de componentes</b><br/>
+                                                    Actualización del frontend.</p>
+                                                </li>
+                                            </ul>
+                                        </Col>
+                                        <Col>
+                                            <img src="/images/AWS/react-saga-frontend.jpeg" title="INNOCEAN MÉXICO" alt="INNOCEAN MÉXICO" className="img-fluid" />
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col>
                                             <hr />
-                                            <h2><b>INMOBILIARIA VINTE</b></h2>
-                                            <h3>COST</h3>
+                                            <h2><b><span class="lnr lnr-chevron-right"></span> INMOBILIARIA VINTE</b></h2>
+                                            <h3>COSTO</h3>
                                             <hr />
-                                            <Table striped bordered hover size="sm" style={{
-                                                fontSize: '8px'
-                                            }}>
+                                            <Table striped bordered hover size="sm">
                                                 <thead>
                                                     <tr>
                                                         <th>#</th>
-                                                        <th>CONCEPT</th>
-                                                        <th>DESCRIPTION</th>
-                                                        <th className="text-center">Original Cost MXN</th>
+                                                        <th>CONCEPTO</th>
+                                                        <th>DESCRIPCIÓN</th>
+                                                        <th className="text-center">Costo Original MXN</th>
                                                         <th className="text-center">IWN Profit MXN</th>
                                                         <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
                                                         <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
@@ -996,108 +1064,95 @@ function General() {
                                                 <tbody>
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Core System</td>
-                                                        <td>(Public Website, Apply System, Admin System).</td>
-                                                        <td className="text-center">$180,000.00</td>
-                                                        <td className="text-center">$27,000.00</td>
-                                                        <td className="text-center">$207,000.00</td>
-                                                        <td className="text-center">$80,000.00</td>
+                                                        <td>Live chat</td>
+                                                        <td>Online service software for customers and visitors of the different KMM web platforms.</td>
+                                                        {calcularCosto(40000)}
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>Dictionaries to support 3 different Languages</td>
-                                                        <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
-                                                        <td className="text-center">$35,000.00</td>
-                                                        <td className="text-center">$5,250.00</td>
-                                                        <td className="text-center">$40,250.00</td>
-                                                        <td className="text-center">$15,000.00</td>
+                                                        <td>Administration module</td>
+                                                        <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
+                                                        {calcularCosto(35000)}
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>WhatsApp notification system</td>
-                                                        <td></td>
-                                                        <td className="text-center">$10,000.00</td>
-                                                        <td className="text-center">$1,500.00</td>
-                                                        <td className="text-center">$11,500.00</td>
-                                                        <td className="text-center">$10,000.00</td>
+                                                        <td>Integrations</td>
+                                                        <td>Integrations with all of VINTE's platforms
+                  </td>
+                                                        {calcularCosto(20000)}
                                                     </tr>
                                                     <tr>
                                                         <td>4</td>
-                                                        <td>Human resources</td>
-                                                        <td>
-                                                            <ul>
-                                                                <li>1 Frontend Developer</li>
-                                                                <li>1 Backend Developer</li>
-                                                                <li>2 Digital Managers</li>
-                                                            </ul>
-                                                        </td>
-                                                        <td className="text-center">$45,000.00</td>
-                                                        <td className="text-center">$6,750.00</td>
-                                                        <td className="text-center">$51,750.00</td>
-                                                        <td className="text-center">$20,000.00</td>
+                                                        <td>Dashboard</td>
+                                                        <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
+                                                        {calcularCosto(50000)}
                                                     </tr>
                                                     <tr>
                                                         <td></td>
                                                         <td></td>
                                                         <td className="text-right"><b>TOTAL:</b></td>
-                                                        <td className="text-center"><b>$270,000.00</b></td>
-                                                        <td className="text-center">$40,500.00</td>
-                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$310,500.00</td>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$125,000.00</th>
+                                                        <td className="text-center"><b>$145,000.00</b></td>
+                                                        <td className="text-center"><b>$21,750.00</b></td>
+                                                        <td className="text-center"><b>$166,750.00</b></td>
+                                                        <td className="text-center"><b>$72,500.00</b></td>
                                                     </tr>
                                                     <tr>
-                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$185,500.00</th>
+                                                        <td colSpan="4"></td>
+                                                        <td className="text-right" colSpan="2"><b>TOTAL PROFIT DD:</b></td>
+                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}>$94,250.00</td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
                                             <hr />
-                                            <h3>MAINTENANCE</h3>
+                                            <h3><span class="lnr lnr-chevron-right"></span> MANTENIMIENTO</h3>
                                             <hr />
-                                            <Table striped bordered hover size="sm" style={{
-                                                fontSize: '8px'
-                                            }}>
+                                            <Table striped bordered hover size="sm">
                                                 <thead>
                                                     <tr>
                                                         <th>#</th>
-                                                        <th>CONCEPT</th>
-                                                        <th>DESCRIPTION</th>
+                                                        <th>CONCEPTO</th>
+                                                        <th>DESCRIPCIÓN</th>
                                                         <th className="text-center">Original Cost MXN</th>
                                                         <th className="text-center">IWN Profit MXN</th>
-                                                        <th style={{ background: '#F05829', color: '#fff' }} className="text-center">Cost including IWN Gain MXN</th>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>DD TEAM PROFIT AGENCIA</th>
+                                                        <th className="text-center" style={{ background: '#F05829', color: '#fff' }}>Cost including IWN Gain MXN</th>
+                                                        <th className="text-center" style={{ background: '#FF0000', color: '#fff' }}>DD TEAM IWN Profit MXN</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Monthly maintenance<br /><b>(per month)</b></td>
-                                                        <td>It includes 36hrs of monthly development for  changes or adjustments attached to the delivered system.<br /><small>(cloud infrastructure and email notification services, WHATSAPP notification service, Monthly payment)</small></td>
-                                                        <td className="text-center">$27,500.00</td>
-                                                        <td className="text-center">$4,125.00</td>
-                                                        <td className="text-center">$31,625.00</td>
-                                                        <td className="text-center">$12,000.00</td>
+                                                        <td>Infrastructure for hosting the platform</td>
+                                                        <td>Infrastructure required and optimized to assemble the technological components of the campaign. Servers, Databases, Firewalls and security certificates are included to host the platform under a Cloud scheme. (Estimated for unlimited concurrent users).</td>
+                                                        {calcularCosto2(18000)}
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Operation and support</td>
+                                                        <td>Support and operation activities to keep the platform in optimal operations.</td>
+                                                        {calcularCosto2(6500)}
                                                     </tr>
                                                     <tr>
                                                         <td></td>
                                                         <td></td>
-                                                        <td className="text-right"><b>TOTAL COST PER YEAR</b></td>
-                                                        <td className="text-center"><b>$330,000.00</b></td>
-                                                        <td className="text-center">$49,500.00</td>
-                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$379,500.00</td>
-                                                        <td className="text-center" style={{ background: '#FF0000', color: '#fff' }}>$144,000.00</td>
+                                                        <td className="text-right"><b>TOTAL</b></td>
+                                                        {total2(18000, 6500)}
+                                                        <td style={{ background: '#FF0000', color: '#fff' }}>$12,250.00</td>
                                                     </tr>
                                                     <tr>
-                                                        <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$235,000.00</th>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td className="text-right"><b>TOTAL COST FOR 1 YEAR</b></td>
+                                                        <td className="text-center"><b>${totalYear(24500)}.00</b></td>
+                                                        <td className="text-center">${totalYear(3675)}.00</td>
+                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>${profitSuma(294000, 44100)}.00</td>
+                                                        <td style={{ background: '#FF0000', color: '#fff' }}>$147,000.00</td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
                                         </Col>
-                                        <Col>
-                                        <img src="/images/AWS/admin-dashboard.jpg" title="INNOCEAN MÉXICO" alt="INNOCEAN MÉXICO" className="img-fluid" />
-                                        </Col>
+                                        
                                     </Row>
+                                    
                                 </Col>
                             </Tab>
                         </Tabs>
