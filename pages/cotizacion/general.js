@@ -13,7 +13,7 @@ import Tab from 'react-bootstrap/Tab'
 
 function General() {
 
-    const [key, setKey] = useState('home');
+    const [key, setKey] = useState('KIA');
 
     const calcularCosto = function (precio) {
         const phase1Oc1 = precio;
