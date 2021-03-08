@@ -157,9 +157,9 @@ function General() {
                                                 <tbody>
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Live chat</td>
+                                                        <td>WEB APP Development</td>
                                                         <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                                                        {calcularCosto(250000)}
+                                                        {calcularCosto(270000)}
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
