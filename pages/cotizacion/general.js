@@ -1004,7 +1004,6 @@ function General() {
                                             </ul>
                                         </Col>
                                         <Col>
-                                            
                                             <img src="/images/AWS/serverless-react-web-s3.png" title="INNOCEAN MÉXICO" alt="INNOCEAN MÉXICO" className="img-fluid" />
                                         </Col>
                                     </Row>
