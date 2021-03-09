@@ -111,6 +111,24 @@ function General() {
         )
     }
 
+    const add = function(...args){
+        let total;
+        return args.reduce(function (acc, cur) {
+            return acc + cur;
+        });
+    };
+
+    const sub = function(...args){
+        let total;
+        return args.reduce(function (acc, cur) {
+            return acc - cur;
+        });
+    };
+
+    function formatNumber(num) {
+        return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+    }
+
     return (
         <Layout>
             <Container fluid={true} className="cotizacion">
@@ -139,6 +157,8 @@ function General() {
                                             <hr />
                                             <h2><b>KIA.COM</b></h2>
                                             <h3>COST</h3>
+                                            <h4 style={{color: '#FF0100'}}><b><span class="lnr lnr-arrow-right"></span> PROFIT IWM: $485,000.00 MXN</b></h4>
+                                            <p>* One year maintenance included</p>
                                             <hr />
                                             <Table striped bordered hover size="sm" style={{
                                                 fontSize: '8px'
@@ -181,24 +201,18 @@ function General() {
                                                         {calcularCosto(50000)}
                                                     </tr>
                                                     <tr>
-                                                        <td>5</td>
-                                                        <td>SAP/OTHER Integration</td>
-                                                        <td>System Analysis Program Development. Each business function storing its own operational data in a separate database</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
                                                         <td></td>
                                                         <td></td>
                                                         <td className="text-right"><b>TOTAL:</b></td>
-                                                        {total1(250000, 130000, 70000, 50000, 125000)}
+                                                        <td className="text-center"><b>${formatNumber(add(270000,130000,70000,50000))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(40500,19500,10500,7500))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(310500,149500,80500,57500))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(135000,65000,35000,25000))}.00</b></td>
                                                     </tr>
                                                     <tr>
                                                         <td colSpan="4"></td>
                                                         <td className="text-right" colSpan="2"><b>TOTAL PROFIT DD:</b></td>
-                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}>$325,000.00</td>
+                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}>${formatNumber(sub(598000,260000))}.00</td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
@@ -250,11 +264,14 @@ function General() {
                                                     </tr>
                                                 </tbody>
                                             </Table>
+                                            
                                         </Col>
                                         <Col>
                                             <hr />
-                                            <h2><b>LIVE CHAT</b></h2>
+                                            <h2><b>KIA LIVE CHAT</b></h2>
                                             <h3>COST</h3>
+                                            <h4 style={{color: '#FF0100'}}><b><span class="lnr lnr-arrow-right"></span> PROFIT IWM: $517,500.00 MXN</b></h4>
+                                            <p>* One year maintenance included</p>
                                             <hr />
                                             <Table striped bordered hover size="sm" style={{
                                                 fontSize: '8px'
@@ -275,7 +292,7 @@ function General() {
                                                         <td>1</td>
                                                         <td>Live chat</td>
                                                         <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                                                        {calcularCosto(250000)}
+                                                        {calcularCosto(290000)}
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
@@ -300,21 +317,21 @@ function General() {
                                                         <td>5</td>
                                                         <td>SAP/OTHER Integration</td>
                                                         <td>System Analysis Program Development. Each business function storing its own operational data in a separate database</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        {calcularCosto(30000)}
                                                     </tr>
                                                     <tr>
                                                         <td></td>
                                                         <td></td>
                                                         <td className="text-right"><b>TOTAL:</b></td>
-                                                        {total1(250000, 130000, 70000, 50000, 125000)}
+                                                        <td className="text-center"><b>${formatNumber(add(290000,130000,70000,50000,30000))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(43500,19500,10500,7500,4500))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(333500,149500,80500,57500,34500))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(145000,65000,35000,25000,15000))}.00</b></td>
                                                     </tr>
                                                     <tr>
                                                         <td colSpan="4"></td>
                                                         <td className="text-right" colSpan="2"><b>TOTAL PROFIT DD:</b></td>
-                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}>$325,000.00</td>
+                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}>${formatNumber(sub(655500,285000))}.00</td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
@@ -371,6 +388,8 @@ function General() {
                                             <hr />
                                             <h2><b>KIA CAREERS</b></h2>
                                             <h3>COST</h3>
+                                            <h4 style={{color: '#FF0100'}}><b><span class="lnr lnr-arrow-right"></span> PROFIT IWM: $420,500.00 MXN</b></h4>
+                                            <p>* One year maintenance included</p>
                                             <hr />
                                             <Table striped bordered hover size="sm" style={{
                                                 fontSize: '8px'
@@ -433,14 +452,14 @@ function General() {
                                                         <td></td>
                                                         <td></td>
                                                         <td className="text-right"><b>TOTAL:</b></td>
-                                                        <td className="text-center"><b>$270,000.00</b></td>
-                                                        <td className="text-center">$40,500.00</td>
-                                                        <td className="text-center" style={{ background: '#F05829', color: '#fff' }}>$310,500.00</td>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$125,000.00</th>
+                                                        <td className="text-center"><b>${formatNumber(add(180000,35000,10000,45000))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(27000,5250,1500,6750))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(207000,40250,11500,51750))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(80000,15000,10000,20000))}.00</b></td>
                                                     </tr>
                                                     <tr>
                                                         <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$185,500.00</th>
+                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}><b>${formatNumber(sub(310500,125000))}.00</b></td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
@@ -493,6 +512,9 @@ function General() {
                                             <hr />
                                             <h2><b>KIA PETS</b></h2>
                                             <h3>COST</h3>
+                                            <h4 style={{color: '#FF0100'}}><b><span class="lnr lnr-arrow-right"></span> PROFIT IWM: $290,000.00 MXN</b></h4>
+                                            <p>* One year maintenance included</p>
+                                            <hr />
                                             <hr />
                                             <Table striped bordered hover size="sm" style={{
                                                 fontSize: '8px'
@@ -514,25 +536,25 @@ function General() {
                                                         <td>WEB Development</td>
                                                         <td>Online service software for customers and visitors of the different KMM web platforms.</td>
                                                         {calcularCosto(150000)}
-                                                        <td>$35,000.00</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
                                                         <td>Administration module</td>
                                                         <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
                                                         {calcularCosto(70000)}
-                                                        <td>$20,000.00</td>
                                                     </tr>
                                                     <tr>
                                                         <td></td>
                                                         <td></td>
                                                         <td className="text-right"><b>TOTAL</b></td>
-                                                        {total1(150000, 130000, 70000, 50000)}
-                                                        <td className="text-center" style={{ background: '#FF0000', color: '#fff' }}>$55,000.00</td>
+                                                        <td className="text-center"><b>${formatNumber(add(150000,70000))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(22500,10500))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(172500,80500))}.00</b></td>
+                                                        <td className="text-center"><b>${formatNumber(add(75000,35000))}.00</b></td>
                                                     </tr>
                                                     <tr>
                                                         <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                                                        <th className="text-center" style={{ background: '#ff0000', color: '#fff' }}>$235,000.00</th>
+                                                        <td style={{ background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center' }}><b>${formatNumber(sub(253000,110000))}.00</b></td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
@@ -1153,6 +1175,20 @@ function General() {
                                     </Row>
                                     
                                 </Col>
+                            </Tab>
+                            <Tab eventKey="ABBOTT" title="LABORATORIOS ABBOTT">
+                                <Col>
+                                    <Row>
+                                        <Col>
+                                            <hr />
+                                            <h2><b>LABORATORIOS ABBOTT</b></h2>
+                                            <h3>COST</h3>
+                                            <hr />
+                                        </Col>
+                                    </Row>
+                                </Col>
+                                <Col></Col>
+                                <Col></Col>
                             </Tab>
                         </Tabs>
                     </Col>
