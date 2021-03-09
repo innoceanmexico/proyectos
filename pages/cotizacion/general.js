@@ -384,7 +384,10 @@ function General() {
                                                 </tbody>
                                             </Table>
                                         </Col>
-                                        <Col>
+                                        
+                                    </Row>
+                                    <Row>
+                                    <Col>
                                             <hr />
                                             <h2><b>KIA CAREERS</b></h2>
                                             <h3>COST</h3>
@@ -506,8 +509,6 @@ function General() {
                                                 </tbody>
                                             </Table>
                                         </Col>
-                                    </Row>
-                                    <Row>
                                         <Col>
                                             <hr />
                                             <h2><b>KIA PETS</b></h2>
@@ -606,10 +607,6 @@ function General() {
                                                     </tr>
                                                 </tbody>
                                             </Table>
-                                        </Col>
-                                        <Col>
-                                        </Col>
-                                        <Col>
                                         </Col>
                                     </Row>
                                 </Col>
