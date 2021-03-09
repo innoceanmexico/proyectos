@@ -560,7 +560,7 @@ function General() {
                                                 </tbody>
                                             </Table>
                                             <hr />
-                                            <h3>MAINTENANCE</h3>
+                                            <h3>MAINTENANCE-</h3>
                                             <hr />
                                             <Table striped bordered hover size="sm" style={{
                                                 fontSize: '8px'
