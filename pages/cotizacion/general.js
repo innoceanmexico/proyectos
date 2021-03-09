@@ -982,6 +982,22 @@ function General() {
                                     <Row>
                                         <Col>
                                             <hr/>
+                                            <h2><b><span class="lnr lnr-chevron-right"></span> GENERAL:</b> Arquitectura de la plataforma </h2>
+                                            <hr/>
+                                        </Col>
+                                    </Row>
+                                    
+                                    <Row>
+                                        <Col>
+                                            <div align="center">
+                                                <img src="/images/VINTE.jpg" title="INNOCEAN MÉXICO" alt="INNOCEAN MÉXICO" className="img-fluid" />
+                                            </div>
+                                            
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col>
+                                            <hr/>
                                             <h2><b><span class="lnr lnr-chevron-right"></span> Backend (API):</b> Arquitectura de la plataforma </h2>
                                             <hr/>
                                         </Col>
