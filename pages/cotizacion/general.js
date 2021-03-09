@@ -571,7 +571,7 @@ function General() {
                                                         <th>CONCEPT</th>
                                                         <th>DESCRIPTION</th>
                                                         <th className="text-center">Original Cost MXN</th>
-                                                        <th className="text-center">IWN Profit MXN</th>
+                                                        <th className="text-center">IWM Profit MXN</th>
                                                         <th className="text-center" style={{ background: '#F05829', color: '#fff' }}>Cost including IWN Gain MXN</th>
                                                         <th className="text-center" style={{ background: '#FF0000', color: '#fff' }}>DD TEAM IWN Profit MXN</th>
                                                     </tr>
