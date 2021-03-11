@@ -98,8 +98,8 @@ function Vinte() {
             <div align="center">
               <img src="/images/logo.png" alt="" alt="" />
             </div>
-            <Link href="/cotizacion/livechat/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
-            <Link href="/cotizacion/livechat-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            <Link href="/cotizacion/vinte/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
+            <Link href="/cotizacion/vinte/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
           </Col>
           <Col xs={12} md={10}>
           <h3><span class="lnr lnr-chevron-right"></span> Propuesta técnica y económica</h3>
