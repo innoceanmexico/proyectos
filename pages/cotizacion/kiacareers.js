@@ -425,14 +425,30 @@ Building server-side software using backend frameworks like NodeJS</li>
               <thead>
                 <tr>
                   <th scope="col">*Activities</th>
-                  <th scope="col" colSpan="4">February</th>
-                  <th scope="col" colSpan="4">March</th>
+                  <th scope="col" colSpan="2">March</th>
+                  <th scope="col" colSpan="4">April</th>
+                  <th scope="col" colSpan="4">May</th>
                 </tr>
               </thead>
               <tbody>
+              <tr>
+                  <th scope="row">KIA’s internal process admin</th>
+                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td>S1</td>
+                  <td>S2</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                </tr>
                 <tr>
                   <th scope="row">Frontend Design</th>
-                  <td>S1</td>
+                  <td>S3</td>
+                  <td>S4</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
@@ -443,6 +459,8 @@ Building server-side software using backend frameworks like NodeJS</li>
                 </tr>
                 <tr>
                   <th scope="row">Backend / Infrastructure development and implementation</th>
+                  <td>S3</td>
+                  <td>S4</td>
                   <td>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
@@ -454,6 +472,8 @@ Building server-side software using backend frameworks like NodeJS</li>
                 </tr>
                 <tr>
                   <th scope="row">Creation and integration of Web Services and API's</th>
+                  <td>S3</td>
+                  <td>S4</td>
                   <td>S1</td>
                   <td>S2</td>
                   <td>S3</td>
@@ -465,6 +485,8 @@ Building server-side software using backend frameworks like NodeJS</li>
                 </tr>
                 <tr>
                   <th scope="row">CMS development</th>
+                  <td>S3</td>
+                  <td>S4</td>
                   <td>S1</td>
                   <td>S2</td>
                   <td>S3</td>
@@ -476,6 +498,8 @@ Building server-side software using backend frameworks like NodeJS</li>
                 </tr>
                 <tr>
                   <th scope="row">Integration with CRM</th>
+                  <td>S3</td>
+                  <td>S4</td>
                   <td>S1</td>
                   <td>S2</td>
                   <td>S3</td>
@@ -487,6 +511,8 @@ Building server-side software using backend frameworks like NodeJS</li>
                 </tr>
                 <tr>
                   <th scope="row">Final tests and adjustments</th>
+                  <td>S3</td>
+                  <td>S4</td>
                   <td>S1</td>
                   <td>S2</td>
                   <td>S3</td>
