@@ -33,21 +33,27 @@ function Kiacareers() {
               <img src="/images/logo.png" alt="" alt="" />
             </div>
             <Link href="/cotizacion/kiacareers/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
+            {/* 
             <Link href="/cotizacion/kiacareers-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            */}
           </Col>
           <Col xs={12} md={10}>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Description</h5>
             <p>Develop a <b>digital platform dedicated for the constant communication with the KIA’s end users</b>, with the main goal to help <b>position the company as the best place to work in Mexico</b> and support the hiring process.</p>
             <hr/>
+            {/*
             <h5><span class="lnr lnr-chevron-right"></span> Presentation</h5>
             <hr/>
+            
             <iframe id="iframepdf" src="/images/kia/web_presentation_careers_TECH.pdf" style={{width: '100%',height: '590px',border:'0'}}></iframe>
             <hr/>
+            
             <h5><span class="lnr lnr-chevron-right"></span> Technical Sheet</h5>
             <hr/>
             <iframe id="iframepdf" src="/images/kia/Proyecto_KMM_TECHNICAL_SHEET.pdf" style={{width: '100%',height: '590px',border:'0'}}></iframe>
             <hr/>
+            */}
             <h5><span class="lnr lnr-plus-circle"></span> Platform</h5>
             <hr/>
             <p>The platform will have <b>3 different areas</b>: Public Website, Application Vacancy System and Super Users Administrator System.</p>
@@ -324,28 +330,28 @@ Building server-side software using backend frameworks like NodeJS</li>
                   <td>1</td>
                   <td>Core System</td>
                   <td>(Public Website, Apply System, Admin System).</td>
-                  <td className="text-center">$180,000.00</td>
-                  <td className="text-center">$27,000.00</td>
-                  <td className="text-center">$207,000.00</td>
-                  <td className="text-center">$80,000.00</td>
+                  <td className="text-center">$540,000.00</td>
+                  <td className="text-center">$162,000.00</td>
+                  <td className="text-center">$702,000.00</td>
+                  <td className="text-center">$120,000.00</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>Dictionaries to support 3 different Languages</td>
                   <td>(Implemented in the 2 main systems: Spanish, English, Korean) .</td>
+                  <td className="text-center">$45,500.00</td>
+                  <td className="text-center">$27,300.00</td>
+                  <td className="text-center">$72,500.00</td>
                   <td className="text-center">$35,000.00</td>
-                  <td className="text-center">$5,250.00</td>
-                  <td className="text-center">$40,250.00</td>
-                  <td className="text-center">$15,000.00</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>WhatsApp notification system</td>
                   <td></td>
-                  <td className="text-center">$10,000.00</td>
-                  <td className="text-center">$1,500.00</td>
+                  <td className="text-center">$13,000.00</td>
+                  <td className="text-center">$3,900.00</td>
                   <td className="text-center">$11,500.00</td>
-                  <td className="text-center">$10,000.00</td>
+                  <td className="text-center">$16,900.00</td>
                 </tr>
                 <tr>
                   <td>4</td>
@@ -366,14 +372,14 @@ Building server-side software using backend frameworks like NodeJS</li>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL:</b></td>
-                  <td className="text-center"><b>$270,000.00</b></td>
-                  <td className="text-center">$40,500.00</td>
-                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$310,500.00</td>
-                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$125,000.00</th>
+                  <td className="text-center"><b>$643,500.00</b></td>
+                  <td className="text-center">$199,950.00</td>
+                  <td className="text-center" style={{background: '#F05829', color: '#fff'}}>$837,750.00</td>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$191,900.00</th>
                 </tr>
                 <tr>
                   <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$185,500.00</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$645,850.00</th>
                 </tr>
               </tbody>
             </Table>
