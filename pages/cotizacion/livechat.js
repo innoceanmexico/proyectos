@@ -12,7 +12,7 @@ function Livechat() {
   const calcularCosto = function(precio){
     const phase1Oc1 = precio;
     const phase1Oc1L = phase1Oc1.toLocaleString();
-    const phase1Oc1Profit = precio * .15.toLocaleString();
+    const phase1Oc1Profit = precio * .3.toLocaleString();
     const phase1Oc1ProfitL = phase1Oc1Profit.toLocaleString();
     const phase1Oc1ProfitTotal = (phase1Oc1 + phase1Oc1Profit).toLocaleString();
     const phase1Oc1ProfitTotalL = phase1Oc1ProfitTotal.toLocaleString();
@@ -99,7 +99,9 @@ function Livechat() {
               <img src="/images/logo.png" alt="" alt="" />
             </div>
             <Link href="/cotizacion/livechat/"><a className="btn btn-default m-0 mt-3 w-100 mb-0">ENGLISH</a></Link>
+            {/* 
             <Link href="/cotizacion/livechat-es/"><a className="btn btn-default m-0 mt-1 w-100">ESPAÑOL</a></Link>
+            */}
           </Col>
           <Col xs={12} md={10}>
             <h3><span class="lnr lnr-chevron-right"></span> Technical and economic proposal</h3>
@@ -198,12 +200,12 @@ function Livechat() {
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL</b></td>
-                  {total1(250000, 130000, 70000, 50000)}
+                  {total1(250000, 150000, 70000, 50000)}
                   <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$220,000.00</th>
                 </tr>
                 <tr>
                   <td className="text-right" colSpan="6"><b>TOTAL PROFIT DEVELOPING WITH DD TEAM:</b></td>
-                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$355,000.00</th>
+                  <th className="text-center" style={{background: '#ff0000', color: '#fff'}}>$378,000.00</th>
                 </tr>
               </tbody>
             </Table>
@@ -260,6 +262,7 @@ function Livechat() {
               </tbody>
             </Table>
             <hr/>
+            {/* 
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>
@@ -269,7 +272,7 @@ function Livechat() {
               </thead>
               <tbody>
                 <tr>
-                  <td>Total cost of the project (development and 1 year maintenance with no IWWM gain) </td>
+                  <td>Total cost of the project (development and 1 year maintenance with no IWM gain) </td>
                   <td className="text-center">${profitSuma(500000, 294000)}.00</td>
                   <td className="text-center" style={{background: '#111', color: '#fff', fontWeight: 'bold'}}>${profitSuma(575000, 338100)}.00</td>
                 </tr>
@@ -285,16 +288,16 @@ function Livechat() {
                 </tr>
               </tbody>
             </Table>
+            */}
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
-            <p>* 6 Weeks</p>
-            <hr/>
+            <p>* 7 Weeks</p>
             
             <table class="table table-striped">
               <thead>
                 <tr>
                   <th scope="col">*Activities</th>
-                  <th scope="col" colSpan="4">February</th>
-                  <th scope="col" colSpan="4">March</th>
+                  <th scope="col" colSpan="4">Month 1</th>
+                  <th scope="col" colSpan="4">Month 2</th>
                 </tr>
               </thead>
               <tbody>
@@ -388,7 +391,7 @@ function Livechat() {
                   <td>1</td>
                   <td>Live chat video</td>
                   <td>Implementation of the ability to transmit live-streaming video.</td>
-                  {calcularCosto(200000)}
+                  {calcularCosto(250000)}
                   <td>$90,000.00</td>
                 </tr>
                 <tr>
@@ -432,7 +435,7 @@ function Livechat() {
               <thead>
                 <tr>
                   <th scope="col">*Activities</th>
-                  <th scope="col" colSpan="4">April</th>
+                  <th scope="col" colSpan="4">Month</th>
                 </tr>
               </thead>
               <tbody>
