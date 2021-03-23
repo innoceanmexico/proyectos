@@ -35,7 +35,7 @@ function Kia() {
               <li>
                 <Link href="/cotizacion/kiacareers">
                   <a>
-                  <span class="lnr lnr-arrow-right"></span> KIA CAREERS
+                  <span class="lnr lnr-arrow-right"></span> KIA CARREERS
                   </a>
                 </Link>
               </li>
