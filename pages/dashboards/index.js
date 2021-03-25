@@ -26,12 +26,15 @@ export default function Dashboards(){
     <Layout>
       <Container>
         <Row>
-          <Col>
+          <Col md={3}>
             <hr/>
             <h2>LOGIN DE USUARIOS</h2>
             <hr/>
             <Form method="POST" onSubmit={usuario}>
-                <Form.Group controlId="formBasicPassword">
+                <Form.Group>
+                  <Form.Control type="text" placeholder="Usuario" name="usuario" />
+                </Form.Group>
+                <Form.Group>
                   <Form.Control type="password" placeholder="Contraseña" name="password" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
