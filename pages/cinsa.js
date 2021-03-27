@@ -13,7 +13,7 @@ function Cinsa() {
           <Col>
             <h2 className="mt-3">
               <span>
-                <span style={{ color: '#f0582a' }}>[</span> PROYECTO CINSA <span style={{ color: '#f0582a' }}>]</span>
+                <span style={{ color: '#f0582a' }}>[</span> PROYECTO CINSA - <span style={{ color: '#f0582a' }}>]</span>
               </span>
             </h2>
             <hr />
