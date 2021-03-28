@@ -22,7 +22,7 @@ function Cinsa() {
         <Row style={{ marginBottom: '90px'}}>
           <Col>
             <div align="center">
-              <img src="images/logo-cinsa.jpg" alt="" alt="" />
+              <img src="images/logo-cinsa.jpg" alt="innocean mexico" alt="" />
             </div>
           </Col>
           <Col xs={9}>
