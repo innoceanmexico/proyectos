@@ -16,9 +16,9 @@ export default function DashboardSeminuevos() {
                 width: '250px'
               }} />
             </div>
-            <Card.Body>
-              <Card.Title>LOGIN DE USUARIOS</Card.Title>
+            <Card.Body className="pt-0">
               <hr/>
+              <Card.Title>LOGIN DE USUARIOS</Card.Title>
               <Form>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>Correo electrónico:</Form.Label>
@@ -36,7 +36,7 @@ export default function DashboardSeminuevos() {
                   <Form.Check type="checkbox" label="Guardar" />
                 </Form.Group>
                 <Link href="/hyundai/dashboard-seminuevos/panel">
-                  <a className="btn-default float-right">
+                  <a className="btn-hyundai float-right">
                     Ingresar
                   </a>
                 </Link>
