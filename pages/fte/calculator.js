@@ -7,6 +7,23 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
 function Calculator() {
+
+  const calculaRH = (e) => {
+    e.preventDefault();
+    let sueldo = e.target.tipo.value;
+    let horas = e.target.horas.value;
+
+    let sueldoNum = parseInt(sueldo);
+    let horasNum = parseInt(horas);
+
+    let total = sueldoNum * horasNum;
+    console.log(sueldoNum);
+    console.log(horasNum);
+
+    console.log(total);
+  }
+
+
   return (
     <Layout>
       <NavbarPrincipal />
@@ -90,16 +107,16 @@ function Calculator() {
             <hr/>
           </Col>
           <Col>
-            <h4>CALCULADORA</h4>
+            <h4>CALCULADORA RECURSOS HUMANOS</h4>
             <p><small>Calcular valor unitario</small></p>
             <hr/>
-            <Form>
+            <Form onSubmit={calculaRH}>
               <Form.Group controlId="exampleForm.ControlSelect1">
                 <Form.Label>TIPO:</Form.Label>
-                <Form.Control as="select">
-                  <option value="22950">Desarrollador Java</option>
-                  <option value="14753">Programador/a</option>
-                  <option value="11303">Desarrollo</option>
+                <Form.Control name="tipo" as="select">
+                  <option value="95.62">Desarrollador Java</option>
+                  <option value="61.47">Programador/a</option>
+                  <option value="13.95">Desarrollo</option>
                   <option value="33480">Developer</option>
                   <option value="12370">Soporte</option>
                   <option value="17656">Desarrollador WEB</option>
@@ -107,10 +124,31 @@ function Calculator() {
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
                 <Form.Label>HORAS:</Form.Label>
-                <Form.Control type="number" placeholder="Ingresar horas" />
+                <Form.Control name="horas" type="number" placeholder="Ingresar horas" />
               </Form.Group>
               <Button variant="primary" type="submit">
-                CALCULAR FTE
+                CALCULAR VALOR HUMANO (FTE - full-time equivalent)
+              </Button>
+            </Form>
+            <hr/>
+            <h4>CALCULADORA RECURSOS TÉCNICOS</h4>
+            <p><small>Calcular valor unitario</small></p>
+            <hr/>
+            <Form>
+              <Form.Group controlId="exampleForm.ControlSelect1">
+                <Form.Label>SERVICIO:</Form.Label>
+                <Form.Control as="select">
+                  <option value="22950">Desarrollo AWS</option>
+                  <option value="14753">Desarrollo APP</option>
+                  <option value="11303">Desarrollo WEB</option>
+                </Form.Control>
+              </Form.Group>
+              <Form.Group controlId="formBasicEmail">
+                <Form.Label>HORAS:</Form.Label>
+                <Form.Control name="horas" type="number" placeholder="Ingresar horas" />
+              </Form.Group>
+              <Button variant="primary" type="submit">
+                CALCULAR TÉCNICO
               </Button>
             </Form>
           </Col>
