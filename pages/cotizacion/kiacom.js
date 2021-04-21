@@ -180,9 +180,9 @@ function Livechat() {
               <li><b>QA Tester:</b>: Quality testing in testing environment.</li>
             </ul>
             <hr/>
-            <h4><span class="lnr lnr-arrow-right"></span> PHASE 1 - WEB DEVELOPMENT</h4>
+            <h4><span class="lnr lnr-arrow-right"></span> PLATFORM DEVELOPMENT</h4>
             <hr/>
-            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 1 - DEVELOPMENT</b></h5>
+            <h5><span class="lnr lnr-plus-circle"></span> Technical and economic proposal</h5>
             <hr/>
             <Table striped bordered hover size="sm">
               <thead>
@@ -199,48 +199,45 @@ function Livechat() {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Live chat</td>
-                  <td>Online service software for customers and visitors of the different KMM web platforms.</td>
-                  {calcularCosto(250000)}
+                  <td>UI/UX Frontend development</td>
+                  <td>Development of wireframes and layouts - pixel perfect implementation.</td>
+                  {calcularCosto(350000)}
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Administration module</td>
-                  <td>Module for the registration, cancellation and changes of users or agents to interact / operate in the livechat.</td>
-                  {calcularCosto(130000)}
+                  <td>Administration module/Backend</td>
+                  <td>Content Management system, ability to edit text, images, sliders and products.</td>
+                  {calcularCosto(150000)}
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Integrations</td>
                   <td>Integrations with all of KIA's platforms
                   </td>
-                  {calcularCosto(70000)}
+                  {calcularCosto(110000)}
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>Dashboard</td>
                   <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  {calcularCosto(50000)}
+                  {calcularCosto(140000)}
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>SAP/OTHER Integration</td>
                   <td>System Analysis Program Development. Each business function storing its own operational data in a separate database</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  {calcularCosto(90000)}
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                   <td className="text-right"><b>TOTAL:</b></td>
-                  {total1(250000, 130000, 70000, 50000, 125000)}
+                  {total1(350000, 150000, 110000, 140000, 90000)}
                 </tr>
                 <tr>
                   <td colSpan="4"></td>
                   <td className="text-right" colSpan="2"><b>TOTAL PROFIT DD:</b></td>
-                  <td style={{background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center'}}>$325,000.00</td>
+                  <td style={{background: '#222', color: '#fff', fontWeight: 'bold', fontSize: '1.1rem', textAlign: 'center'}}>$612,500.00</td>
                 </tr>
               </tbody>
             </Table>
@@ -324,14 +321,14 @@ function Livechat() {
               <thead>
                 <tr>
                   <th scope="col">*Activities</th>
-                  <th scope="col" colSpan="4">February</th>
-                  <th scope="col" colSpan="4">March</th>
+                  <th scope="col" colSpan="4">Month</th>
+                  <th scope="col" colSpan="4">Month</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">Frontend Design</th>
-                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
@@ -346,7 +343,7 @@ function Livechat() {
                   <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
-                  <td>S1</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
                   <td>S2</td>
                   <td>S3</td>
                   <td>S4</td>
@@ -358,7 +355,7 @@ function Livechat() {
                   <td>S3</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S4</td>
                   <td style={{background:'#F05829',color:'#fff'}}>S1</td>
-                  <td>S2</td>
+                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
                   <td>S3</td>
                   <td>S4</td>
                 </tr>
@@ -398,77 +395,8 @@ function Livechat() {
               </tbody>
             </table>
             <hr/>
-            <hr/>
-            <h4><span class="lnr lnr-arrow-right"></span> PHASE 2 - VIDEO CHAT</h4>
-            <hr/>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Technical and economic proposal for <b>PHASE 2 - VIDEO CHAT</b></h5>
-            <hr/>
-            <Table striped bordered hover size="sm">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>CONCEPT</th>
-                  <th>DESCRIPTION</th>
-                  <th className="text-center">Original Cost MXN</th>
-                  <th className="text-center">IWN Profit MXN</th>
-                  <th style={{background: '#F05829', color: '#fff'}} className="text-center">Cost including IWN Gain MXN</th>
-                  <th className="text-center" style={{background: '#FF0000', color: '#fff'}}>DD TEAM IWN Profit MXN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Live chat video</td>
-                  <td>Implementation of the ability to transmit live-streaming video.</td>
-                  {calcularCosto(200000)}
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Integraciones</td>
-                  <td>Integrations with all of KIA's developments</td>
-                  {calcularCosto(80000)}
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Dashboard</td>
-                  <td>Analytical dashboard for measurement and monitoring of the main operational indicators of the platform.</td>
-                  {calcularCosto(90000)}
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td className="text-right"><b>TOTAL</b></td>
-                  {total1(90000, 130000, 70000, 50000)}
-                </tr>
-              </tbody>
-            </Table>
-            <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> Estimated work plan</h5>
-            <p>* 4 weeks approximately</p>
-            <hr/>
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">*Activities</th>
-                  <th scope="col" colSpan="4">April</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Frontend Design</th>
-                  <td style={{background:'#F05829',color:'#fff'}}>S1</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S2</td>
-                  <td>S3</td>
-                  <td>S4</td>
-                </tr>
-                <tr>
-                  <th scope="row">Backend / Infrastructure development and implementation</th>
-                  <td>S1</td>
-                  <td>S2</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S3</td>
-                  <td style={{background:'#F05829',color:'#fff'}}>S4</td>
-                </tr>
-              </tbody>
-            </table>
+            
+            
             <hr/>
             <h5 className="pt-3"><span class="lnr lnr-plus-circle"></span> <b>IMPORTANT NOTES</b></h5>
             <hr/>
